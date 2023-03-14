@@ -10,5 +10,5 @@ Firefox (150% DPI) - find on page
 ![Firefox (150% DPI) - find on page](https://user-images.githubusercontent.com/127822397/224916995-a5938a5b-dc62-486b-9fba-472253f85b4e.jpg)
 Firefox (150% DPI) - folder
 ![Firefox (150% DPI) - folder](https://user-images.githubusercontent.com/127822397/224916996-32b30e89-faaf-4744-8c0c-44f3d0b39b46.jpg)
-Firefox (150% DPI) - urlbar
+Firefox (150% DPI) - urlbar. Line "/* adresní řádek - šířka při otevření */" in "userChrome.css"
 ![Firefox (150% DPI) - urlbar](https://user-images.githubusercontent.com/127822397/224916999-5427630f-4d71-44c9-b00c-0b02d2a7a2f2.jpg)
