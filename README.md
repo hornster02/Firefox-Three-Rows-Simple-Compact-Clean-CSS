@@ -1,7 +1,7 @@
-Firefox - same vertical size of UI (141% DPI +14 tabs) - default
-![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
 Firefox - same vertical size of UI (230% DPI +14 tabs) - tweak
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
+Firefox - same vertical size of UI (141% DPI +14 tabs) - default
+![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
 Chrome - same vertical size of UI (150% DPI +14 tabs) - default
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (150% DPI)
