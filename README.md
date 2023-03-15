@@ -1,4 +1,4 @@
-Firefox tweak - same vertical size of UI (230% DPI + 14 tabs)
+Firefox CSS - same vertical size of UI (230% DPI + 14 tabs)
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (141% DPI + 14 tabs)
 ![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
