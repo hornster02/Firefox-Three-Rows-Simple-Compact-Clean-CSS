@@ -1,13 +1,14 @@
-Pro zapnutí upraveného rozhraní je tøeba sloku "chrome" a soubor "user.js" (u tohoto souboru pozor - provádí "trvalou" zmìnu v nastavení programu = pro navrácení zmìn zpìt ho nestaèí jenom smazat, ale musí se ruènì upravit pøedvolby v "about:config". Zpùsob, jak se vyhnout této ruèní úpravì je záloha souboru "prefs.js") nakopírovat do vašeho Firefox profilu
+Pro zapnutÃ­ upravenÃ©ho rozhranÃ­ je tÅ™eba sloÅ¾ku "chrome" a soubor "user.js" (u tohoto souboru pozor - provÃ¡dÃ­ "trvalou" zmÄ›nu v nastavenÃ­ programu = pro navrÃ¡cenÃ­ zmÄ›n zpÄ›t ho nestaÄÃ­ jenom smazat, ale musÃ­ se ruÄnÄ› upravit pÅ™edvolby v "about:config". ZpÅ¯sob, jak se vyhnout tÃ©to ruÄnÃ­ ÃºpravÄ› je zÃ¡loha souboru "prefs.js") nakopÃ­rovat do vaÅ¡eho Firefox profilu
 
 
 
 
 
-Chyby a pøípadné návrhy na vylepšení (userChrome.css)
--lišta s otevøenımi panely mùe bıt na vıšku nesmyslnì velká - problém souvisí s velikostí "titlebar" ve Windows - zmenšit se mùe pøes program "Winaero Tweaker" podnabídka "Window Title Bars". Mùe se také hodit posunutí lišty o pár pixelù podle potøeby - vyhledat øádek "otevøené panely - posunutí". Pokud nechcete mìnit systémovou velikost "titlebar", tak se mùe hodit "otevøené panely - zmenšit vıšku lišty" - v tomto pøípadì ale mùe dojít k zásadnímu narušení fullscreen reimu (F11). U nìkterıch skinù také mùe bıt mnou ne úplnì ideálnì vynucená barva urèitıch prvkù rozhraní - ale vzhledem k tomu, e rozhraní cílím na svoje skiny, tak koho to zajímá
--pøi doèasném zobrazení hlavní nabídky (ALT) není moné kliknout na ikony "minimalizovat/obnovit/zavøít"
--vyskakovací panel "najít na stránce" by chtìlo odstranit a jeho funkce zabudovat do adresního øádku (CTRL+F pro pøepnutí reimu)
+Chyby a pÅ™Ã­padnÃ© nÃ¡vrhy na vylepÅ¡enÃ­ (userChrome.css)
+-liÅ¡ta s otevÅ™enÃ½mi panely mÅ¯Å¾e bÃ½t na vÃ½Å¡ku nesmyslnÄ› velkÃ¡ - problÃ©m souvisÃ­ s velikostÃ­ "titlebar" ve Windows - zmenÅ¡it se mÅ¯Å¾e pÅ™es program "Winaero Tweaker" podnabÃ­dka "Window Title Bars". MÅ¯Å¾e se takÃ© hodit posunutÃ­ liÅ¡ty o pÃ¡r pixelÅ¯ podle potÅ™eby - vyhledat Å™Ã¡dek "otevÅ™enÃ© panely - posunutÃ­". Pokud nechcete mÄ›nit systÃ©movou velikost "titlebar", tak se mÅ¯Å¾e hodit "otevÅ™enÃ© panely - zmenÅ¡it vÃ½Å¡ku liÅ¡ty" - v tomto pÅ™Ã­padÄ› ale mÅ¯Å¾e dojÃ­t k zÃ¡sadnÃ­mu naruÅ¡enÃ­ fullscreen reÅ¾imu (F11). U nÄ›kterÃ½ch skinÅ¯ takÃ© mÅ¯Å¾e bÃ½t mnou ne ÃºplnÄ› ideÃ¡lnÄ› vynucenÃ¡ barva urÄitÃ½ch prvkÅ¯ rozhranÃ­ - ale vzhledem k tomu, Å¾e rozhranÃ­ cÃ­lÃ­m na svoje skiny, tak koho to zajÃ­mÃ¡
+-pÅ™i doÄasnÃ©m zobrazenÃ­ hlavnÃ­ nabÃ­dky (ALT) nenÃ­ moÅ¾nÃ© kliknout na ikony "minimalizovat/obnovit/zavÅ™Ã­t"
+-vyskakovacÃ­ panel "najÃ­t na strÃ¡nce" by chtÄ›lo odstranit a jeho funkce zabudovat do adresnÃ­ho Å™Ã¡dku (CTRL+F pro pÅ™epnutÃ­ reÅ¾imu)
+-po vzoru "Total Commander" by chtÄ›lo pÅ™idat funkci pravÃ©ho tlaÄÃ­tka myÅ¡i navÃ­c (kliknutÃ­ / kliknutÃ­+podrÅ¾enÃ­)
 
 
 
@@ -26,143 +27,143 @@ Chyby a pøípadné návrhy na vylepšení (userChrome.css)
 
 
 about:config
-NASTAVENÍ PØEDVOLEB SE DÌLÁ PØES STRÁNKU about:config ( vyhledávejte pøedvolby jako napø. "media.autoplay.enabled" a ne v celém formátu vèetnì pøepínaèe "media.autoplay.enabled;false", kterı uvádím jenom nìkde a èasto jen pro orientaci )
+NASTAVENÃ PÅ˜EDVOLEB SE DÄšLÃ PÅ˜ES STRÃNKU about:config ( vyhledÃ¡vejte pÅ™edvolby jako napÅ™. "media.autoplay.enabled" a ne v celÃ©m formÃ¡tu vÄetnÄ› pÅ™epÃ­naÄe "media.autoplay.enabled;false", kterÃ½ uvÃ¡dÃ­m jenom nÄ›kde a Äasto jen pro orientaci )
 
-VŠE DÌLÁTE NA VLASTNÍ NEBEZPEÈÍ, ALE ZMÌNÌNÉ POLOKY SE DAJÍ SNADNO PØEPNOUT NA VİCHOZÍ NASTAVENÍ ( TUÈNÌ ZVİRAZNÌNÉ JSOU ZMÌNÌNÉ )
-NÌKTERÉ PØEDVOLBY JSOU MNOHO LET STARÉ A MONÁ V NOVİCH VERZÍCH FIREFOX NEEXISTUJÍ / NEFUNGUJÍ / JSOU ZBYTEÈNÉ
-* pokud v "about:config" chybí napøíklad pøedvolba na vıchozí pøiblíení PDF souborù ( pdfjs.defaultZoomValue ), tak jí mùete vytvoøit. Pokud vytvoøení jakékoli nové pøedvolby nebude mít vámi poadovanı efekt, tak jí nezapomeòte zase smazat
-
-
+VÅ E DÄšLÃTE NA VLASTNÃ NEBEZPEÄŒÃ, ALE ZMÄšNÄšNÃ‰ POLOÅ½KY SE DAJÃ SNADNO PÅ˜EPNOUT NA VÃCHOZÃ NASTAVENÃ ( TUÄŒNÄš ZVÃRAZNÄšNÃ‰ JSOU ZMÄšNÄšNÃ‰ )
+NÄšKTERÃ‰ PÅ˜EDVOLBY JSOU MNOHO LET STARÃ‰ A MOÅ½NÃ V NOVÃCH VERZÃCH FIREFOX NEEXISTUJÃ / NEFUNGUJÃ / JSOU ZBYTEÄŒNÃ‰
+* pokud v "about:config" chybÃ­ napÅ™Ã­klad pÅ™edvolba na vÃ½chozÃ­ pÅ™iblÃ­Å¾enÃ­ PDF souborÅ¯ ( pdfjs.defaultZoomValue ), tak jÃ­ mÅ¯Å¾ete vytvoÅ™it. Pokud vytvoÅ™enÃ­ jakÃ©koli novÃ© pÅ™edvolby nebude mÃ­t vÃ¡mi poÅ¾adovanÃ½ efekt, tak jÃ­ nezapomeÅˆte zase smazat
 
 
-;dpi - tøeba 1.75
+
+
+;dpi - tÅ™eba 1.75
 layout.css.devPixelsPerPx
 
-;poèet poloek v adresním øádku
+;poÄet poloÅ¾ek v adresnÃ­m Å™Ã¡dku
 browser.urlbar.maxRichResults
 
-;vypnutí hlášky reimu celé obrazovky
+;vypnutÃ­ hlÃ¡Å¡ky reÅ¾imu celÃ© obrazovky
 full-screen-api.warning.timeout;0
 
-;schovat øádek "návrhy od Firefoxu" v adresním øádku
+;schovat Å™Ã¡dek "nÃ¡vrhy od Firefoxu" v adresnÃ­m Å™Ã¡dku
 browser.urlbar.groupLabels.enabled;false
 
-;vypnout dotaz na smazání nastavení pøi dlouhém nespuštìní prohlíeèe
+;vypnout dotaz na smazÃ¡nÃ­ nastavenÃ­ pÅ™i dlouhÃ©m nespuÅ¡tÄ›nÃ­ prohlÃ­Å¾eÄe
 browser.disableResetPrompt;true
 
-;vypnout dotaz na zapnutí DRM
+;vypnout dotaz na zapnutÃ­ DRM
 browser.eme.ui.enabled;false
 
-;pomalé zapínání Firefox - vypnout upozornìní
+;pomalÃ© zapÃ­nÃ¡nÃ­ Firefox - vypnout upozornÄ›nÃ­
 browser.slowStartup.notificationDisabled
 
-;vypnutí vybledlého písma v adresním øádku
+;vypnutÃ­ vybledlÃ©ho pÃ­sma v adresnÃ­m Å™Ã¡dku
 browser.urlbar.formatting.enabled;false
 
-;vıchozí pøiblíení *.pdf souborù
+;vÃ½chozÃ­ pÅ™iblÃ­Å¾enÃ­ *.pdf souborÅ¯
 pdfjs.defaultZoomValue;page-width
 
-;hledání - vybarvení
+;hledÃ¡nÃ­ - vybarvenÃ­
 ui.textSelectBackgroundAttention;#ff0000
 ui.textHighlightBackground;#ff0000
 ui.textHighlightForeground;#ff0000
 
-;vypnutí èerného posuvníku (ideálnì na èerném pozadí)
+;vypnutÃ­ ÄernÃ©ho posuvnÃ­ku (ideÃ¡lnÄ› na ÄernÃ©m pozadÃ­)
 widget.disable-dark-scrollbar
 
-;velikost posuvníkù
+;velikost posuvnÃ­kÅ¯
 widget.non-native-theme.scrollbar.size
 widget.non-native-theme.win.scrollbar.use-system-size
 widget.non-native-theme.scrollbar.size.override
 
-;vypnutí popiskù pøi najetí myší na záloky
+;vypnutÃ­ popiskÅ¯ pÅ™i najetÃ­ myÅ¡Ã­ na zÃ¡loÅ¾ky
 browser.chrome.toolbar_tips
 
-;nevypínat firefox pøi zavøení posledního panelu
+;nevypÃ­nat firefox pÅ™i zavÅ™enÃ­ poslednÃ­ho panelu
 browser.tabs.closeWindowWithLastTab;false
 
-;zobrazení novıch oken pouze v panelech
+;zobrazenÃ­ novÃ½ch oken pouze v panelech
 browser.link.open_newwindow.restriction;0
 
 ;dotaz o poloze
 geo.enabled
 
-; vypnout upozornìní "nezabezpeèené pøihlášení"
+; vypnout upozornÄ›nÃ­ "nezabezpeÄenÃ© pÅ™ihlÃ¡Å¡enÃ­"
 security.insecure_field_warning.contextual.enabled;false
 
 ;ctrl+shift+j
 devtools.chrome.enabled;true
 
-;vypnutí update
+;vypnutÃ­ update
 app.update.doorhang;false
 
-;skrytí ikony èteèka
+;skrytÃ­ ikony ÄteÄka
 reader.parse-on-load.enabled;false
 
-;šedá barva "novı panel"
+;Å¡edÃ¡ barva "novÃ½ panel"
 browser.display.background_color;#eeeeee
 
-;v nabídce "nastavení tlaèítek a lišt" pøibyde monost kompaktní velikosti
+;v nabÃ­dce "nastavenÃ­ tlaÄÃ­tek a liÅ¡t" pÅ™ibyde moÅ¾nost kompaktnÃ­ velikosti
 browser.compactmode.show
 
-;nastavit kompaktní velikost okamitì èíslem 1
+;nastavit kompaktnÃ­ velikost okamÅ¾itÄ› ÄÃ­slem 1
 browser.uidensity
 
-;vypnout grafické uivatelské rozhraní "Proton"
+;vypnout grafickÃ© uÅ¾ivatelskÃ© rozhranÃ­ "Proton"
 browser.proton.enabled
 
 ;vypnout autoplay
 media.autoplay.enabled;false
 media.autoplay.allow-muted;false
 
-;vypnout animace - asi netøeba se bát naslepo pøepínaèe "animat" a "transition" povypínat
+;vypnout animace - asi netÅ™eba se bÃ¡t naslepo pÅ™epÃ­naÄe "animat" a "transition" povypÃ­nat
 browser.fullscreen.animate;false
 browser.tabs.animate;false
 image.animation_mode;none
 
-;zapnout podporu pøehrávání *.webm
+;zapnout podporu pÅ™ehrÃ¡vÃ¡nÃ­ *.webm
 media.mediasource.webm.enabled
 
-;vypnout vynucení podepsání doplòkù
+;vypnout vynucenÃ­ podepsÃ¡nÃ­ doplÅˆkÅ¯
 xpinstall.signatures.required;false
 
-;zakázat vypnutí "blacklist" doplòkù 
+;zakÃ¡zat vypnutÃ­ "blacklist" doplÅˆkÅ¯ 
 extensions.blocklist.enabled;false
 
-;neumonit svévolné zakazování doplòkù
+;neumoÅ¾nit svÃ©volnÃ© zakazovÃ¡nÃ­ doplÅˆkÅ¯
 extensions.legacy.enabled;true
 
-;neukládat na disk seznam právì otevøenıch panelù = sníit zápis na SSD
+;neuklÃ¡dat na disk seznam prÃ¡vÄ› otevÅ™enÃ½ch panelÅ¯ = snÃ­Å¾it zÃ¡pis na SSD
 browser.sessionstore.resume_from_crash;false
 
-;nevytváøet zálohy záloek
+;nevytvÃ¡Å™et zÃ¡lohy zÃ¡loÅ¾ek
 browser.bookmarks.max_backups;0
 
-;zakázání automatického obnovování stránek
+;zakÃ¡zÃ¡nÃ­ automatickÃ©ho obnovovÃ¡nÃ­ strÃ¡nek
 accessibility.blockautorefresh;true
 
-;maximální velikost cache na SSD
+;maximÃ¡lnÃ­ velikost cache na SSD
 browser.cache.disk.capacity;180000000
 
-;maximální velikost nacachovaného souboru na HDD 
+;maximÃ¡lnÃ­ velikost nacachovanÃ©ho souboru na HDD 
 browser.cache.disk.max_entry_size
 
-;izolování cache
+;izolovÃ¡nÃ­ cache
 browser.cache.cache_isolation;true
 
-;èasovı limit pøipojení
+;ÄasovÃ½ limit pÅ™ipojenÃ­
 network.http.connection-timeout
 
-;vypnout  náhledy pøi pøetahování panelù/záloek
+;vypnout  nÃ¡hledy pÅ™i pÅ™etahovÃ¡nÃ­ panelÅ¯/zÃ¡loÅ¾ek
 nglayout.enable_drag_images;false
 
-;firefox.exe - priorita "normální"
+;firefox.exe - priorita "normÃ¡lnÃ­"
 dom.ipc.processPriorityManager.enabled;false
 
-;omezení poètu firefox.exe procesù ( vıhoda je ve zrychlení a menším nárokùm na CPU+RAM a nevıhoda ve zhoršené bezpeènosti )
+;omezenÃ­ poÄtu firefox.exe procesÅ¯ ( vÃ½hoda je ve zrychlenÃ­ a menÅ¡Ã­m nÃ¡rokÅ¯m na CPU+RAM a nevÃ½hoda ve zhorÅ¡enÃ© bezpeÄnosti )
 fission.autostart;false
 
-;minimální šíøka otevøenıch panelù
+;minimÃ¡lnÃ­ Å¡Ã­Å™ka otevÅ™enÃ½ch panelÅ¯
 browser.tabs.tabMinWidth
 
 
@@ -170,27 +171,27 @@ browser.tabs.tabMinWidth
 
 
 
-Uiteèné doplòky
+UÅ¾iteÄnÃ© doplÅˆky
 
-Avast Online Security - reputace stránek
-Disable HTML5 Autoplay - vypnutí autoplay a pøednaèítání videí
+Avast Online Security - reputace strÃ¡nek
+Disable HTML5 Autoplay - vypnutÃ­ autoplay a pÅ™ednaÄÃ­tÃ¡nÃ­ videÃ­
 Enhancer for YouTube
-Hide YouTube Fullscreen Controls - moné nastavit toto chování - pøi pohybu myši do strany se skryjí veškeré popisky, interface pøehrávaèe a vyskakovací reklamy = zobrazit èisté video
+Hide YouTube Fullscreen Controls - moÅ¾nÃ© nastavit toto chovÃ¡nÃ­ - pÅ™i pohybu myÅ¡i do strany se skryjÃ­ veÅ¡kerÃ© popisky, interface pÅ™ehrÃ¡vaÄe a vyskakovacÃ­ reklamy = zobrazit ÄistÃ© video
 I don't care about cookies
 Image Video Block
-Large Image Blocker - uivatelsky nastavitelná maximální velikost obrázkù/gif atd. Co pøekroèí stanovenou velikost se nebude stahovat ani zobrazovat
-Load Background Tabs Lazily - monost otevøít tøeba 100 záloek najednou a stránky se budou naèítat postupnì
-Print Edit WE + Save Page WE - editace + uloení stránky do jednoho souboru
-SaveFrom.net helper - ukládání videí z youtube atd - monost stáhnout pouze zvukovou stopu
+Large Image Blocker - uÅ¾ivatelsky nastavitelnÃ¡ maximÃ¡lnÃ­ velikost obrÃ¡zkÅ¯/gif atd. Co pÅ™ekroÄÃ­ stanovenou velikost se nebude stahovat ani zobrazovat
+Load Background Tabs Lazily - moÅ¾nost otevÅ™Ã­t tÅ™eba 100 zÃ¡loÅ¾ek najednou a strÃ¡nky se budou naÄÃ­tat postupnÄ›
+Print Edit WE + Save Page WE - editace + uloÅ¾enÃ­ strÃ¡nky do jednoho souboru
+SaveFrom.net helper - uklÃ¡dÃ¡nÃ­ videÃ­ z youtube atd - moÅ¾nost stÃ¡hnout pouze zvukovou stopu
 YouTube Ad Auto-skipper
-Firefox Color - vlastní skin
-Flagfox - umístìní serverù a zobrazení vlajky státu
+Firefox Color - vlastnÃ­ skin
+Flagfox - umÃ­stÄ›nÃ­ serverÅ¯ a zobrazenÃ­ vlajky stÃ¡tu
 
 
 
-* alternativa nového okna "knihovna stránek" ( CTRL+SHIFT+H/O/J ) je novı panel na adrese chrome://browser/content/places/places.xhtml
-* vypnutí instalování aktualizací - zbavit se souboru "updater.exe". Vypnutí upozornìní, e nelze stáhnout aktualizaci - zakázat pøístup ke sloce "C:\ProgramData\Mozilla..."
-* vypnutí kontroly kompatibility profilu a pøípadnì zakázání jeho pouití - smazat obsah "compatibility.ini" a nastavit na "read only"
+* alternativa novÃ©ho okna "knihovna strÃ¡nek" ( CTRL+SHIFT+H/O/J ) je novÃ½ panel na adrese chrome://browser/content/places/places.xhtml
+* vypnutÃ­ instalovÃ¡nÃ­ aktualizacÃ­ - zbavit se souboru "updater.exe". VypnutÃ­ upozornÄ›nÃ­, Å¾e nelze stÃ¡hnout aktualizaci - zakÃ¡zat pÅ™Ã­stup ke sloÅ¾ce "C:\ProgramData\Mozilla..."
+* vypnutÃ­ kontroly kompatibility profilu a pÅ™Ã­padnÄ› zakÃ¡zÃ¡nÃ­ jeho pouÅ¾itÃ­ - smazat obsah "compatibility.ini" a nastavit na "read only"
 
 
 
