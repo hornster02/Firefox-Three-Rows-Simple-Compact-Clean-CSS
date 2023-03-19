@@ -1,0 +1,14 @@
+[mozdisallowselectionprint] > body {--body-bg-color: rgba(0, 0, 0, 1);--toolbar-bg-color: rgba(160, 160, 160, 1);}
+
+/*posuvník*/
+html,body{
+ scrollbar-color: #FB7914 transparent !important;
+}
+/*pozadí+posuvník - pozor hbox, toolbox*/
+@-moz-document url(chrome://browser/content/browser.xhtml),
+               url-prefix(chrome://browser/content/places/) {
+  window, h.box, too.lbox {
+    background-color: #EEEEEE !important;
+     scrollbar-color: #FB7914 transparent !important;
+  }
+}
