@@ -4,7 +4,7 @@ Firefox default - same vertical size of UI (141% DPI + 14 tabs)
 ![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
 Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
-Firefox (150% DPI +33,5 tabs - minimum tab width - browser.tabs.tabMinWidth) - default dark theme
+Firefox (150% DPI +33,5 tabs - smallest tab width - browser.tabs.tabMinWidth) - default dark theme
 ![Firefox (150% DPI) - default dark theme](https://user-images.githubusercontent.com/127822397/226619250-4419d6e4-b6a3-41a9-ba07-4d07599f874f.jpg)
 Firefox Compact (150% DPI)
 ![Firefox (150% DPI)](https://user-images.githubusercontent.com/127822397/224916994-4dd04538-5f9b-4d4c-a71d-41131081bae0.jpg)
