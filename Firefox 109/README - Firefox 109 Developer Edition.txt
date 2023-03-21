@@ -1,3 +1,37 @@
+deepl.com translator
+To enable the modified interface, you need the "chrome" folder and the "user.js" file (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") to copy it to your Firefox profile
+
+
+
+
+
+Bugs and possible suggestions for improvements (userChrome.css)
+-the bar with open panels can be ridiculously large in height - the problem is related to the size of the titlebar in Windows - it can be reduced via the "Winaero Tweaker" submenu "Window Title Bars". If you don't want to change the system size of the titlebar, then "otevřené panely - zmenšit výšku lišty" may be useful - but in this case the fullscreen mode (F11) may be disturbed. It may also be useful to move the panels a few pixels as needed - search for the line "otevřené panely - posunutí". Also, for some skins, the colour of certain interface elements may be forced by me in a less than ideal way
+-when the main menu (ALT) is temporarily displayed, it is not possible to click on the "minimize/restore/close" icons
+-the find on page pop-up bar would like to be removed and its functions built into the address bar (CTRL+F to switch modes)
+-following the example of "Total Commander" would like to add an extra right mouse button function (click/click+hold)
+
+Translated with www.DeepL.com/Translator (free version)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Pro zapnutí upraveného rozhraní je třeba složku "chrome" a soubor "user.js" (u tohoto souboru pozor - provádí "trvalou" změnu v nastavení programu = pro navrácení změn zpět ho nestačí jenom smazat, ale musí se ručně upravit předvolby v "about:config". Způsob, jak se vyhnout této ruční úpravě je záloha souboru "prefs.js") nakopírovat do vašeho Firefox profilu
 
 
