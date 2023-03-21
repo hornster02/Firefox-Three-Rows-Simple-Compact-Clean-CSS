@@ -20,3 +20,5 @@ Firefox (150% DPI) - folder
 ![Firefox (150% DPI) - folder](https://user-images.githubusercontent.com/127822397/224916996-32b30e89-faaf-4744-8c0c-44f3d0b39b46.jpg)
 Firefox (150% DPI) - urlbar. Line "/* adresní řádek - šířka při otevření */" in "userChrome.css"
 ![Firefox (150% DPI) - urlbar](https://user-images.githubusercontent.com/127822397/224916999-5427630f-4d71-44c9-b00c-0b02d2a7a2f2.jpg)
+Firefox 19 default (150% DPI) - sadly is still more compact than CSS
+![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
