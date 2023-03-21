@@ -1,3 +1,7 @@
+To enable the modified interface, you need the "chrome" folder and the "user.js" file (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") to copy it to your Firefox profile
+
+-Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
+
 Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). about:config "layout.css.devPixelsPerPx"
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (141% DPI + 14 tabs)
