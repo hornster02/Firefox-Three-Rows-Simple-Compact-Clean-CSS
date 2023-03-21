@@ -231,4 +231,5 @@ Flagfox - umístění serverů a zobrazení vlajky státu
 
 https://www.reddit.com/r/FirefoxCSS/
 https://www.userchrome.org/
+https://firefoxcss-store.github.io/
 https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html
