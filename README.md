@@ -13,4 +13,4 @@ Firefox (150% DPI) - folder
 Firefox (150% DPI) - urlbar. Line "/* adresní řádek - šířka při otevření */" in "userChrome.css"
 ![Firefox (150% DPI) - urlbar](https://user-images.githubusercontent.com/127822397/224916999-5427630f-4d71-44c9-b00c-0b02d2a7a2f2.jpg)
 Firefox (150% DPI) - default dark theme
-![Firefox (150% DPI) - default dark theme](https://user-images.githubusercontent.com/127822397/226601001-fa1d8c49-5ff8-45ff-9c49-ff21fcda3e78.jpg)
+![Firefox (150% DPI) - default dark theme](https://user-images.githubusercontent.com/127822397/226619250-4419d6e4-b6a3-41a9-ba07-4d07599f874f.jpg)
