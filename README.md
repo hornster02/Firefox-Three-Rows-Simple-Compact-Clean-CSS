@@ -2,7 +2,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
--interface has also been tested without major bugs in versions 69,79,89,99
+-(interface has also been tested without major bugs in versions 69,79,89,99)
 
 -download
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/archive/refs/heads/main.zip
