@@ -229,7 +229,7 @@ Flagfox - umístění serverů a zobrazení vlajky státu
 
 
 * alternativa nového okna "knihovna stránek" ( CTRL+SHIFT+H/O/J ) je nový panel na adrese chrome://browser/content/places/places.xhtml
-* vypnutí instalování aktualizací - zbavit se souboru "updater.exe". Vypnutí upozornění, že nelze stáhnout aktualizaci - zakázat přístup ke složce "C:\ProgramData\Mozilla..."
+* vypnutí stahování+upozorňování na aktualizace - zakázat přístup k update složkám "C:\ProgramData\Mozilla\..." a "c:\Users\XXX\AppData\Local\Mozilla\Firefox\..."
 * vypnutí kontroly kompatibility profilu a případně zakázání jeho použití - smazat obsah "compatibility.ini" a nastavit na "read only"
 
 
