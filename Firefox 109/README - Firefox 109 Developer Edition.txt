@@ -40,11 +40,14 @@ Pro zapnutí upraveného rozhraní je třeba složku "chrome" a soubor "user.js"
 
 
 
-Chyby a případné návrhy na vylepšení (userChrome.css)
+chyby (userChrome.css)
 -lišta s otevřenými panely může být na výšku nesmyslně velká - problém souvisí s velikostí "titlebar" ve Windows - zmenšit se může přes program "Winaero Tweaker" podnabídka "Window Title Bars". Pokud nechcete měnit systémovou velikost "titlebar", tak se může hodit "otevřené panely - zmenšit výšku lišty" - v tomto případě ale může dojít k narušení fullscreen režimu (F11). Může se také hodit posunutí panelů o pár pixelů podle potřeby - vyhledat řádek "otevřené panely - posunutí". U některých skinů také může být mnou ne úplně ideálně vynucená barva určitých prvků rozhraní
 -při dočasném zobrazení hlavní nabídky (ALT) není možné kliknout na ikony "minimalizovat/obnovit/zavřít"
--vyskakovací panel "najít na stránce" by chtělo odstranit a jeho funkce zabudovat do adresního řádku (CTRL+F pro přepnutí režimu)
--po vzoru "Total Commander" by chtělo přidat funkci pravého tlačítka myši navíc (kliknutí / kliknutí+podržení)
+
+návrhy na vylepšení
+*vyskakovací panel "najít na stránce" by chtělo odstranit a jeho funkce zabudovat do adresního řádku (CTRL+F pro přepnutí režimu)
+*po vzoru "Total Commander" by chtělo přidat funkci pravého tlačítka myši navíc (kliknutí / kliknutí+podržení)
+*spojit řádky se záložkami a adresním řádkem (adresní řádek by se při otevření měl automaticky přizpůsobit šířce monitoru) = efektivní využití prostoru třeba pro další záložky místo nesmyslně dlouhého adresního řádku a přibývajících zbytečných ikon které "nejdou" odebrat
 
 
 
