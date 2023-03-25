@@ -18,12 +18,12 @@ Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest
 Firefox Simple (150% DPI). Line "odstranění všech zbývajících ikon" in "userChrome.css"
 ![Firefox (150% DPI)](https://user-images.githubusercontent.com/127822397/224916994-4dd04538-5f9b-4d4c-a71d-41131081bae0.jpg)
 Firefox (150% DPI) - find on page
-![Firefox (150% DPI) - find on page](https://user-images.githubusercontent.com/127822397/224916995-a5938a5b-dc62-486b-9fba-472253f85b4e.jpg)
+<img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
-![Firefox (150% DPI) - folder](https://user-images.githubusercontent.com/127822397/224916996-32b30e89-faaf-4744-8c0c-44f3d0b39b46.jpg)
-Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" in "userChrome.css". %
-![Firefox (150% DPI) - urlbar](https://user-images.githubusercontent.com/127822397/224916999-5427630f-4d71-44c9-b00c-0b02d2a7a2f2.jpg)
+<img width="1280" alt="Firefox (150% DPI) - folder" src="https://user-images.githubusercontent.com/127822397/227734800-9fa3bb79-518c-43a5-80a7-ecaf51ea17e2.png">
+Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" in "userChrome.css" (%). And "browser.urlbar.maxRichResults" (about:config)
+<img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
 Firefox 69 (150% DPI)
-![Firefox 69 CSS (150% DPI)](https://user-images.githubusercontent.com/127822397/226903755-23dc140c-3dc1-4779-8e51-f3863a95004e.png)
+<img width="1280" alt="Firefox 69 CSS (150% DPI)" src="https://user-images.githubusercontent.com/127822397/227734729-bf46e730-de51-4b9c-8858-5a5ecfdd7f5d.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 ![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
