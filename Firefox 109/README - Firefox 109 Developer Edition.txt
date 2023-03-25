@@ -6,11 +6,9 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 
 
-Bugs and possible suggestions for improvements (userChrome.css)
+Bugs (userChrome.css)
 -the bar with open panels can be ridiculously large in height - the problem is related to the size of the titlebar in Windows - it can be reduced via the "Winaero Tweaker" submenu "Window Title Bars". If you don't want to change the system size of the titlebar, then "otevřené panely - zmenšit výšku lišty" may be useful - but in this case the fullscreen mode (F11) may be disturbed. It may also be useful to move the panels a few pixels as needed - search for the line "otevřené panely - posunutí". Also, for some skins, the colour of certain interface elements may be forced by me in a less than ideal way
 -when the main menu (ALT) is temporarily displayed, it is not possible to click on the "minimize/restore/close" icons
--the find on page pop-up bar would like to be removed and its functions built into the address bar (CTRL+F to switch modes)
--following the example of "Total Commander" would like to add an extra right mouse button function (click/click+hold)
 
 Translated with www.DeepL.com/Translator (free version)
 
