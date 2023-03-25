@@ -45,7 +45,6 @@ chyby (userChrome.css)
 návrhy na vylepšení
 *vyskakovací panel "najít na stránce" by chtělo odstranit a jeho funkce zabudovat do adresního řádku (CTRL+F pro přepnutí režimu)
 *po vzoru "Total Commander" by chtělo přidat funkci pravého tlačítka myši navíc (kliknutí / kliknutí+podržení)
-*spojit řádky se záložkami a adresním řádkem (adresní řádek by se při otevření měl automaticky přizpůsobit šířce monitoru) = efektivní využití prostoru třeba pro další záložky místo nesmyslně dlouhého adresního řádku a přibývajících zbytečných ikon které "nejdou" odebrat
 
 
 
