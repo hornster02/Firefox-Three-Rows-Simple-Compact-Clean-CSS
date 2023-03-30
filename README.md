@@ -5,7 +5,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 -download
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
-Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). about:config "layout.css.devPixelsPerPx"
+Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config)
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (141% DPI + 14 tabs)
 ![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
@@ -13,13 +13,13 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
-Firefox Simple (150% DPI). Line "odstranění všech zbývajících ikon" in "userChrome.css"
+Firefox Simple (150% DPI). Line "odstranění všech zbývajících ikon" (userChrome.css)
 ![Firefox (150% DPI)](https://user-images.githubusercontent.com/127822397/224916994-4dd04538-5f9b-4d4c-a71d-41131081bae0.jpg)
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
 <img width="1280" alt="Firefox (150% DPI) - folder" src="https://user-images.githubusercontent.com/127822397/227734800-9fa3bb79-518c-43a5-80a7-ecaf51ea17e2.png">
-Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" in "userChrome.css". And "browser.urlbar.maxRichResults" (about:config)
+Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config)
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 ![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
