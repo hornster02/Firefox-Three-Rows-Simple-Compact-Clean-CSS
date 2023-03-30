@@ -19,7 +19,7 @@ Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
 <img width="1280" alt="Firefox (150% DPI) - folder" src="https://user-images.githubusercontent.com/127822397/227734800-9fa3bb79-518c-43a5-80a7-ecaf51ea17e2.png">
-Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" in "userChrome.css" (%). And "browser.urlbar.maxRichResults" (about:config)
+Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" in "userChrome.css". And "browser.urlbar.maxRichResults" (about:config)
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 ![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
