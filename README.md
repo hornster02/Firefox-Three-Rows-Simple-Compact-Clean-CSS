@@ -13,13 +13,13 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
-Firefox Simple (150% DPI). Line "odstranění všech zbývajících ikon" (userChrome.css)
+Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
 ![Firefox (150% DPI)](https://user-images.githubusercontent.com/127822397/224916994-4dd04538-5f9b-4d4c-a71d-41131081bae0.jpg)
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
 <img width="1280" alt="Firefox (150% DPI) - folder" src="https://user-images.githubusercontent.com/127822397/227734800-9fa3bb79-518c-43a5-80a7-ecaf51ea17e2.png">
-Firefox (150% DPI) - urlbar. Line "adresní řádek - šířka při otevření" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config)
+Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config)
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
 Firefox 69 (150% DPI)
 <img width="1280" alt="Firefox 69 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/230081405-936360f5-4027-41e1-a6f7-3a84690ccc9f.png">
