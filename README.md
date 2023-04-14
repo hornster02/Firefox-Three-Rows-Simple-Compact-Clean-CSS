@@ -36,6 +36,6 @@ Home - New Tab
 
 END - Close Tab
 
-PgDn - Go one Tab to the Right
+PgUp - Go one Tab to the Right
 
 PgDn - Go one Tab to the Left
