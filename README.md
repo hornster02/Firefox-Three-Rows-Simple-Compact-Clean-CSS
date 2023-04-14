@@ -2,6 +2,14 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
+-custom keyboard shortcuts.ahk (Autohotkey)
+F2 - Find Previous (searchbar)
+INS - Focus Address bar
+Home - New Tab
+END - Close Tab
+PgDn - Go one Tab to the Right
+PgDn - Go one Tab to the Left
+
 -download
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
