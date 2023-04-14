@@ -2,14 +2,6 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
--custom keyboard shortcuts.ahk (Autohotkey)
-F2 - Find Previous (searchbar)
-INS - Focus Address bar
-Home - New Tab
-END - Close Tab
-PgDn - Go one Tab to the Right
-PgDn - Go one Tab to the Left
-
 -download
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
@@ -33,3 +25,17 @@ Firefox 69 (150% DPI)
 <img width="1280" alt="Firefox 69 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/230081405-936360f5-4027-41e1-a6f7-3a84690ccc9f.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 ![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
+
+-custom keyboard shortcuts.ahk (Autohotkey)
+
+F2 - Find Previous (searchbar)
+
+INS - Focus Address bar
+
+Home - New Tab
+
+END - Close Tab
+
+PgDn - Go one Tab to the Right
+
+PgDn - Go one Tab to the Left
