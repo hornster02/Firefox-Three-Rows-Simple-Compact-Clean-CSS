@@ -27,7 +27,7 @@ Firefox (150% DPI) - context menu
 Firefox 69 (150% DPI)
 <img width="1280" alt="Firefox 69 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/230081405-936360f5-4027-41e1-a6f7-3a84690ccc9f.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
-![Firefox 19](https://user-images.githubusercontent.com/127822397/226721572-c4659113-2aae-4d3f-8214-0c302e04fab8.jpg)
+<img width="1280" alt="Firefox 19 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232222992-fffb4729-d911-411a-a0b7-5e93a2d7bb4e.png">
 
 -custom keyboard shortcuts.ahk (Autohotkey)
 
