@@ -13,19 +13,19 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
-Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
-<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
-Firefox (150% DPI) - find on page
-<img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
 <img width="1280" alt="Firefox (150% DPI) - folder" src="https://user-images.githubusercontent.com/127822397/227734800-9fa3bb79-518c-43a5-80a7-ecaf51ea17e2.png">
 Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config)
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
 Firefox (150% DPI) - context menu
 <img width="1280" alt="Firefox (150% DPI) - context menu" src="https://user-images.githubusercontent.com/127822397/232223944-fc3b4225-d6e7-4d73-ab50-b24eb2194e16.png">
+Firefox (150% DPI) - find on page
+<img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
+Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
+<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
 
 Firefox 69 (150% DPI)
-<img width="1280" alt="Firefox 69 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/230081405-936360f5-4027-41e1-a6f7-3a84690ccc9f.png">
+<img width="1280" alt="Firefox 69 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224640-175a23d6-9a82-4dbf-ad16-11b53f0cb4e5.png">
 Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 <img width="1280" alt="Firefox 19 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224115-89cce606-a176-4df6-8b08-8d2fdfbbcb70.png">
 
