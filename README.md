@@ -14,7 +14,7 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
 Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
-![Firefox (150% DPI)](https://user-images.githubusercontent.com/127822397/224916994-4dd04538-5f9b-4d4c-a71d-41131081bae0.jpg)
+<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232218502-9b47671a-3592-4282-8884-5d204a5c5d22.png">
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/227734832-b176bcf4-5fdf-4655-9f1f-98dad9ee9c77.png">
 Firefox (150% DPI) - folder
