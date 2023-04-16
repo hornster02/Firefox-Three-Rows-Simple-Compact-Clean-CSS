@@ -17,6 +17,8 @@ Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config)
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/227734770-169dc373-e36d-46f0-a7d8-ba234aee3ea0.png">
+Firefox (150% DPI) - places.xhtml
+![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
