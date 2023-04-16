@@ -37,8 +37,6 @@ Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 
 F2 - Find Previous (searchbar)
 
-INS - Focus Address bar
-
 Home - New Tab
 
 END - Close Tab
@@ -46,3 +44,7 @@ END - Close Tab
 PgUp - Go one Tab to the Right
 
 PgDn - Go one Tab to the Left
+
+INS - Focus Address bar
+
+Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
