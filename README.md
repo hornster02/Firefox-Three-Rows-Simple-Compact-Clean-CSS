@@ -34,7 +34,11 @@ Firefox 19 default (150% DPI) - sadly is still more compact than CSS
 
 -custom keyboard shortcuts.ahk (Autohotkey)
 
+F1 - Library window (History) CTRL+SHIFT+H
+
 F2 - Find Previous (searchbar)
+
+F3 - Find Next (searchbar) - works without script
 
 Home - New Tab
 
