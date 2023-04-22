@@ -15,9 +15,9 @@ Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
-Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config or "user.js")
+Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config or "user.js"). Dark space - The best dynamic theme
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
-Firefox (150% DPI) - places.xhtml
+Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
 Firefox (150% DPI) - find on page
