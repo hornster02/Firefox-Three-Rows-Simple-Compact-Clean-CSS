@@ -2,7 +2,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
--download
+-download FF109
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
 Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or "user.js")
