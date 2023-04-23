@@ -26,6 +26,9 @@ Firefox (150% DPI) - find on page
 Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
 
+Firefox 59 (150% DPI)
+<img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/233847178-04672570-3aa9-458e-846f-2199f0fcdcfe.png">
+
 -custom keyboard shortcuts.ahk (Autohotkey)
 
 F1 - Library window (History) CTRL+SHIFT+H
