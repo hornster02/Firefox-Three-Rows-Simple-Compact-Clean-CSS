@@ -12,7 +12,7 @@ Firefox default - same vertical size of UI (141% DPI + 14 tabs)
 Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar). 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
-<img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/227723363-ead772f4-1546-4303-8fa0-574c953a0fd6.png">
+<img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 Firefox (150% DPI) - urlbar. Line "address bar - width when opened" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config or "user.js"). Dark space - The best dynamic theme
