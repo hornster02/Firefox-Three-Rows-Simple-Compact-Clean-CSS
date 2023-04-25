@@ -27,10 +27,13 @@ Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
 
 Firefox 59 (150% DPI)
-<img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/233847178-04672570-3aa9-458e-846f-2199f0fcdcfe.png">
+<img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
 
 Firefox 49 (150% DPI)
 <img width="1280" alt="Firefox 49 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234039832-5da54542-74ec-4c6c-bc7e-1f9ac0bfec1b.png">
+
+Firefox 39 (150% DPI)
+<img width="1280" alt="Firefox 39 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177114-f7cf871f-61a9-4db8-bb11-488523c944a2.png">
 
 -custom keyboard shortcuts.ahk (Autohotkey)
 
