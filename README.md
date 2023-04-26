@@ -35,6 +35,9 @@ Firefox 49 (150% DPI)
 Firefox 39 (150% DPI)
 <img width="1280" alt="Firefox 39 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177114-f7cf871f-61a9-4db8-bb11-488523c944a2.png">
 
+Firefox 29 (150% DPI)
+<img width="1280" alt="Firefox 29 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234568712-569ec4a6-6210-4ee5-ba59-1fe30b2c7930.png">
+
 -custom keyboard shortcuts.ahk (Autohotkey)
 
 F1 - Library window (History) CTRL+SHIFT+H
