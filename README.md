@@ -15,7 +15,7 @@ Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
-Firefox (150% DPI) - urlbar. "width: 110%" (userChrome.css). And "browser.urlbar.maxRichResults" (about:config or "user.js"). Dark space - The best dynamic theme
+Firefox (150% DPI) - urlbar. "width: 110%" (userChrome.css) and "browser.urlbar.maxRichResults" (about:config or "user.js"). Dark space - The best dynamic theme
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
 Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
@@ -40,6 +40,9 @@ Firefox 29 (150% DPI)
 
 Firefox 19 (150% DPI)
 <img width="1280" alt="Firefox 19 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234758951-229ae5f0-fdd7-43e3-94a3-7fecae3158fc.png">
+
+Firefox 9 (150% DPI)
+<img width="1280" alt="Firefox 9 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235141908-a123a53a-7b02-444d-b342-108812151593.png">
 
 -custom keyboard shortcuts.ahk (Autohotkey)
 
