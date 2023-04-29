@@ -26,7 +26,7 @@ Firefox (150% DPI) - find on page
 Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
 
-Firefox 59 (150% DPI)
+Firefox 59 (150% DPI) - opening menu bar in FF59- through ALT+arrows 
 <img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
 
 Firefox 49 (150% DPI)
@@ -43,6 +43,9 @@ Firefox 19 (150% DPI)
 
 Firefox 9 (150% DPI)
 <img width="1280" alt="Firefox 9 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235141908-a123a53a-7b02-444d-b342-108812151593.png">
+
+Firefox 2 (150% DPI)
+<img width="1280" alt="Firefox 2" src="https://user-images.githubusercontent.com/127822397/235288934-33bbe8f7-029f-4292-ae88-78ad44e8b66f.png">
 
 -custom keyboard shortcuts.ahk (Autohotkey)
 
