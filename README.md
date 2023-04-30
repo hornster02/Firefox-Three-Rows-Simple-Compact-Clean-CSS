@@ -24,7 +24,10 @@ Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
 Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
-<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/232224216-c089e8fb-52b0-4ebe-9ba6-12419f03fa2f.png">
+<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235342069-b4d9bef9-c3de-4f01-b903-780ce0683659.png">
+
+Customization
+<img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
 Firefox 59 (150% DPI) - opening menu bar in FF59- through ALT+arrows 
 <img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
