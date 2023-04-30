@@ -7,7 +7,7 @@ https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/m
 
 Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or "user.js")
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
-Firefox default - same vertical size of UI (141% DPI + 14 tabs)
+Firefox default - same vertical size of UI (140% DPI + 14 tabs)
 ![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
 Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
@@ -15,7 +15,7 @@ Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
-Firefox (150% DPI) - urlbar. "width: 110%" (userChrome.css) and "browser.urlbar.maxRichResults" (about:config or "user.js"). Dark space - The best dynamic theme
+Firefox (150% DPI) - urlbar. "width: 110%" (userChrome.css) and "browser.urlbar.maxRichResults" (about:config or user.js). Dark space - The best dynamic theme
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
 Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
@@ -23,10 +23,10 @@ Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Firefox Simple (150% DPI). Line "remove all remaining icons" (userChrome.css)
+Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css)
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235342069-b4d9bef9-c3de-4f01-b903-780ce0683659.png">
 
-Customization
+Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
 Firefox 59 (150% DPI) - opening menu bar in FF59- through ALT+arrows 
