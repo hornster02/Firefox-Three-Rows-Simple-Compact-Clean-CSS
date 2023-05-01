@@ -5,7 +5,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 -download FF109
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
-Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or "user.js")
+Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or user.js)
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (140% DPI + 14 tabs)
 ![_firefox (141% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916984-2d8509f7-f7d5-4ac2-bd50-707ecce482c0.jpg)
@@ -23,8 +23,7 @@ Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css). Or to restore all removed icons and buttons, delete everything from "alltabs-button" to "unified-extensions-button" (
-Firefox 109.rar+)
+Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css). Or to restore all removed icons and buttons, delete everything from "alltabs-button" to "unified-extensions-button" (Firefox 109.rar+)
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235342069-b4d9bef9-c3de-4f01-b903-780ce0683659.png">
 
 Customization (userChrome.css)
