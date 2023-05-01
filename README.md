@@ -13,7 +13,7 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
-Firefox Compact default (150% DPI). To restore all removed icons, buttons, ... delete everything from "alltabs-button" to "unified-extensions-button" (userChrome.css). Firefox 109.rar+
+Firefox Compact default (150% DPI). To restore all removed icons, buttons, ... delete everything from "alltabs-button" to "unified-extensions-button" (userChrome.css). And "places.xhtml" (userContent.css). Firefox 109.rar+
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
