@@ -23,7 +23,7 @@ Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css)
+Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css). Or to restore all removed icons and buttons, delete everything from "alltabs-button" to "unified-extensions-button"
 <img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235342069-b4d9bef9-c3de-4f01-b903-780ce0683659.png">
 
 Customization (userChrome.css)
