@@ -4,6 +4,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -download FF109
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
+
 -download FF109 - oneline
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109%20-%20ONELINE.rar
 
