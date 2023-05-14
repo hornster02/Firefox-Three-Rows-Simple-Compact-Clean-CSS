@@ -21,7 +21,7 @@ Firefox (150% DPI) - urlbar. "width: 110%" (userChrome.css) and "browser.urlbar.
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
 Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
-Firefox 109 - oneline (150% DPI)
+Firefox (150% DPI) - oneline
 <img width="1280" alt="Firefox (150% DPI) - online" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/95808b37-9292-41e6-a1b0-144af933ddae">
 
 Firefox (150% DPI) - find on page
