@@ -5,8 +5,6 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 -download FF109
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
--other modifications in the "userChrome.css" file, which are disabled by default, starts from "bookmarks - sorting from right" (mouseover url popups - position+size+color / address bar - scrollbar / address bar - line between suggestions / opened tabs - remove icons / ...)
-
 Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or user.js)
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (140% DPI + 14 tabs)
@@ -28,7 +26,7 @@ Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
 Firefox Simple (150% DPI). "remove all remaining icons" (userChrome.css)
-<img width="1280" alt="Firefox (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235342069-b4d9bef9-c3de-4f01-b903-780ce0683659.png">
+<img width="1280" alt="Firefox (150% DPI) - simple" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/c7790de2-c3c8-4a07-afd4-a697ceea6111">
 
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
