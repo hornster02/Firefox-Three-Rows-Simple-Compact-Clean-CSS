@@ -7,6 +7,8 @@ https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/m
 
 Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth")
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
+Firefox (150% DPI) - oneline
+<img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 Firefox Compact default (150% DPI)
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
 Firefox (150% DPI) - folder+context menu
@@ -15,8 +17,6 @@ Firefox (150% DPI) - urlbar. "width: 110%" / "width: 450%" (userChrome.css) and 
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
 Firefox (150% DPI) - places.xhtml. Dark space - The best dynamic theme
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
-Firefox (150% DPI) - oneline
-<img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
 Firefox (150% DPI) - find on page
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
