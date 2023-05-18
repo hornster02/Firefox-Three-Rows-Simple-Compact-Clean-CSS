@@ -5,9 +5,6 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 -download FF109
 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
 
--download FF109 - oneline
-https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109%20-%20ONELINE.rar
-
 Firefox CSS - same vertical size of UI (230% DPI + 14 tabs). "layout.css.devPixelsPerPx" (about:config or user.js)
 ![_firefox (230% DPI +14 tabs) - tweak](https://user-images.githubusercontent.com/127822397/224916988-b476808b-f8d1-4407-85f8-04ef3d84cb32.jpg)
 Firefox default - same vertical size of UI (140% DPI + 14 tabs)
@@ -16,7 +13,7 @@ Chrome default - same vertical size of UI (150% DPI + 14 tabs)
 ![_chrome (150% DPI +14 tabs) - default](https://user-images.githubusercontent.com/127822397/224916993-bced2d87-2cf3-48bf-bb2b-0f60183faeb8.jpg)
 Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") = 100% more tabs than Chrome
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
-Firefox Compact default (150% DPI). To restore all removed icons, buttons, ... delete everything from "alltabs-button" to "unified-extensions-button" (userChrome.css). And "places.xhtml" (userContent.css)
+Firefox Compact default (150% DPI)
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
 Firefox (150% DPI) - folder+context menu
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
