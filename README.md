@@ -4,8 +4,6 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
-https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/blob/main/Firefox%20109.rar?raw=true
-
 Firefox Compact (set via the customize toolbar) - taskbar height. 150% DPI + 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth")
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 Firefox (150% DPI) - oneline
@@ -69,4 +67,4 @@ INS - Focus Address bar
 
 Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 
-***-download https://github.com/hornster02/Autohotkey-scripts***
+***https://github.com/hornster02/Autohotkey-scripts***
