@@ -67,4 +67,4 @@ INS - Focus Address bar
 
 Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 
-***https://github.com/hornster02/Autohotkey-scripts***
+***https://github.com/hornster02/Autohotkey_AHK_H2***
