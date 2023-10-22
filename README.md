@@ -50,7 +50,7 @@ Firefox 19 (2013) - 150% DPI
 Firefox 9 (2011) - 150% DPI
 <img width="1280" alt="Firefox 9 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/235141908-a123a53a-7b02-444d-b342-108812151593.png">
 
-Firefox 2 (2008) - 150% DPI
+Firefox 2 (2006-2008) - 150% DPI
 <img width="1280" alt="Firefox 2" src="https://user-images.githubusercontent.com/127822397/235288934-33bbe8f7-029f-4292-ae88-78ad44e8b66f.png">
 
 -custom keyboard shortcuts.ahk (Autohotkey)
