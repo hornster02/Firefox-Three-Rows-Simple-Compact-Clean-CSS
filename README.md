@@ -4,7 +4,7 @@ To enable the modified interface, you need the "chrome" folder and the "user.js"
 
 -Firefox installers can be extracted by WinRar and then used without installation. Profiles can be created and run via firefox.exe -p
 
-Firefox 119 - CSS - 150% DPI. 231px vs 132px vs 72px (default vs 3-LINE vs 1-LINE - 150% DPI with find on page bar)
+Firefox 119 - CSS - 150% DPI. 231px vs 132px vs 72px (default vs 3-LINE vs 1-LINE - 150% DPI with "find on page" bar)
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/3e293a5b-d3eb-477f-93b7-5a53b6531c5a)
 Firefox 119 - default - 100% DPI
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
