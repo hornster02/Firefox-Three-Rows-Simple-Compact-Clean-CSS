@@ -53,7 +53,7 @@ Firefox 9 (2011) - 150% DPI
 Firefox 2 (2006-2008) - 150% DPI
 <img width="1280" alt="Firefox 2" src="https://user-images.githubusercontent.com/127822397/235288934-33bbe8f7-029f-4292-ae88-78ad44e8b66f.png">
 
--custom keyboard shortcuts.ahk (Autohotkey)
+-custom keyboard shortcuts.ahk (Autohotkey v1.1)
 
 F1 - Library window (History) CTRL+SHIFT+H
 
