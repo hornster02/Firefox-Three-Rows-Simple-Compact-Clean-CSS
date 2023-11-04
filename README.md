@@ -8,18 +8,28 @@
 
 Firefox 119 (2023) - 3-LINE - 20 opened tabs - 1080p ↕️ 231px vs 132px vs 72px (DEFAULT vs 3-LINE vs 1-LINE - 150% DPI with "find on page" bar)
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/3e293a5b-d3eb-477f-93b7-5a53b6531c5a)
+
 Firefox 119 (2023) - DEFAULT - 30 opened tabs - 1080p ↕️ 155px (100% DPI with "find on page" bar)
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
-Firefox 99 (2022) - 2-LINE - set via the customize toolbar - taskbar height - 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+
+Firefox 99 (2022) - 2-LINE - ↕️ 64px - set via the customize toolbar - taskbar height - 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
+
+Firefox 99 (2022) - DEFAULT - ↕️ 85px - 100% DPI
+<img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
+
 Firefox 109 (2023) - 1-LINE - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
+
 Firefox 109 (2023) - 3-LINE - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
+
 Firefox 109 (2023) - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
+
 Firefox 109 (2023) - urlbar. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js). Dark space - The best dynamic theme - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
+
 Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
