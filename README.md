@@ -35,10 +35,10 @@ Customization (userChrome.css)
 Firefox 59 (2018) - opening menu bar in FF59- through ALT+arrows - 150% DPI
 <img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
 
-Firefox 49 (2016) - 150% DPI
+Firefox 49 (2016) - 2-LINE - ↕️ 70px - 150% DPI
 <img width="1280" alt="Firefox 49 (150% DPI)-V2" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/eda9ecc0-a8b0-4e66-a45c-14e561a63fd0">
 
-Firefox 49 (2016) - DEFAULT - 100% DPI
+Firefox 49 (2016) - DEFAULT - ↕️ 71px - 100% DPI
 <img width="1280" alt="Firefox 49 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ce717463-65f1-47c3-9206-4a3b3ffa74ab">
 
 Firefox 39 (2015) - 150% DPI
