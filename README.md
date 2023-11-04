@@ -32,6 +32,12 @@ Firefox 109 (2023) - simple. "remove all remaining icons" (userChrome.css) - 150
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
+Firefox 89 (2021) - 2-LINE - ↕️ 61px - 150% DPI
+<img width="1280" alt="089 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e33a1bb-14d9-4d55-aba4-83536c444eca">
+
+Firefox 89 (2021) - DEFAULT - ↕️ 85px - 100% DPI
+<img width="1280" alt="089 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a55bcd9d-6a3f-4940-bd3d-381f5e7c0d27">
+
 Firefox 59 (2018) - opening menu bar in FF59- through ALT+arrows - 150% DPI
 <img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
 
