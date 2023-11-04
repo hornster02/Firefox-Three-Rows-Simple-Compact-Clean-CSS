@@ -54,6 +54,12 @@ Firefox 79 (2020) - 2-LINE - ↕️ 61px - 150% DPI
 Firefox 79 (2020) - DEFAULT - ↕️ 74px - 100% DPI
 <img width="1280" alt="079 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/edab11b7-0771-49cf-92db-eecc0369c01a">
 
+Firefox 69 (2019) - 2-LINE - ↕️ 64px - 150% DPI
+<img width="1280" alt="069 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/8ba89a97-ad17-43c7-9fc6-b8772cb6e2c0">
+
+Firefox 69 (2019) - DEFAULT - ↕️ 74px - 100% DPI
+<img width="1280" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b">
+
 Firefox 59 (2018) - opening menu bar in FF59- through ALT+arrows - 150% DPI
 <img width="1280" alt="Firefox 59 (150% DPI)" src="https://user-images.githubusercontent.com/127822397/234177050-0a345955-1a4f-4e6b-8e74-ce89de68cc59.png">
 
@@ -102,4 +108,3 @@ INS - Focus Address bar
 Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
-
