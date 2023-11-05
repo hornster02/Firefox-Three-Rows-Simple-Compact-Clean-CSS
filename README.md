@@ -12,10 +12,10 @@ Firefox 119 (2023) - 3-LINE - 20 opened tabs - 1080p ↕️ 231px vs 132px vs 72
 Firefox 119 (2023) - DEFAULT - 30 opened tabs - 1080p ↕️ 155px (100% DPI with "find on page" bar)
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
-Firefox 99 (2022) - 2-LINE - ↕️ 64px - set via the customize toolbar - taskbar height - 33,5 tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+Firefox 99 (2022) - 2-LINE - ↕️ 64px - set via the customize toolbar - taskbar height - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 
-Firefox 99 (2022) - DEFAULT - ↕️ 85px - 100% DPI
+Firefox 99 (2022) - DEFAULT - ↕️ 85px - 30 opened tabs - 100% DPI
 <img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
 
 Firefox 109 (2023) - 1-LINE - 150% DPI
