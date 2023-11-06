@@ -105,7 +105,7 @@ Firefox 2 (2006-2008) - 2-LINE - ↕️ 69px - 150% DPI
 Firefox 2 (2006-2008) - DEFAULT - ↕️ 103px - 100% DPI
 <img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
 
--custom keyboard shortcuts.ahk (Autohotkey v1.1)
+***custom keyboard shortcuts.ahk (Autohotkey v1.1)***
 
 F1 - Library window (History) CTRL+SHIFT+H
 
