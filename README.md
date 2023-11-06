@@ -8,8 +8,7 @@
 
 firefox.exe -p
 
-or run (example)
-
+or run (example) 
 firefox.exe -profile "a:\000"
 
 Firefox 119 (2023) - 3-LINE - 20 opened tabs - 1080p ↕️ 231px vs 132px vs 72px (DEFAULT vs 3-LINE vs 1-LINE - 150% DPI with "find on page" bar)
