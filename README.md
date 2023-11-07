@@ -30,7 +30,7 @@ or automatically created and run via (example)<br/>
 ***Firefox 109 (2023) - folder+context menu - 150% DPI***
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 
-***Firefox 109 (2023) - urlbar. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js). Dark space - The best dynamic theme - 150% DPI***
+***Firefox 109 (2023) - urlbar. "width" (userChrome.css*** *06) ***and "browser.urlbar.maxRichResults" (about:config or user.js). Dark space - The best dynamic theme - 150% DPI***
 <img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
 
 ***Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DPI***
