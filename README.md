@@ -39,9 +39,6 @@ Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DP
 Firefox 109 (2023) - find on page - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Firefox 109 (2023) - simple. "remove all remaining icons" (userChrome.css) - 150% DPI
-<img width="1280" alt="Firefox (150% DPI) - simple" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/c7790de2-c3c8-4a07-afd4-a697ceea6111">
-
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
