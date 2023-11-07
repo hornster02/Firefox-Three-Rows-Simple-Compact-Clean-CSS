@@ -1,10 +1,10 @@
-***-download FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
+***download FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
-***-download FF109 Win7+11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
+***download FF109 Win7+11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
 
 ***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***
 
--Firefox installers can be extracted by WinRar and then used without installation. Profiles can be manually created and run via<br/>
+Firefox installers can be extracted by WinRar and then used without installation. Profiles can be manually created and run via<br/>
 ***firefox.exe -p<br/>***
 or automatically created and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
