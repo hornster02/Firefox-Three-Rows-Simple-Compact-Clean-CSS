@@ -15,14 +15,14 @@ Firefox 119 (2023) - 3-LINE - 20 opened tabs - 1080p ***231px vs 132px vs 72px**
 Firefox 119 (2023) - DEFAULT - 30 opened tabs - 1080p ***155px*** (100% DPI with "find on page" bar)
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
-Firefox 99 (2022) - 2-LINE ***64px*** set via the customize toolbar - taskbar height - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
-<img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
-
-Firefox 99 (2022) - DEFAULT ***85px*** 30 opened tabs - 100% DPI
-<img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
+Firefox 119 (2023) - 2-LINE - ***64px*** 150% DPI
+![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
 Firefox 109 (2023) - 1-LINE - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
+
+Firefox 109 (2023) - 2-LINE - ***67px*** 150% DPI
+![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
 
 Firefox 109 (2023) - 3-LINE - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
@@ -39,8 +39,11 @@ Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DP
 Firefox 109 (2023) - find on page - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Customization (userChrome.css)
-<img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
+Firefox 99 (2022) - 2-LINE ***64px*** set via the customize toolbar - taskbar height - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+<img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
+
+Firefox 99 (2022) - DEFAULT ***85px*** 30 opened tabs - 100% DPI
+<img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
 
 Firefox 89 (2021) - 2-LINE ***61px*** 150% DPI
 <img width="1280" alt="089 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e33a1bb-14d9-4d55-aba4-83536c444eca">
@@ -101,6 +104,9 @@ Firefox 2 (2006-2008) - 2-LINE ***69px*** 150% DPI
 
 Firefox 2 (2006-2008) - DEFAULT ***103px*** 100% DPI
 <img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
+
+Customization (userChrome.css)
+<img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
 ***custom keyboard shortcuts.ahk (Autohotkey v1.1)***
 
