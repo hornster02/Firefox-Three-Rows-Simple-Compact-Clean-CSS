@@ -9,10 +9,13 @@ Firefox installers can be extracted by WinRar and then used without installation
 or automatically created and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
 
-Firefox 119 (2023) - 3-LINE - 20 opened tabs - 1080p ***231px vs 132px vs 72px*** (DEFAULT vs 3-LINE vs 1-LINE - 150% DPI with "find on page" bar)
+Firefox 119 (2023) - 3-LINE - 1080p ***132px*** 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
-Firefox 119 (2023) - DEFAULT - 30 opened tabs - 1080p ***155px*** (100% DPI with "find on page" bar)
+Firefox 119 (2023) - DEFAULT - 1080p ***231px*** 150% DPI
+![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
+
+Firefox 119 (2023) - DEFAULT - 1080p ***155px*** 100% DPI
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
 Firefox 119 (2023) - 2-LINE - ***64px*** 150% DPI
