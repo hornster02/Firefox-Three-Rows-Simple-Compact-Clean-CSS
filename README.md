@@ -42,7 +42,7 @@ Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DP
 Firefox 109 (2023) - find on page - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - find on page" src="https://user-images.githubusercontent.com/127822397/232224698-6a0ef5d3-650e-485f-9dc2-908f300657db.png">
 
-Firefox 99 (2022) - 2-LINE ***64px*** set via the customize toolbar - taskbar height - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+Firefox 99 (2022) - 2-LINE ***64px*** - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 
 Firefox 99 (2022) - DEFAULT ***85px*** 30 opened tabs - 100% DPI
