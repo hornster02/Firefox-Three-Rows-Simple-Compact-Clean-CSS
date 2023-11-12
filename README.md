@@ -134,13 +134,17 @@ Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom 
 
 Avast Online Security
 
-Disable HTML5 Autoplay
-
 Enhancer for YouTube
+
+YouTube Ad Auto-skipper
 
 Hide YouTube Fullscreen Controls
 
+SaveFrom.net helper
+
 I don't care about cookies
+
+Disable HTML5 Autoplay
 
 Image Video Block
 
@@ -151,9 +155,5 @@ Gif Blocker
 Load Background Tabs Lazily
 
 Print Edit WE + Save Page WE
-
-SaveFrom.net helper
-
-YouTube Ad Auto-skipper
 
 Firefox Color
