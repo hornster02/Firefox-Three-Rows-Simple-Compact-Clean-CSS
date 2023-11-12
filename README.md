@@ -157,3 +157,11 @@ Load Background Tabs Lazily
 Print Edit WE + Save Page WE
 
 Firefox Color
+
+***https://www.reddit.com/r/FirefoxCSS/***
+
+***https://firefoxcss-store.github.io/***
+
+***https://www.userchrome.org/***
+
+***https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html***
