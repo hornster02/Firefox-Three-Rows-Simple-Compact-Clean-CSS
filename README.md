@@ -129,3 +129,31 @@ INS - Focus Address bar
 Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
+
+***Useful addons***
+
+Avast Online Security
+
+Disable HTML5 Autoplay
+
+Enhancer for YouTube
+
+Hide YouTube Fullscreen Controls
+
+I don't care about cookies
+
+Image Video Block
+
+Large Image Blocker
+
+Gif Blocker
+
+Load Background Tabs Lazily
+
+Print Edit WE + Save Page WE
+
+SaveFrom.net helper
+
+YouTube Ad Auto-skipper
+
+Firefox Color
