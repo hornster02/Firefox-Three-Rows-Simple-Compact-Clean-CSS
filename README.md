@@ -132,31 +132,31 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 
 ***Useful addons***
 <br/>
-Avast Online Security https://addons.mozilla.org/en-US/firefox/addon/avast-online-security/
+***Avast Online Security*** https://addons.mozilla.org/en-US/firefox/addon/avast-online-security/
 <br/>
-Enhancer for YouTube https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
+***Enhancer for YouTube*** https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 <br/>
-YouTube Ad Auto-skipper https://addons.mozilla.org/en-US/firefox/addon/youtube-ad-auto-skipper/
+***YouTube Ad Auto-skipper*** https://addons.mozilla.org/en-US/firefox/addon/youtube-ad-auto-skipper/
 <br/>
-Hide YouTube Fullscreen Controls https://addons.mozilla.org/en-US/firefox/addon/hide-youtube-controls/
+***Hide YouTube Fullscreen Controls*** https://addons.mozilla.org/en-US/firefox/addon/hide-youtube-controls/
 <br/>
-SaveFrom.net helper https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/
+***SaveFrom.net helper*** https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/
 <br/>
-I don't care about cookies https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/
+***I don't care about cookies*** https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/
 <br/>
-Disable HTML5 Autoplay https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/
+***Disable HTML5 Autoplay*** https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/
 <br/>
-Image Video Block https://addons.mozilla.org/en-US/firefox/addon/image-video-block/
+***Image Video Block*** https://addons.mozilla.org/en-US/firefox/addon/image-video-block/
 <br/>
-Large Image Blocker https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/
+***Large Image Blocker*** https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/
 <br/>
-Gif Blocker https://addons.mozilla.org/en-US/firefox/addon/gif-blocker/
+***Gif Blocker*** https://addons.mozilla.org/en-US/firefox/addon/gif-blocker/
 <br/>
-Load Background Tabs Lazily https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
+***Load Background Tabs Lazily*** https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
 <br/>
-Print Edit WE + Save Page WE https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
+***Print Edit WE + Save Page WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
 <br/>
-Firefox Color https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
+***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
 
 ***https://www.reddit.com/r/FirefoxCSS/***
 <br/>
