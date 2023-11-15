@@ -154,7 +154,7 @@ Gif Blocker https://addons.mozilla.org/en-US/firefox/addon/gif-blocker/
 <br/>
 Load Background Tabs Lazily https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
 <br/>
-Print Edit WE + Save Page WE https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/cs/firefox/addon/save-page-we/
+Print Edit WE + Save Page WE https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
 <br/>
 Firefox Color https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
 
