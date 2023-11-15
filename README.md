@@ -6,7 +6,7 @@
 
 Firefox installers can be extracted by WinRar and then used without installation. Profiles can be manually created and run via<br/>
 ***firefox.exe -p<br/>***
-or automatically created and run via (example)<br/>
+or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
 
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
