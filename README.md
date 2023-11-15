@@ -126,7 +126,7 @@ PgDn - Go one Tab to the Left
 <br/>
 INS - Focus Address bar
 <br/>
-Del (hold the key for 0.5 seconds) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
+Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 <br/>
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
 
