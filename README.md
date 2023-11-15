@@ -109,59 +109,59 @@ Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
 ***custom keyboard shortcuts.ahk (Autohotkey v1.1)***
-
+<br/>
 F1 - Library window (History) CTRL+SHIFT+H
-
+<br/>
 F2 - Find Previous (searchbar)
-
+<br/>
 F3 - Find Next (searchbar) - works without script
-
+<br/>
 Home - New Tab
-
+<br/>
 END - Close Tab
-
+<br/>
 PgUp - Go one Tab to the Right
-
+<br/>
 PgDn - Go one Tab to the Left
-
+<br/>
 INS - Focus Address bar
-
+<br/>
 Del - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
-
+<br/>
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
 
 ***Useful addons***
-
+<br/>
 Avast Online Security
-
+<br/>
 Enhancer for YouTube
-
+<br/>
 YouTube Ad Auto-skipper
-
+<br/>
 Hide YouTube Fullscreen Controls
-
+<br/>
 SaveFrom.net helper
-
+<br/>
 I don't care about cookies
-
+<br/>
 Disable HTML5 Autoplay
-
+<br/>
 Image Video Block
-
+<br/>
 Large Image Blocker
-
+<br/>
 Gif Blocker
-
+<br/>
 Load Background Tabs Lazily
-
+<br/>
 Print Edit WE + Save Page WE
-
+<br/>
 Firefox Color
 
 ***https://www.reddit.com/r/FirefoxCSS/***
-
+<br/>
 ***https://firefoxcss-store.github.io/***
-
+<br/>
 ***https://www.userchrome.org/***
-
+<br/>
 ***https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html***
