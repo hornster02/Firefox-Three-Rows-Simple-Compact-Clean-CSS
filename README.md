@@ -9,7 +9,7 @@ Firefox installers can be extracted by WinRar/7-Zip and then used without instal
 or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
 
--CTRL+SHIFT+H/O/J alternative is a new panel at chrome://browser/content/places/places.xhtml
+-CTRL+SHIFT+H/O alternative is a new panel at chrome://browser/content/places/places.xhtml
 <br/>
 -disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
 <br/>
