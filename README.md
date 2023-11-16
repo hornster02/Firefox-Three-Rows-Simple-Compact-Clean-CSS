@@ -132,7 +132,7 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 
 -CTRL+SHIFT+H/O/J alternative is a new panel at chrome://browser/content/places/places.xhtml
 <br/>
--disable downloading+update notifications - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
+-disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
 <br/>
 -disable compatibility check of the profile - delete the content of "compatibility.ini" and set it to "read only"
 
