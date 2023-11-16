@@ -8,7 +8,7 @@
 ***firefox.exe -p<br/>***
 or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
--CTRL+SHIFT+H/O alternative is a new panel at chrome://browser/content/places/places.xhtml
+-CTRL+SHIFT+H/O alternative is a new tab at chrome://browser/content/places/places.xhtml
 <br/>
 -disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools)
 <br/>
