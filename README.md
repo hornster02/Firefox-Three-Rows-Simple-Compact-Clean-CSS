@@ -9,6 +9,12 @@ Firefox installers can be extracted by WinRar/7-Zip and then used without instal
 or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
 
+-CTRL+SHIFT+H/O/J alternative is a new panel at chrome://browser/content/places/places.xhtml
+<br/>
+-disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
+<br/>
+-disable compatibility check of the profile - delete the content of "compatibility.ini" and set it to "read only"
+
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
@@ -129,12 +135,6 @@ INS - Focus Address bar
 Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
 <br/>
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
-
--CTRL+SHIFT+H/O/J alternative is a new panel at chrome://browser/content/places/places.xhtml
-<br/>
--disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
-<br/>
--disable compatibility check of the profile - delete the content of "compatibility.ini" and set it to "read only"
 
 ***suggestions for improvements***
 <br/>
