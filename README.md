@@ -12,7 +12,7 @@ or automatically created (if it doesn't already exist) and run via (example)<br/
 <br/>
 -disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
 <br/>
--disable compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder
+-disable compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
 
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
