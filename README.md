@@ -4,11 +4,10 @@
 
 ***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***
 
-Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via<br/>
+-Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via<br/>
 ***firefox.exe -p<br/>***
 or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
-
 -CTRL+SHIFT+H/O alternative is a new panel at chrome://browser/content/places/places.xhtml
 <br/>
 -disable notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
