@@ -130,6 +130,22 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 ***https://github.com/hornster02/Autohotkey_AHK_H2***
 
+-CTRL+SHIFT+H/O/J alternative is a new panel at chrome://browser/content/places/places.xhtml
+<br/>
+-disable downloading+update notifications - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\")
+<br/>
+-disable compatibility check of the profile - delete the content of "compatibility.ini" and set it to "read only"
+
+***suggestions for improvements***
+<br/>
+-move "find on page" bar over the address bar. Or add it as another item to the toolbar
+<br/>
+-show all downloads in the pop-up window and expand it functionally and get rid of the "show all downloads" window
+<br/>
+-rename bookmarks directly (long/short right mouse click)
+<br/>
+-tabs with play/pause button and hotkey
+
 ***Useful addons***
 <br/>
 ***Avast Online Security*** https://addons.mozilla.org/en-US/firefox/addon/avast-online-security/
