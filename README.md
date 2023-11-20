@@ -104,6 +104,12 @@ Firefox 9 (2011) - 2-LINE ***64px*** 150% DPI
 Firefox 9 (2011) - DEFAULT ***64px*** 100% DPI
 <img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
 
+Firefox 3.5 (2009-2011) - 2-LINE ***67px*** - "find on page" bar over the address bar - 150% DPI
+<img width="1280" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e">
+
+Firefox 3.5 (2009-2011) - DEFAULT ***169px*** 150% DPI
+<img width="1280" alt="003-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d5262193-2ab2-432b-b1e8-13da2ffe1fa9">
+
 Firefox 2 (2006-2008) - 2-LINE ***65px*** 150% DPI
 <img width="1280" alt="002 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/6e1afe69-67f8-49e6-8c9a-d6f733395606">
 
