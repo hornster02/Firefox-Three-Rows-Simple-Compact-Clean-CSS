@@ -147,11 +147,11 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 -show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
 <br/>
--rename bookmarks directly (long/short right mouse click)
+-renaming bookmarks directly (long/short right mouse click)
 <br/>
 -tabs with play/pause button and hotkey
 <br/>
--combine Edit Folder/Bookmark in the context menu into a single entry at one specific location
+-combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position
 
 ***Useful addons***
 <br/>
