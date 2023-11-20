@@ -104,8 +104,8 @@ Firefox 9 (2011) - 2-LINE ***71px*** 150% DPI
 Firefox 9 (2011) - DEFAULT ***64px*** 100% DPI
 <img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
 
-Firefox 2 (2006-2008) - 2-LINE ***69px*** 150% DPI
-<img width="1280" alt="Firefox 2" src="https://user-images.githubusercontent.com/127822397/235288934-33bbe8f7-029f-4292-ae88-78ad44e8b66f.png">
+Firefox 2 (2006-2008) - 2-LINE ***65px*** 150% DPI
+<img width="1280" alt="002 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/6e1afe69-67f8-49e6-8c9a-d6f733395606">
 
 Firefox 2 (2006-2008) - DEFAULT ***103px*** 100% DPI
 <img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
