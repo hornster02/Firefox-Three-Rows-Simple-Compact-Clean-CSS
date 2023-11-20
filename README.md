@@ -92,10 +92,10 @@ Firefox 29 (2014) - 2-LINE ***64px*** 150% DPI
 Firefox 29 (2014) - DEFAULT ***71px*** 100% DPI
 ![029 (100% DPI)-DEFAULT](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/21d733dd-1928-4092-8792-2681db9466b0)
 
-Firefox 19 (2013) - 2-LINE ***67px*** 150% DPI
-<img width="1280" alt="019 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/cb85312f-589d-4903-a816-03ecd734fd9c">
+Firefox 19 (2013) - 2-LINE ***66px*** 150% DPI
+<img width="1280" alt="019 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d83e706a-a183-4f1f-8317-a978143ef671">
 
-Firefox 19 (2013) - DEFAULT ***62px*** 100% DPI
+Firefox 19 (2013) - DEFAULT ***63px*** 100% DPI
 <img width="1280" alt="019 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/05739ab3-8fc7-4d90-a50d-e3c37c3e9434">
 
 Firefox 9 (2011) - 2-LINE ***64px*** 150% DPI
