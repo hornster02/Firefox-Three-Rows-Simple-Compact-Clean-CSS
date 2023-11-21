@@ -152,6 +152,8 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 -tabs with play/pause button and hotkey
 <br/>
 -combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position
+<br/>
+-popup status bar under mouse cursor
 
 ***Useful addons***
 <br/>
