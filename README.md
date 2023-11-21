@@ -68,7 +68,7 @@ Firefox 69 (2019) - 2-LINE ***64px*** 150% DPI
 Firefox 69 (2019) - DEFAULT ***74px*** 100% DPI
 <img width="1280" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b">
 
-Firefox 59 (2018) - 2-LINE ***65px opening menu bar in FF59- through ALT+arrows*** - 150% DPI
+Firefox 59 (2018) - 2-LINE ***65px - opening menu bar in FF59- through ALT+arrows*** - 150% DPI
 <img width="1280" alt="059 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f691cfca-ae43-434e-ba8e-dbeea2447117">
 
 Firefox 59 (2018) - DEFAULT ***73px*** 100% DPI
