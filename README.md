@@ -151,7 +151,9 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 -combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position (properties in FF79-)
 <br/>
--popup status bar under mouse cursor
+-popup status bar around mouse cursor
+<br/>
+-remove 3 dots in bookmarks names (if are too long)
 
 ***Useful addons***
 <br/>
