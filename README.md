@@ -149,9 +149,9 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 -renaming bookmarks directly (long/short right mouse click)
 <br/>
--tabs with play/pause button and hotkey
+-tabs with play/pause button and hotkey (remove useless volume button)
 <br/>
--combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position
+-combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position (properties in FF79-)
 <br/>
 -popup status bar under mouse cursor
 
