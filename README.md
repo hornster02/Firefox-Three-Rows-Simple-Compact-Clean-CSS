@@ -8,8 +8,6 @@
 ***firefox.exe -p<br/>***
 or automatically created (if it doesn't already exist) and run via (example)<br/>
 ***firefox.exe -profile "a:\000"<br/>***
--CTRL+SHIFT+H/O alternative is a new tab at chrome://browser/content/places/places.xhtml
-<br/>
 -disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools)
 <br/>
 -disabling compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
@@ -190,9 +188,11 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 ***https://www.userchrome.org/***
 <br/>
 
+***about:about***
+<br/>
 ***about:downloads***
 <br/>
-***about:about***
+***chrome://browser/content/places/places.xhtml***
 <br/>
 ***https://firefox-source-docs.mozilla.org/devtools-user/browser_toolbox/index.html***
 <br/>
