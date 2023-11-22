@@ -154,6 +154,8 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 -popup status bar around mouse cursor
 <br/>
 -remove 3 dots in bookmarks names (if are too long)
+<br/>
+-add-ons in the "Customize Toolbar" menu
 
 ***Useful addons***
 <br/>
