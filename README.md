@@ -21,7 +21,7 @@ Firefox 119 (2023) - DEFAULT - 1080p ***155px*** 100% DPI
 Firefox 119 (2023) - DEFAULT - 1080p ***231px*** - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find on page" bar over the address bar. In this case, the entire interface fits into the default "find on page" bar ⬆️ 😁
+Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️ 😁
 ![119 - CSS - 150% DPI4](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/9162ea07-69ee-484a-83b9-e78ff06011dd)
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
@@ -118,7 +118,7 @@ Firefox 9 (2011) - 2-LINE ***64px*** 150% DPI
 Firefox 9 (2011) - DEFAULT ***64px*** 100% DPI
 <img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
 
-Firefox 3.5 (2009-2011) - 2-LINE ***67px*** - "find on page" bar over the address bar - 150% DPI
+Firefox 3.5 (2009-2011) - 2-LINE ***67px*** - "find in page" bar over the address bar - 150% DPI
 <img width="1280" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e">
 
 Firefox 3.5 (2009-2011) - DEFAULT ***169px*** 150% DPI
@@ -157,7 +157,7 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 
 ***suggestions for improvements***
 <br/>
--remove the titles/checkboxes in the "find on page" bar and replace them with buttons/icons
+-remove the titles/checkboxes in the "find in page" bar and replace them with buttons/icons
 <br/>
 -show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
 <br/>
