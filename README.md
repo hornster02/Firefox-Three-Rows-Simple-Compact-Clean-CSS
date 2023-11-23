@@ -157,8 +157,6 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 
 ***suggestions for improvements***
 <br/>
--move "find on page" bar over the address bar. Or add it as another item to the toolbar
-<br/>
 -show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
 <br/>
 -renaming bookmarks directly (long/short right mouse click)
