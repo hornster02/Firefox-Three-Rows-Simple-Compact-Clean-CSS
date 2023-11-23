@@ -26,8 +26,7 @@ Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find 
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
 .findbar-find-previous {padding-left: 213px!important;}
-Works in FF 109/119
-*/
+Works in FF 109/119 */
 .browserContainer > findbar {-moz-box-ordinal-group: 0!important;order: -1 !important;}
 .browserContainer > findbar {max-width: 700px!important;margin-top: -25px!important;} /* if the web content jumps when pressing CTRL+F, the number needs to be adjusted */
 .findbar-highlight, .findbar-case-sensitive, .findbar-match-diacritics, .findbar-entire-word {max-width: 10%!important;font-size: 10px !important;margin: 0px!important;margin-top: -2px!important;}
