@@ -157,6 +157,8 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 
 ***suggestions for improvements***
 <br/>
+-remove the titles/checkboxes in the "find on page" bar and replace them with buttons/icons
+<br/>
 -show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
 <br/>
 -renaming bookmarks directly (long/short right mouse click)
