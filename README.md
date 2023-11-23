@@ -21,7 +21,7 @@ Firefox 119 (2023) - DEFAULT - 1080p ***155px*** 100% DPI
 Firefox 119 (2023) - DEFAULT - 1080p ***231px*** - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - "find on page" bar over the address bar - 150% DPI. In this case, the entire interface fits within the height of the default "find on page" bar ⬆️ 😁
+Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find on page" bar over the address bar. In this case, the entire interface fits within the height of the default "find on page" bar ⬆️ 😁
 ![119 - CSS - 150% DPI4](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/9162ea07-69ee-484a-83b9-e78ff06011dd)
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
