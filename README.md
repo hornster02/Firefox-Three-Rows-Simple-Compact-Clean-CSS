@@ -21,6 +21,22 @@ Firefox 119 (2023) - DEFAULT - 1080p ***231px*** - 15,5 + 5 tabs - 150% DPI
 Firefox 119 (2023) - DEFAULT - 1080p ***155px*** 100% DPI
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
+Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - "find on page" bar over the address bar - 150% DPI
+![119 - CSS - 150% DPI4](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/9162ea07-69ee-484a-83b9-e78ff06011dd)
+```
+/* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
+.findbar-find-previous {padding-left: 213px!important;}
+*/
+.browserContainer > findbar {-moz-box-ordinal-group: 0!important;order: -1 !important;}
+.browserContainer > findbar {max-width: 700px!important;margin-top: -25px!important;} /* if the web content jumps when pressing CTRL+F (unfortunately FF does this by default), the number needs to be adjusted */
+.findbar-highlight, .findbar-case-sensitive, .findbar-match-diacritics, .findbar-entire-word {max-width: 10%!important;font-size: 10px !important;margin: 0px!important;margin-top: -2px!important;}
+.findbar-find-status {max-width: 2000px!important;}
+.findbar-label.findbar-find-status {margin-left: -100px!important;max-width: 20%!important;font-size: 10px !important;}
+.findbar-find-status[status="notfound"] {margin-left: 0px!important;font-size: 13px !important;}
+.findbar-container {scrollbar-width: none!important;}
+.findbar-textbox {position: fixed!important;margin-top: -5px!important;} /* position of the textbox */
+```
+
 Firefox 119 (2023) - 2-LINE - ***64px*** 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
