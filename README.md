@@ -40,7 +40,7 @@ Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find 
 Firefox 119 (2023) - 2-LINE - ***64px*** 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
-Firefox 109 (2023) - 1-LINE - 150% DPI
+Firefox 109 (2023) - 1-LINE - ***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
 Firefox 109 (2023) - 2-LINE - ***67px*** 150% DPI
