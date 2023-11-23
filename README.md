@@ -34,7 +34,7 @@ Firefox 119 (2023) - 3-LINE - 1080p ***65px*** - 19 + 3 tabs - 150% DPI - "find 
 .findbar-label.findbar-find-status {margin-left: -100px!important;max-width: 20%!important;font-size: 10px !important;}
 .findbar-find-status[status="notfound"] {margin-left: 0px!important;font-size: 13px !important;}
 .findbar-container {scrollbar-width: none!important;}
-.findbar-textbox {position: fixed!important;margin-top: -5px!important;} /* position of the textbox */
+.findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of the textbox */
 ```
 
 Firefox 119 (2023) - 2-LINE - ***64px*** 150% DPI
