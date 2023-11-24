@@ -172,6 +172,8 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 -remove 3 dots in bookmarks names (if are too long)
 <br/>
 -add-ons in the "Customize Toolbar" menu
+<br/>
+-slow down mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
 
 ***Useful addons***
 <br/>
