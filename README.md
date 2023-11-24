@@ -15,7 +15,7 @@ or automatically created (if it doesn't already exist) and run via (example)<br/
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
-Firefox 119 (2023) - DEFAULT - ↕️***155px*** 100% DPI
+Firefox 119 (2023) - DEFAULT - ↕️***155px*** - 30 tabs - 100% DPI
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
 Firefox 119 (2023) - DEFAULT - ↕️***231px*** - 15,5 + 5 tabs - 150% DPI
