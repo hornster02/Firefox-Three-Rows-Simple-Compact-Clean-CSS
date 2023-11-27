@@ -174,7 +174,7 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 -add-ons in the "Customize Toolbar" menu
 <br/>
--slow down mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
+-decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
 
 ***Useful addons***
 <br/>
