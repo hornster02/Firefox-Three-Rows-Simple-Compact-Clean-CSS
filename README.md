@@ -175,6 +175,8 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 -add-ons in the "Customize Toolbar" menu
 <br/>
 -decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
+<br/>
+-separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable..
 
 ***Useful addons***
 <br/>
