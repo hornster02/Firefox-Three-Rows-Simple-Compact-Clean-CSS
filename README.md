@@ -43,6 +43,9 @@ Works in FF 109/119 */
 Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
+Firefox 119 (2023) - DEFAULT - ↕️***508px*** - 150% system DPI. 47% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
+<img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
+
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
