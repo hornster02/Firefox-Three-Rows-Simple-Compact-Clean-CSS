@@ -43,7 +43,7 @@ Works in FF 109/119 */
 Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
-Firefox 119 (2023) - DEFAULT - ↕️***508px*** - 150% system DPI. 47% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
+Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
 <img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
 
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
@@ -181,7 +181,7 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 -decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
 <br/>
--separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable..
+-separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
 
 ***Useful addons***
 <br/>
