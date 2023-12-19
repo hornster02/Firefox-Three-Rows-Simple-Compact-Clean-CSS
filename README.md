@@ -14,7 +14,13 @@ Most of the colors I've changed are pink (FF00A3 and E20074) and orange (FB7914)
 🚫disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools)
 <br/>
 🚫disabling compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
-
+<br/>
+<br/>
+<br/>
+<img width="720" alt="nahled8" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bb761add-68aa-40c8-b2af-d341ebe22ed0">
+<br/>
+<br/>
+<br/>
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
