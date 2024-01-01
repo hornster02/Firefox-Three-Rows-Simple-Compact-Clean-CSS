@@ -11,7 +11,7 @@ or automatically created (if it doesn't already exist) and run via (example)<br/
 
 Most of the colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting the files there is no trace of them in the profile or Firefox itself
 
-🚫disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools)
+🚫disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
 <br/>
 🚫disabling compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
 <br/>
