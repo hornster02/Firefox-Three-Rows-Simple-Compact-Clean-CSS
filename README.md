@@ -55,7 +55,7 @@ Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the s
 Firefox 119 (2023) - Clear and quick to search, but... Highlighting colored rows with mouse/keyboard causes motion sickness. Without highlighting rows clarity suffers. The solution may be to increase vertical spacing substantially, but that would no longer be compact CSS... Pink - opened tabs, orange - bookmarks, without color - history
 ![2024-01-31_194832](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b3ea771b-b9cd-45c3-bd41-e62dfbb4377a)
 ```
-/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 119 */
+/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
 .urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
 .urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
 .urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;}
