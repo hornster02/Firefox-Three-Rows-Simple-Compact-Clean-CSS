@@ -52,6 +52,28 @@ Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
 Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
 <img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
 
+Firefox 119 (2023) - Clear and quick to search, but... Highlighting colored rows with mouse/keyboard causes motion sickness. Without highlighting rows clarity suffers. The solution may be to increase vertical spacing substantially, but that would no longer be compact CSS... Pink - opened tabs, orange - bookmarks, without color - history
+![2024-01-31_194832](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b3ea771b-b9cd-45c3-bd41-e62dfbb4377a)
+```
+/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 119 */
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;}
+.urlbarView-title {margin-left: -3px!important;}
+span.urlbarView-title-separator {display: none !important;}
+.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
+.urlbarView-url {margin-left: 20px !important;}
+.urlbarView-type-icon {display: none !important;}
+.urlbarView-action {display: none !important;}
+#urlbar-results {margin-left: 2px!important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap:hover {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
+.urlbarView-row[type="switchtab"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
+.urlbarView-row[type="bookmark"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
+```
+
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
