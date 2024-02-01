@@ -52,7 +52,7 @@ Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
 Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
 <img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
 
-Firefox 119 (2023) - Clear and quick to search, but... Highlighting colored rows with mouse/keyboard causes motion sickness. Without highlighting rows clarity suffers. The solution may be to increase vertical spacing substantially, but that would no longer be compact CSS... Pink - opened tabs, orange - bookmarks, without color - history
+Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - history. Clear and quick to search, but... Highlighting colored rows with mouse/keyboard causes motion sickness, without highlighting clarity suffers. The solution may be to increase vertical spacing substantially, but that would no longer be compact CSS... Perhaps the best solution would be to remove the orange/pink color from the selected two rows and move it to the area around the icons. But how?
 ![2024-01-31_194832](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b3ea771b-b9cd-45c3-bd41-e62dfbb4377a)
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
