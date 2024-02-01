@@ -90,6 +90,9 @@ span.urlbarView-title-separator {display: none !important;}
 #urlbar-results {margin-left: 9px!important;}
 ```
 
+Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history
+![119 - CSS-address bar3 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/15ea7ef9-0cce-44d2-89aa-0a5072ea7e67)
+
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
