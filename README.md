@@ -58,8 +58,8 @@ Firefox 119 (2023) - Clear and quick to search, but... Highlighting colored rows
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
 .urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
 .urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
 .urlbarView-title {margin-left: -3px!important;}
 span.urlbarView-title-separator {display: none !important;}
 .urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
