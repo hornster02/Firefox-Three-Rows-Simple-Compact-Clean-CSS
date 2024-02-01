@@ -73,6 +73,22 @@ span.urlbarView-title-separator {display: none !important;}
 .urlbarView-row[type="switchtab"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
 .urlbarView-row[type="bookmark"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
 ```
+Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history
+![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
+```
+/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #40E0D0 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -10px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -10px !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 20px!important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 20px!important;}
+.urlbarView-title {margin-left: -3px!important;}
+span.urlbarView-title-separator {display: none !important;}
+.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
+.urlbarView-url {margin-left: 20px !important;}
+.urlbarView-type-icon {display: none !important;}
+.urlbarView-action {display: none !important;}
+#urlbar-results {margin-left: 9px!important;}
+```
 
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
