@@ -105,8 +105,14 @@ Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DP
 Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
+Firefox 119 (2023) - DEFAULT - ↕️***85px*** 100% DPI
+![119 - DEF-2-LINE - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/288daae3-ed5c-4165-9dc5-2ce9849f3723)
+
 Firefox 109 (2023) - 2-LINE - ↕️***67px*** 150% DPI
 ![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
+
+Firefox 109 (2023) - DEFAULT - ↕️***85px*** 100% DPI
+![109 - DEF - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7)
 
 Firefox 99 (2022) - 2-LINE ↕️***64px*** - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
