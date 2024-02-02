@@ -46,9 +46,6 @@ Works in FF 109/119 */
 .findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of the textbox */
 ```
 
-Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
-![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
-
 Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
 <img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
 
@@ -73,7 +70,7 @@ span.urlbarView-title-separator {display: none !important;}
 .urlbarView-row[type="switchtab"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
 .urlbarView-row[type="bookmark"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 1px !important;padding-top: 1px !important;}
 ```
-Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history
+Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js)
 ![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
@@ -96,20 +93,20 @@ Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
-Firefox 109 (2023) - 2-LINE - ↕️***67px*** 150% DPI
-![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
-
 Firefox 109 (2023) - 3-LINE - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
 
 Firefox 109 (2023) - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 
-Firefox 109 (2023) - urlbar. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js). Dark space - The best dynamic theme - 150% DPI
-<img width="1280" alt="Firefox (150% DPI) - urlbar" src="https://user-images.githubusercontent.com/127822397/233781701-4a952f36-77dc-41ab-ac8c-2826b8482c6d.png">
-
 Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
+
+Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
+![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
+
+Firefox 109 (2023) - 2-LINE - ↕️***67px*** 150% DPI
+![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
 
 Firefox 99 (2022) - 2-LINE ↕️***64px*** - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
