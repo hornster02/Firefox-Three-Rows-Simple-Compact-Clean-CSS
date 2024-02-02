@@ -30,7 +30,7 @@ Firefox 119 (2023) - DEFAULT - ↕️***155px*** - 30 tabs - 100% DPI
 Firefox 119 (2023) - DEFAULT - ↕️***231px*** - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-Firefox 119 (2023) - 3-LINE - ↕️***65px*** - 19 + 3 tabs - 150% system DPI - Win11 - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️ 😁
+Firefox 119 (2023) - 3-LINE - ↕️***65px*** - 19 + 3 tabs - 150% system DPI - Win11 - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar
 <img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
