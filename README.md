@@ -46,7 +46,7 @@ Works in FF 109/119 */
 .findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of the textbox */
 ```
 
-Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js)
+Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
 ![119 - CSS-address bar - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/27805b1a-0108-4b70-aebb-e88742d2e6bf)
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
@@ -101,7 +101,7 @@ span.urlbarView-title-separator {display: none !important;}
 .urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
 .urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
 ```
-Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history
+Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history - 150% DPI
 ![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
@@ -118,7 +118,7 @@ span.urlbarView-title-separator {display: none !important;}
 #urlbar-results {margin-left: 9px!important;}
 ```
 
-Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history
+Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
 ![119 - CSS-address bar3 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/15ea7ef9-0cce-44d2-89aa-0a5072ea7e67)
 
 Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
@@ -127,13 +127,13 @@ Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the s
 Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
-Firefox 109 (2023) - 3-LINE - 150% DPI
+Firefox 109 (2023) - 3-LINE - 150% system DPI
 ![Firefox (150% DPI) - compact default](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/487f32f5-49f4-4df1-ba1a-04ffe14d3f23)
 
-Firefox 109 (2023) - folder+context menu - 150% DPI
+Firefox 109 (2023) - 2-LINE - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 
-Firefox 109 (2023) - places.xhtml. Dark space - The best dynamic theme - 150% DPI
+Firefox 109 (2023) - 2-LINE - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
 Firefox 119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
