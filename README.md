@@ -128,7 +128,7 @@ Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
 Firefox 109 (2023) - 3-LINE - 150% DPI
-<img width="1280" alt="Firefox (150% DPI) - compact default" src="https://user-images.githubusercontent.com/127822397/235430973-1cddca02-26a9-4435-b1e4-16972b82a6e7.png">
+![Firefox (150% DPI) - compact default](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/487f32f5-49f4-4df1-ba1a-04ffe14d3f23)
 
 Firefox 109 (2023) - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
