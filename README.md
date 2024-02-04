@@ -30,7 +30,7 @@ Firefox 119 (2023) - DEFAULT - ↕️***155px*** - 30 tabs - 100% DPI
 Firefox 119 (2023) - DEFAULT - ↕️***231px*** - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-Firefox 119 (2023) - 3-LINE - ↕️***65px*** - 19 + 3 tabs - 150% system DPI - Win11 - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar. The height of the find in page bar should not exceed the height of the bar it overlays, otherwise the page will jump a few pixels when opened. And the overlay only works for the first bar from the bottom - trying to overlay the bar above will just crop the bottom part of the UI and make the page jump again. The example in the picture is the only (so far?) possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
+Firefox 119 (2023) - 3-LINE - ↕️***65px*** - 19 + 3 tabs - 150% system DPI - Win11 - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar. The height of the find in page bar should not exceed the height of the bar it overlays, otherwise the page will jump a few pixels when opened. And the overlay only works for the first bar from the bottom - trying to overlay the bar above will just crop the bottom part of the UI and make the page jump again. Example in the image is the only (so far?) possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
 <img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
@@ -51,16 +51,19 @@ Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - his
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
 
+/*.urlbarView-row:first-of-type {display: none !important;}*/
+.urlbarView-type-icon {display: none !important;}
+.urlbarView-action {display: none !important;}
+span.urlbarView-title-separator {display: none !important;}
+#urlbar .search-panel-one-offs-header-label {display: none !important;}
+
 /* FF119 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
 
 /* FF109 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;}
-
-/* posunutí názvu od ikon */
-.urlbarView-title {margin-left: -3px!important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
 
 /* velikost url textu */
 .urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
@@ -68,12 +71,8 @@ Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - his
 /* posunutí url od názvu */
 .urlbarView-url {margin-left: 20px !important;}
 
-.urlbarView-type-icon {display: none !important;}
-.urlbarView-action {display: none !important;}
-span.urlbarView-title-separator {display: none !important;}
-
 /* levá mezera pri otevrení adresního rádku */
-#urlbar-results {margin-left: 9px!important;}
+#urlbar-results {margin-left: 1px!important;}
 
 /* prípadné zvetšení (na výšku) vybraných rádku pomocí myši/klávesnice - zpusobuje neprijemné poskakování textu v prípade nedostatecných mezer mezi rádky */
 .urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
@@ -83,23 +82,23 @@ span.urlbarView-title-separator {display: none !important;}
 .urlbarView-row[type="bookmark"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
 
 /* ikony+text - nevybraný */
-.urlbarView-favicon {position: fixed!important;margin-left: -5px !important;}
-.urlbarView-title {margin-left: 15px!important;}
+.urlbarView-favicon {position: fixed!important;margin-left: 2px !important;}
+.urlbarView-title {margin-left: 25px!important;}
 /* ikony - vybrané myší */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
 /* text - vybraný myší - FF109 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
 /* text - vybraný myší - FF119 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
 /* text - vybraný klávesnicí */
-.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
-.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 15px!important;}
+.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
+.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
 /* ikony - vybrané klávesnicí */
-.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
-.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 4px !important;margin-left: -10px !important;}
+.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
+.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
 ```
 Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history - 150% DPI
 ![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
