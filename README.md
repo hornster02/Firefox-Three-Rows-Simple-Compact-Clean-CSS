@@ -104,17 +104,27 @@ Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - hist
 ![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
 ```
 /* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #40E0D0 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -10px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -10px !important;}
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 20px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 20px!important;}
-.urlbarView-title {margin-left: -3px!important;}
-span.urlbarView-title-separator {display: none !important;}
-.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
-.urlbarView-url {margin-left: 20px !important;}
+
+/*.urlbarView-row:first-of-type {display: none !important;}*/
 .urlbarView-type-icon {display: none !important;}
 .urlbarView-action {display: none !important;}
-#urlbar-results {margin-left: 9px!important;}
+span.urlbarView-title-separator {display: none !important;}
+#urlbar .search-panel-one-offs-header-label {display: none !important;}
+
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #40E0D0 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -2px !important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -2px !important;}
+.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 27px!important;}
+.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 27px!important;}
+
+/* velikost url textu */
+.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
+/* posunutí url od názvu */
+.urlbarView-url {margin-left: 30px !important;}
+/* levá mezera pri otevrení adresního rádku */
+#urlbar-results {margin-left: 1px!important;}
+/* ikony+text - nevybraný */
+.urlbarView-favicon {position: fixed!important;margin-left: 3px !important;}
+.urlbarView-title {margin-left: 27px!important;}
 ```
 
 Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
