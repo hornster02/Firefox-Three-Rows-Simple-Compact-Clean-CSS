@@ -301,6 +301,10 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 ***Print Edit WE + Save Page WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
 <br/>
 ***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
+<br/>
+***THEME*** https://addons.mozilla.org/en-US/firefox/addon/41444-21/
+<br/>
+***THEME*** https://addons.mozilla.org/en-US/firefox/addon/41444-22/
 
 ***https://www.reddit.com/r/FirefoxCSS/***
 <br/>
