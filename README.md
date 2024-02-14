@@ -298,7 +298,9 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 ***Load Background Tabs Lazily*** https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
 <br/>
-***Print Edit WE + Save Page WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/ https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
+***Print Edit WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/
+<br/>
+***Save Page WE*** https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
 <br/>
 ***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
 <br/>
