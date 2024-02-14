@@ -336,10 +336,6 @@ layout.css.devPixelsPerPx
 ***turning off the full screen warning***
 <br/>
 full-screen-api.warning.timeout;0
-<br/>
-full-screen-api.transition-duration.leave
-<br/>
-full-screen-api.transition-duration.enter
 
 ***default zooming of PDF files***
 <br/>
@@ -347,11 +343,11 @@ pdfjs.defaultZoomValue;page-width
 
 ***find in page - colors***
 <br/>
-ui.textSelectBackgroundAttention;#ff0000
+ui.textSelectBackgroundAttention
 <br/>
-ui.textHighlightBackground;#ff0000
+ui.textHighlightBackground
 <br/>
-ui.textHighlightForeground;#ff0000
+ui.textHighlightForeground
 
 ***new tab - color***
 <br/>
@@ -386,6 +382,10 @@ image.animation_mode;none
 ui.prefersReducedMotion;1
 <br/>
 svg.disabled;true
+<br/>
+full-screen-api.transition-duration.leave
+<br/>
+full-screen-api.transition-duration.enter
 
 ***a compact density option will be added to the "customize toolbar" menu***
 <br/>
@@ -503,7 +503,7 @@ accessibility.blockautorefresh;true
 
 ***maximum cache size on SSD***
 <br/>
-browser.cache.disk.capacity;180000000
+browser.cache.disk.capacity
 
 ***maximum size of the cached file on the SSD***
 <br/>
