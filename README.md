@@ -328,3 +328,201 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 ***https://ftp.mozilla.org/pub/firefox/releases/***
 <br/>
 ***https://ftp.mozilla.org/pub/devedition/releases/***
+
+about:config
+
+***dpi***
+<br/>
+layout.css.devPixelsPerPx
+
+***turning off the full screen warning***
+<br/>
+full-screen-api.warning.timeout;0
+<br/>
+full-screen-api.transition-duration.leave
+<br/>
+full-screen-api.transition-duration.enter
+
+***default zooming of PDF files***
+<br/>
+pdfjs.defaultZoomValue;page-width
+
+***find in page - colors***
+<br/>
+ui.textSelectBackgroundAttention;#ff0000
+<br/>
+ui.textHighlightBackground;#ff0000
+<br/>
+ui.textHighlightForeground;#ff0000
+
+***new tab - color***
+<br/>
+browser.display.background_color;#eeeeee
+
+***scrollbars***
+<br/>
+widget.non-native-theme.scrollbar.size
+<br/>
+widget.non-native-theme.win.scrollbar.use-system-size
+<br/>
+widget.non-native-theme.scrollbar.size.override
+<br/>
+widget.disable-dark-scrollbar
+<br/>
+widget.non-native-theme.win11.scrollbar.force-overlay-style
+<br/>
+widget.windows.overlay-scrollbars.enabled
+
+***disabling tooltips when hovering over bookmarks***
+<br/>
+browser.chrome.toolbar_tips
+
+***disable animations (interface of the program and the website itself) - probably no need to be afraid of blindly toggling the "animat" and "transition" preferences***
+<br/>
+browser.fullscreen.animate;false
+<br/>
+browser.tabs.animate;false
+<br/>
+image.animation_mode;none
+<br/>
+ui.prefersReducedMotion;1
+<br/>
+svg.disabled;true
+
+***a compact density option will be added to the "customize toolbar" menu***
+<br/>
+browser.compactmode.show
+
+***set compact density immediately by number 1***
+<br/>
+browser.uidensity
+
+***disable the graphical user interface "Proton"***
+<br/>
+browser.proton.enabled
+
+***address bar - number of items***
+<br/>
+browser.urlbar.maxRichResults
+
+***address bar - disable autoFill***
+<br/>
+browser.urlbar.autoFill;false
+
+***address bar - disable search engine***
+<br/>
+keyword.enabled;false
+
+***address bar - disable "Firefox suggest"***
+<br/>
+browser.urlbar.groupLabels.enabled;false
+
+***address bar - disable faded font***
+<br/>
+browser.urlbar.formatting.enabled;false
+
+***address bar - hide reader icon***
+<br/>
+reader.parse-on-load.enabled;false
+
+***tabs - disable previews when dragging***
+<br/>
+nglayout.enable_drag_images;false
+
+***tabs - minimum width***
+<br/>
+browser.tabs.tabMinWidth
+
+***tabs pinned - disable autoreload***
+<br/>
+browser.sessionstore.restore_pinned_tabs_on_demand
+
+***disable the request to delete settings when the browser is not started for a long time***
+<br/>
+browser.disableResetPrompt;true
+
+***disable query to enable DRM***
+<br/>
+browser.eme.ui.enabled;false
+
+***slow Firefox startup - turn off notifications***
+<br/>
+browser.slowStartup.notificationDisabled
+
+***do not turn off firefox when closing the last tab***
+<br/>
+browser.tabs.closeWindowWithLastTab;false
+
+***open in tabs only***
+<br/>
+browser.link.open_newwindow.restriction;0
+
+***location query***
+<br/>
+geo.enabled
+
+***disable "insecure login" warning***
+<br/>
+security.insecure_field_warning.contextual.enabled;false
+
+***ctrl+shift+j***
+<br/>
+devtools.chrome.enabled;true
+
+***disable autoplay***
+<br/>
+media.autoplay.enabled;false
+<br/>
+media.autoplay.allow-muted;false
+
+***enable support for WEBM playback***
+<br/>
+media.mediasource.webm.enabled
+
+***disable enforcement of signing add-ons***
+<br/>
+xpinstall.signatures.required;false
+
+***disable blacklisting of add-ons***
+<br/>
+extensions.blocklist.enabled;false
+
+***not to allow arbitrary banning of add-ons***
+<br/>
+extensions.legacy.enabled;true
+
+***do not save the list of currently opened tabs to disk = reduce writing to SSD***
+<br/>
+browser.sessionstore.resume_from_crash;false
+
+***do not create bookmarks backups***
+<br/>
+browser.bookmarks.max_backups;0
+
+***disabling automatic page refresh***
+<br/>
+accessibility.blockautorefresh;true
+
+***maximum cache size on SSD***
+<br/>
+browser.cache.disk.capacity;180000000
+
+***maximum size of the cached file on the SSD***
+<br/>
+browser.cache.disk.max_entry_size
+
+***cache isolation***
+<br/>
+browser.cache.cache_isolation;true
+
+***connection timeout***
+<br/>
+network.http.connection-timeout
+
+***firefox.exe - priority "normal"***
+<br/>
+dom.ipc.processPriorityManager.enabled;false
+
+***limiting the number of firefox.exe processes (the advantage is less CPU+RAM requirements and the disadvantage is worse security)***
+<br/>
+fission.autostart;false
