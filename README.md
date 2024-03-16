@@ -1,3 +1,5 @@
+Looks like Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
+
 💾***FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
 💾***FF109 Win7 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
