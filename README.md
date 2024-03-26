@@ -1,4 +1,6 @@
 Looks like Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
+<br/>
+CSS Calendar - Firefox 133 Win7+11 (December 2024)
 
 💾***FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
