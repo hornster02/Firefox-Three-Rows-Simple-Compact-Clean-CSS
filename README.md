@@ -298,8 +298,6 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 ***Large Image Blocker*** https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/
 <br/>
-***Gif Blocker*** https://addons.mozilla.org/en-US/firefox/addon/gif-blocker/
-<br/>
 ***Load Background Tabs Lazily*** https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
 <br/>
 ***Print Edit WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/
@@ -336,6 +334,10 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 ***https://ftp.mozilla.org/pub/firefox/releases/***
 <br/>
 ***https://ftp.mozilla.org/pub/devedition/releases/***
+
+***https://caniuse.com/***
+<br/>
+***https://www.deviceinfo.me/***
 
 about:config
 
