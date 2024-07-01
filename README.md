@@ -1,6 +1,6 @@
-Looks like Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
+Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - Firefox 133 Win7+11 (December 2024)
+CSS Calendar - Firefox 131 Win7+11 (October 2024)
 
 💾***FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
@@ -235,8 +235,10 @@ Firefox 2 (2006-2008) - DEFAULT ↕️***103px*** 100% DPI
 
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
-
-***custom keyboard shortcuts.ahk (Autohotkey v1.1)***
+<br/>
+<br/>
+<br/>
+💾***Autohotkey v1.1 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar***
 <br/>
 F1 - Library window (History) CTRL+SHIFT+H
 <br/>
@@ -255,32 +257,28 @@ PgDn - Go one Tab to the Left
 INS - Focus Address bar
 <br/>
 Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
+<br/>
+<br/>
+<br/>
+💾***Themes https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar***
+<br/>
+<br/>
+<br/>
+***userContent.css***
+```
+/* #antiepileptic, #batterysaver. May break some websites */
+* {
+animation: none !important;
+transition: none !important;
+transform: none !important;
+}
+```
 
-***suggestions for improvements***
 <br/>
--remove the titles/checkboxes in the "find in page" bar and replace them with buttons/icons
 <br/>
--show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
 <br/>
--renaming bookmarks directly (long/short right mouse click)
-<br/>
--tabs with play/pause button and hotkey (remove useless volume button)
-<br/>
--combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position (properties in FF79-)
-<br/>
--popup status bar around mouse cursor
-<br/>
--remove 3 dots in bookmarks names (if are too long)
-<br/>
--add-ons in the "Customize Toolbar" menu
-<br/>
--decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
-<br/>
--separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
 
 ***Useful addons***
-<br/>
-***Avast Online Security*** https://addons.mozilla.org/en-US/firefox/addon/avast-online-security/
 <br/>
 ***Enhancer for YouTube*** https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 <br/>
@@ -306,17 +304,14 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 ***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
 <br/>
-***THEME*** https://addons.mozilla.org/en-US/firefox/addon/41444-21/
 <br/>
-***THEME*** https://addons.mozilla.org/en-US/firefox/addon/41444-22/
-
+<br/>
 ***https://www.reddit.com/r/FirefoxCSS/***
 <br/>
 ***https://firefoxcss-store.github.io/***
 <br/>
 ***https://www.userchrome.org/***
 <br/>
-
 ***about:about***
 <br/>
 ***about:downloads***
@@ -334,11 +329,15 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 ***https://ftp.mozilla.org/pub/firefox/releases/***
 <br/>
 ***https://ftp.mozilla.org/pub/devedition/releases/***
-
+<br/>
 ***https://caniuse.com/***
 <br/>
 ***https://www.deviceinfo.me/***
-
+<br/>
+***https://www.w3schools.com/css/default.asp***
+<br/>
+<br/>
+<br/>
 about:config
 
 ***dpi***
@@ -536,3 +535,27 @@ dom.ipc.processPriorityManager.enabled;false
 ***limiting the number of firefox.exe processes (the advantage is less CPU+RAM requirements and the disadvantage is worse security)***
 <br/>
 fission.autostart;false
+<br/>
+<br/>
+<br/>
+***suggestions for improvements***
+<br/>
+-remove the titles/checkboxes in the "find in page" bar and replace them with buttons/icons
+<br/>
+-show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
+<br/>
+-renaming bookmarks directly (long/short right mouse click)
+<br/>
+-tabs with play/pause button and hotkey (remove useless volume button)
+<br/>
+-combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position (properties in FF79-)
+<br/>
+-popup status bar around mouse cursor
+<br/>
+-remove 3 dots in bookmarks names (if are too long)
+<br/>
+-add-ons in the "Customize Toolbar" menu
+<br/>
+-decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
+<br/>
+-separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
