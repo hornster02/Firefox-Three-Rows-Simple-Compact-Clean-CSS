@@ -1,6 +1,6 @@
 Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - Firefox 131 Win7+11 (October 2024)
+CSS Calendar - Firefox 133 Win7+11 (December 3, 2024)
 
 💾***FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
@@ -330,6 +330,8 @@ transform: none !important;
 <br/>
 ***https://ftp.mozilla.org/pub/devedition/releases/***
 <br/>
+***https://ftp.mozilla.org/pub/fenix/releases/***
+<br/>
 ***https://caniuse.com/***
 <br/>
 ***https://www.deviceinfo.me/***
@@ -535,6 +537,10 @@ dom.ipc.processPriorityManager.enabled;false
 ***limiting the number of firefox.exe processes (the advantage is less CPU+RAM requirements and the disadvantage is worse security)***
 <br/>
 fission.autostart;false
+
+***FPS limiter***
+<br/>
+layout.frame_rate
 <br/>
 <br/>
 <br/>
