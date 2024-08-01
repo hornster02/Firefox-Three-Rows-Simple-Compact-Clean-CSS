@@ -1,10 +1,10 @@
 Firefox 117+ is working again in Win7 https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - Firefox 133 Win7+11 (December 3, 2024)
+CSS Calendar - ***133*** Win7+11 (December 3, 2024), ***146*** Win7+11 (December 16, 2025)
 
-💾***FF119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
+💾***119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
 
-💾***FF109 Win7 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
+💾***109 Win7 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
 
 ▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***
 
@@ -260,18 +260,50 @@ Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V an
 <br/>
 <br/>
 <br/>
+<br/>
 💾***Themes https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar***
 <br/>
 <br/>
 <br/>
-***userContent.css***
+<br/>
+Globally disable animation/transform/transition (ads/... #antiepileptic, #batterysaver - may break some websites/ui = FFmenu,...), sharp edges in websites/ui (objects), disable blurry edges in websites/ui (objects), custom scrollbars (youtube,svg files,...)
+
+userContent.css (websites) / userChrome.css (FF UI)
+<br/>
 ```
-/* #antiepileptic, #batterysaver. May break some websites */
 * {
-animation: none !important;
-transition: none !important;
-transform: none !important;
+
+    transition: none !important;
+	transform: none !important;
+	animation: none !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	/*opacity: 1.0!important;*/
 }
+```
+
+userContent.css
+<br/>
+```
+/* steamdb.info */
+.chart-month-container > .chart {scrollbar-color: #FB7914 transparent !important;}
+
+/* svg files (wikipedia) */
+svg {scrollbar-color: #FB7914 transparent !important;}
+
+/* youtube */
+#guide-inner-content {scrollbar-color: #FB7914 transparent !important;}
+#dialog {scrollbar-color: #FB7914 transparent !important;}
+ytd-playlist-panel-renderer.ytd-watch-flexy {scrollbar-color: #FB7914 transparent !important;}
+
+/* plus500 */
+#categories {scrollbar-color: #FB7914 transparent !important;}
+#instrumentsRepeater {scrollbar-color: #FB7914 transparent !important;}
+#chart-grip-n {scrollbar-color: #FB7914 transparent !important;}
+
+/* global? Probably not */
+thumb[orient="vertical"] {color: #FB7914 !important;}
+slider[orient="vertical"] {color: transparent !important;}
 ```
 
 <br/>
