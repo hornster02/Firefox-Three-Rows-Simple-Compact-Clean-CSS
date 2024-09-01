@@ -1,27 +1,35 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
 CSS Calendar - ***133*** Win7+11 (December 3, 2024), ***146*** Win7+11 (December 16, 2025)
-
-📥***119 Win11 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar***
-
-📥***109 Win7 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar***
+<br/>
+***[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar)⠀[📥 CSS (109 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
+```
+F1 - Library window (History) CTRL+SHIFT+H
+F2 - Find Previous (searchbar)
+F3 - Find Next (searchbar) - works without script
+Home - New Tab
+END - Close Tab
+PgUp - Go one Tab to the Right
+PgDn - Go one Tab to the Left
+INS - Focus Address bar
+Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
+```
 
 ▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***
 
-Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via<br/>
-***firefox.exe -p<br/>***
-or automatically created (if it doesn't already exist) and run via (example)<br/>
-***firefox.exe -profile "a:\000"<br/>***
+Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***firefox.exe -p***
+<br/>
+or automatically created (if it doesn't already exist) and run via (example) ***firefox.exe -profile "a:\000"***
 
 Most of the colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting the files there is no trace of them in the profile or Firefox itself
 
-🚫disabling notifications and downloading updates - create "updates" file in "C:\ProgramData\Mozilla\" (or "C:\ProgramData\MozillaXXX\"). Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
+🚫disabling notifications and downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
 <br/>
-🚫disabling compatibility check of the profile - delete "compatibility.ini" file and create "compatibility.ini" folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
+🚫disabling compatibility check of the profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
 <br/>
 <br/>
 <br/>
-To view images in full size (2560x1080) you can save page as "Web page, complete" (7MB). Images (42) will be in folder
+To view images in full size(2560x1080) you can save page as ***Web page, complete*** (7MB).Images (42) will be in folder
 <br/>
 <img width="720" alt="nahled8" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bb761add-68aa-40c8-b2af-d341ebe22ed0">
 <br/>
@@ -240,33 +248,6 @@ Customization (userChrome.css)
 <br/>
 <br/>
 <br/>
-📥***Autohotkey v1.1 https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar***
-<br/>
-F1 - Library window (History) CTRL+SHIFT+H
-<br/>
-F2 - Find Previous (searchbar)
-<br/>
-F3 - Find Next (searchbar) - works without script
-<br/>
-Home - New Tab
-<br/>
-END - Close Tab
-<br/>
-PgUp - Go one Tab to the Right
-<br/>
-PgDn - Go one Tab to the Left
-<br/>
-INS - Focus Address bar
-<br/>
-Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
-<br/>
-<br/>
-<br/>
-<br/>
-📥***Themes https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar***
-<br/>
-<br/>
-<br/>
 <br/>
 Globally disable animation/transform/transition (ads/... #antiepileptic, #batterysaver - may break some websites/ui = FFmenu,...), sharp edges in websites/ui (objects), disable blurry edges in websites/ui (objects), custom scrollbars
 
@@ -323,6 +304,8 @@ userContent.css
 <br/>
 ***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
 <br/>
+***User-Agent Switcher*** https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/
+<br/>
 <br/>
 <br/>
 ***https://www.reddit.com/r/FirefoxCSS/***
@@ -356,6 +339,8 @@ userContent.css
 ***https://www.deviceinfo.me/***
 <br/>
 ***https://www.w3schools.com/css/default.asp***
+<br/>
+***https://explore.whatismybrowser.com/useragents/explore/software_name/firefox/***
 <br/>
 <br/>
 <br/>
@@ -560,6 +545,22 @@ fission.autostart;false
 ***FPS limiter***
 <br/>
 layout.frame_rate
+
+***disable "Page Referrer" (from which webpage the link was opened). May affect the functionality of certain webpages (steamdb.info)***
+<br/>
+network.http.sendRefererHeader, 0
+
+***reduce "Page Referrer" (from which webpage the link was opened)***
+<br/>
+network.http.referer.disallowCrossSiteRelaxingDefault, true
+
+***pretending different FF version or OS - example***
+<br/>
+general.useragent.override, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0/Yirxwl2yEK2v8lv4
+
+***show hidden addons in about:debugging***
+<br/>
+devtools.aboutdebugging.showHiddenAddons
 <br/>
 <br/>
 <br/>
@@ -582,5 +583,7 @@ layout.frame_rate
 -add-ons in the "Customize Toolbar" menu
 <br/>
 -decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
+<br/>
+-custom colours of folders for quick orientation (bookmarks)
 <br/>
 -separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
