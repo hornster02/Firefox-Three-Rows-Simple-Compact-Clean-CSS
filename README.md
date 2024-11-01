@@ -1,8 +1,8 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - ***133*** Win7+11 (December 3, 2024), ***146*** Win7+11 (December 16, 2025)
+CSS Calendar - ***146*** Win7?+11 (December 17, 2025)
 <br/>
-***[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar)⠀[📥 CSS (109 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
+***[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar)⠀[📥 CSS (109 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
 ```
 F1 - Library window (History) CTRL+SHIFT+H
 F2 - Find Previous (searchbar)
@@ -12,10 +12,10 @@ END - Close Tab
 PgUp - Go one Tab to the Right
 PgDn - Go one Tab to the Left
 INS - Focus Address bar
-Del (hold 0.5 second) - Copy URL (Activate Bottom "Notepad++", KeyWait CTRL+V and Activate Bottom "Firefox" is disabled)
+Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 ```
 
-▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***
+▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file (CSS 132+)
 
 Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***firefox.exe -p***
 <br/>
@@ -29,12 +29,21 @@ Most of the colors I've changed are pink (FF00A3 and E20074) and orange (FB7914)
 <br/>
 <br/>
 <br/>
-To view images in full size(2560x1080) you can save page as ***Web page, complete*** (7MB).Images (42) will be in folder
+To view images in full size (2560x1080) you can save page as ***Web page, complete*** (7MB)
 <br/>
-<img width="720" alt="nahled8" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bb761add-68aa-40c8-b2af-d341ebe22ed0">
+<img width="720" alt="nahled9" src="https://github.com/user-attachments/assets/6dfc225d-e678-487c-8a0c-f63334db1528">
 <br/>
 <br/>
 <br/>
+Firefox 132 (2024) - 1-LINE - ↕️***31px*** 150% system DPI
+![132-31px](https://github.com/user-attachments/assets/d1aabf83-6d4d-4a07-94c0-2ae0ec3eda4b)
+
+Firefox 132 (2024) - 2-LINE - ↕️64px 150% DPI
+![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
+
+Firefox 132 (2024) - DEFAULT - ↕️85px 100% DPI
+<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
+
 Firefox 119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
@@ -62,93 +71,9 @@ Works in FF 109/119 */
 
 Firefox 119 (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
 ![119 - CSS-address bar - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/27805b1a-0108-4b70-aebb-e88742d2e6bf)
-```
-/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
-
-/*.urlbarView-row:first-of-type {display: none !important;}*/
-.urlbarView-type-icon {display: none !important;}
-.urlbarView-action {display: none !important;}
-span.urlbarView-title-separator {display: none !important;}
-#urlbar .search-panel-one-offs-header-label {display: none !important;}
-
-/* FF119 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
-
-/* FF109 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FB7914 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: #FF00A3 !important;color: black !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px !important;}
-
-/* velikost url textu */
-.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
-
-/* posunutí url od názvu */
-.urlbarView-url {margin-left: 20px !important;}
-
-/* levá mezera pri otevrení adresního rádku */
-#urlbar-results {margin-left: 1px!important;}
-
-/* prípadné zvetšení (na výšku) vybraných rádku pomocí myši/klávesnice - zpusobuje neprijemné poskakování textu v prípade nedostatecných mezer mezi rádky */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap:hover {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
-.urlbarView-row[type="switchtab"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
-.urlbarView-row[type="bookmark"][selected] .urlbarView-row-inner {margin-left: 0px !important;padding-bottom: 0px !important;padding-top: 0px !important;}
-
-/* ikony+text - nevybraný */
-.urlbarView-favicon {position: fixed!important;margin-left: 2px !important;}
-.urlbarView-title {margin-left: 25px!important;}
-/* ikony - vybrané myší */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
-/* text - vybraný myší - FF109 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > .urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-/* text - vybraný myší - FF119 */
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner:hover > .urlbarView-no-wrap > span.urlbarView-title.urlbarView-overflowable {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-/* text - vybraný klávesnicí */
-.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > span.urlbarView-title {background-color: var(--hover-bg-row) !important;color: var(--hover-text-row) !important;padding-left: 2px !important;padding-right: 2px !important;margin-left: 23px!important;}
-/* ikony - vybrané klávesnicí */
-.urlbarView-row[type="bookmark"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FB7914 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
-.urlbarView-row[type="switchtab"][selected] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -3px !important;}
-```
-Firefox 119 (2023) - Pink - opened tabs, green - bookmarks, without color - history - 150% DPI
-![119 - CSS-address bar2 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/28f85952-7ead-4610-8f9c-ee6117c374fd)
-```
-/* IMPORTANT - delete "address bar - bookmarks icon position+size / remove url separator" and "address bar - "switch to tab" color" (userChrome.css). Works in FF 109/119 */
-
-/*.urlbarView-row:first-of-type {display: none !important;}*/
-.urlbarView-type-icon {display: none !important;}
-.urlbarView-action {display: none !important;}
-span.urlbarView-title-separator {display: none !important;}
-#urlbar .search-panel-one-offs-header-label {display: none !important;}
-
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #40E0D0 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -2px !important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-favicon {position: fixed!important;background-color: #FF00A3 !important;padding-left: 5px !important;padding-right: 5px !important;margin-left: -2px !important;}
-.urlbarView-row[type="bookmark"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 27px!important;}
-.urlbarView-row[type="switchtab"] > .urlbarView-row-inner > .urlbarView-no-wrap > .urlbarView-title {margin-left: 27px!important;}
-
-/* velikost url textu */
-.urlbarView-tags, .urlbarView-url, .urlbarView-title:not(:empty) ~ .urlbarView-action {font-size: 1.0em!important;}
-/* posunutí url od názvu */
-.urlbarView-url {margin-left: 30px !important;}
-/* levá mezera pri otevrení adresního rádku */
-#urlbar-results {margin-left: 1px!important;}
-/* ikony+text - nevybraný */
-.urlbarView-favicon {position: fixed!important;margin-left: 3px !important;}
-.urlbarView-title {margin-left: 27px!important;}
-```
 
 Firefox 119 (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
 ![119 - CSS-address bar3 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/15ea7ef9-0cce-44d2-89aa-0a5072ea7e67)
-
-Firefox 119 (2023) - DEFAULT - ↕️***478px*** - 150% system DPI. 44% of the screen is occupied by UI? It's probably time to buy a bigger monitor...
-<img width="1280" alt="119 - CSS - 150% DPI5" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/82132e52-0e06-477e-ab09-aa5ce9787d9d">
-
-Firefox 109 (2023) - 1-LINE - ↕️***34px*** 150% DPI
-<img width="1280" alt="Firefox (150% DPI) - oneline" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ee58cc66-191e-4e1b-9ed3-c10ea5459723">
 
 Firefox 109 (2023) - 3-LINE - 150% system DPI
 ![Firefox (150% DPI) - compact default](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/487f32f5-49f4-4df1-ba1a-04ffe14d3f23)
@@ -248,36 +173,6 @@ Customization (userChrome.css)
 <br/>
 <br/>
 <br/>
-<br/>
-Globally disable animation/transform/transition (ads/... #antiepileptic, #batterysaver - may break some websites/ui = FFmenu,...), sharp edges in websites/ui (objects), disable blurry edges in websites/ui (objects), custom scrollbars
-
-userContent.css (websites) / userChrome.css (FF UI)
-<br/>
-```
-* {
-
-	transition: none !important;
-	transform: none !important;
-	animation: none !important;
-	box-shadow: none !important;
-	border-radius: 0 !important;
-	scrollbar-color: #FB7914 transparent !important;
-	/*opacity: 1.0!important;*/
-}
-```
-
-userContent.css
-<br/>
-```
-/* scrollbar (facebook) - FF99 */
-.x14nfmen {background-color: transparent!important;}
-.x1hwfnsy {background-color: #FB7914!important;}
-```
-
-<br/>
-<br/>
-<br/>
-
 ***Useful addons***
 <br/>
 ***Enhancer for YouTube*** https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
@@ -341,6 +236,8 @@ userContent.css
 ***https://www.w3schools.com/css/default.asp***
 <br/>
 ***https://explore.whatismybrowser.com/useragents/explore/software_name/firefox/***
+<br/>
+***https://html5test.com/***
 <br/>
 <br/>
 <br/>
@@ -546,13 +443,13 @@ fission.autostart;false
 <br/>
 layout.frame_rate
 
-***disable "Page Referrer" (from which webpage the link was opened). May affect the functionality of certain webpages (steamdb.info)***
-<br/>
-network.http.sendRefererHeader, 0
-
 ***reduce "Page Referrer" (from which webpage the link was opened)***
 <br/>
 network.http.referer.disallowCrossSiteRelaxingDefault, true
+
+***disable "Page Referrer". May broke some websites (steamdb.info)***
+<br/>
+network.http.sendRefererHeader, 0
 
 ***pretending different FF version or OS - example***
 <br/>
@@ -561,6 +458,42 @@ general.useragent.override, Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:126.0) G
 ***show hidden addons in about:debugging***
 <br/>
 devtools.aboutdebugging.showHiddenAddons
+
+***disable PDF***
+<br/>
+pdfjs.disabled
+
+***acceleration, media support***
+<br/>
+layers.acceleration
+<br/>
+dxva
+<br/>
+media.hardware-video
+<br/>
+media.wmf.dxva.d3d9.amd-pre-uvd4.disabled
+<br/>
+ffvpx
+<br/>
+opus
+<br/>
+flac
+<br/>
+ogg
+<br/>
+wav
+<br/>
+wmf
+<br/>
+mp4
+<br/>
+264
+<br/>
+webm
+<br/>
+vp9
+<br/>
+av1
 <br/>
 <br/>
 <br/>
@@ -585,5 +518,7 @@ devtools.aboutdebugging.showHiddenAddons
 -decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
+<br/>
+JavaScript CPU/GPU resource limiter (rotating ad can use the entire CPU core regardless of its frequency)
 <br/>
 -separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
