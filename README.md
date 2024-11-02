@@ -1,6 +1,6 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - ***146*** Win7?+11 (December 17, 2025)
+CSS Calendar - ***145*** Win7?+11 (November 17, 2025)
 <br/>
 ***[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20119.rar)⠀[📥 CSS (109 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/Firefox%20109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
 ```
@@ -15,7 +15,7 @@ INS - Focus Address bar
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 ```
 
-▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file "prefs.js") ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file (CSS 132+)
+▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file ```prefs.js```) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132+)
 
 Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***firefox.exe -p***
 <br/>
@@ -519,6 +519,6 @@ av1
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
-JavaScript CPU/GPU resource limiter (rotating ad can use the entire CPU core regardless of its frequency)
+-javaScript CPU/GPU resource limiter (rotating ad can use the entire CPU core regardless of its frequency)
 <br/>
 -separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
