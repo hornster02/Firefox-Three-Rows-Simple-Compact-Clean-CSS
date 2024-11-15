@@ -35,28 +35,28 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 <br/>
 <br/>
 <br/>
-132 (2024) - 1-LINE - ↕️31px (72px taskbar, Win11) 150% system DPI. 1920x1080
+***132*** (2024) - 1-LINE - ↕️31px (72px taskbar, Win11) 150% system DPI. 1920x1080
 ![132-31px](https://github.com/user-attachments/assets/d1aabf83-6d4d-4a07-94c0-2ae0ec3eda4b)
 
-115-esr (2023-2025) - 1-LINE - ↕️***33px*** (56px taskbar, Win7) 150% system DPI. 1920x1080
+***115-esr*** (2023-2025) - 1-LINE - ↕️33px (56px taskbar, Win7) 150% system DPI. 1920x1080
 ![115-esr-1-line](https://github.com/user-attachments/assets/2a41bc59-5913-4142-a8f9-9e756370138f)
 
-132 (2024) - 2-LINE - ↕️64px 150% DPI
+***132*** (2024) - 2-LINE - ↕️64px 150% DPI
 ![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
 
-132 (2024) - DEFAULT - ↕️85px 100% DPI
+***132*** (2024) - DEFAULT - ↕️85px 100% DPI
 <img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
 
-119 (2023) - 3-LINE - 1080p ↕️***132px*** - 18,5 + 5 tabs - 150% DPI
+***119*** (2023) - 3-LINE - 1080p ↕️132px - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
 
-119 (2023) - DEFAULT - ↕️***155px*** - 30 tabs - 100% DPI
+***119*** (2023) - DEFAULT - ↕️155px - 30 tabs - 100% DPI
 ![119 - default - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/bea14270-7ed3-4800-9679-c001b47e92bf)
 
-119 (2023) - DEFAULT - ↕️***231px*** - 15,5 + 5 tabs - 150% DPI
+***119*** (2023) - DEFAULT - ↕️231px - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-119 (2023) - 3-LINE - ↕️***65px*** - 19 + 3 tabs - 150% system DPI - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar. The height of the find in page bar should not exceed the height of the bar it overlays, otherwise the page will jump a few pixels when opened. And the overlay only works for the first bar from the bottom - trying to overlay the bar above will just crop the bottom part of the UI and make the page jump again. Example in the image is the only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
+***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar. The height of the find in page bar should not exceed the height of the bar it overlays, otherwise the page will jump a few pixels when opened. And the overlay only works for the first bar from the bottom - trying to overlay the bar above will just crop the bottom part of the UI and make the page jump again. Example in the image is the only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
 <img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
@@ -72,103 +72,103 @@ Works in FF 109/119 */
 .findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of the textbox */
 ```
 
-119 (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
+***119*** (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
 ![119 - CSS-address bar - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/27805b1a-0108-4b70-aebb-e88742d2e6bf)
 
-119 (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
+***119*** (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
 ![119 - CSS-address bar3 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/15ea7ef9-0cce-44d2-89aa-0a5072ea7e67)
 
-109 (2023) - 3-LINE - 150% system DPI
+***109*** (2023) - 3-LINE - 150% system DPI
 ![Firefox (150% DPI) - compact default](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/487f32f5-49f4-4df1-ba1a-04ffe14d3f23)
 
-109 (2023) - 2-LINE - folder+context menu - 150% DPI
+***109*** (2023) - 2-LINE - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 
-109 (2023) - 2-LINE - places.xhtml. Dark space - The best dynamic theme - 150% DPI
+***109*** (2023) - 2-LINE - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
-119 (2023) - 2-LINE - ↕️***64px*** 150% DPI
+***119*** (2023) - 2-LINE - ↕️64px 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
 
-119 (2023) - DEFAULT - ↕️***85px*** 100% DPI
+***119*** (2023) - DEFAULT - ↕️85px 100% DPI
 ![119 - DEF-2-LINE - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/288daae3-ed5c-4165-9dc5-2ce9849f3723)
 
-109 (2023) - 2-LINE - ↕️***67px*** 150% DPI
+***109*** (2023) - 2-LINE - ↕️67px 150% DPI
 ![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
 
-109 (2023) - DEFAULT - ↕️***85px*** 100% DPI
+***109*** (2023) - DEFAULT - ↕️85px 100% DPI
 ![109 - DEF - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7)
 
-99 (2022) - 2-LINE ↕️***64px*** - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+***99*** (2022) - 2-LINE ↕️64px - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 
-99 (2022) - DEFAULT ↕️***85px*** 30 opened tabs - 100% DPI
+***99*** (2022) - DEFAULT ↕️85px 30 opened tabs - 100% DPI
 <img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
 
-89 (2021) - 2-LINE ↕️***61px*** 150% DPI
+***89*** (2021) - 2-LINE ↕️61px 150% DPI
 <img width="1280" alt="089 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e33a1bb-14d9-4d55-aba4-83536c444eca">
 
-89 (2021) - DEFAULT ↕️***85px*** 100% DPI
+***89*** (2021) - DEFAULT ↕️85px 100% DPI
 <img width="1280" alt="089 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a55bcd9d-6a3f-4940-bd3d-381f5e7c0d27">
 
-79 (2020) - 2-LINE ↕️***61px*** 150% DPI
+***79*** (2020) - 2-LINE ↕️61px 150% DPI
 <img width="1280" alt="079 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/18e53d69-2ec5-43f1-9ec3-650ee8d0b01c">
 
-79 (2020) - DEFAULT ↕️***74px*** 100% DPI
+***79*** (2020) - DEFAULT ↕️74px 100% DPI
 <img width="1280" alt="079 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/edab11b7-0771-49cf-92db-eecc0369c01a">
 
-69 (2019) - 2-LINE ↕️***64px*** 150% DPI
+***69*** (2019) - 2-LINE ↕️64px 150% DPI
 <img width="1280" alt="069 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/8ba89a97-ad17-43c7-9fc6-b8772cb6e2c0">
 
-69 (2019) - DEFAULT ↕️***74px*** 100% DPI
+***69*** (2019) - DEFAULT ↕️74px 100% DPI
 <img width="1280" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b">
 
-59 (2018) - 2-LINE ↕️***65px - opening menu bar in FF59- through ALT+arrows*** - 150% DPI
+***59*** (2018) - 2-LINE ↕️65px - opening menu bar in FF59- through ALT+arrows - 150% DPI
 <img width="1280" alt="059 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f691cfca-ae43-434e-ba8e-dbeea2447117">
 
-59 (2018) - DEFAULT ↕️***73px*** 100% DPI
+***59*** (2018) - DEFAULT ↕️73px 100% DPI
 <img width="1280" alt="059 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/00bbb9f8-9533-406f-986e-ed7e6da151c8">
 
-49 (2016) - 2-LINE ↕️***68px*** 150% DPI
+***49*** (2016) - 2-LINE ↕️68px 150% DPI
 <img width="1280" alt="049 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/3c58188f-8e72-4d69-b3f9-1f24a858410f">
 
-49 (2016) - DEFAULT ↕️***71px*** 100% DPI
+***49*** (2016) - DEFAULT ↕️71px 100% DPI
 <img width="1280" alt="Firefox 49 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ce717463-65f1-47c3-9206-4a3b3ffa74ab">
 
-39 (2015) - 2-LINE ↕️***65px*** 150% DPI
+***39*** (2015) - 2-LINE ↕️65px 150% DPI
 <img width="1280" alt="039 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4bc30f4b-7d86-43eb-9665-ddfa4c49661c">
 
-39 (2015) - DEFAULT ↕️***71px*** 100% DPI
+***39*** (2015) - DEFAULT ↕️71px 100% DPI
 <img width="1280" alt="039 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f3ebdc14-293b-4ed0-a8a9-1b0889a1e23c">
 
-29 (2014) - 2-LINE ↕️***64px*** 150% DPI
+***29*** (2014) - 2-LINE ↕️64px 150% DPI
 <img width="1280" alt="029 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b6a20a17-2c82-46d6-8737-49300428d959">
 
-29 (2014) - DEFAULT ↕️***71px*** 100% DPI
+***29*** (2014) - DEFAULT ↕️71px 100% DPI
 ![029 (100% DPI)-DEFAULT](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/21d733dd-1928-4092-8792-2681db9466b0)
 
-19 (2013) - 2-LINE ↕️***66px*** 150% DPI
+***19*** (2013) - 2-LINE ↕️66px 150% DPI
 <img width="1280" alt="019 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d83e706a-a183-4f1f-8317-a978143ef671">
 
-19 (2013) - DEFAULT ↕️***63px*** 100% DPI
+***19*** (2013) - DEFAULT ↕️63px 100% DPI
 <img width="1280" alt="019 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/05739ab3-8fc7-4d90-a50d-e3c37c3e9434">
 
-9 (2011) - 2-LINE ↕️***64px*** 150% DPI
+***9*** (2011) - 2-LINE ↕️64px 150% DPI
 <img width="1280" alt="009 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/829675ee-b28d-412c-92d2-44be9ee7fb53">
 
-9 (2011) - DEFAULT ↕️***64px*** 100% DPI
+***9*** (2011) - DEFAULT ↕️64px 100% DPI
 <img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
 
-3.5 (2009-2011) - 2-LINE ↕️***67px*** - "find in page" bar over the address bar - 150% DPI
+***3.5*** (2009-2011) - 2-LINE ↕️67px - "find in page" bar over the address bar - 150% DPI
 <img width="1280" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e">
 
-3.5 (2009-2011) - DEFAULT ↕️***169px*** 150% DPI
+***3.5*** (2009-2011) - DEFAULT ↕️169px 150% DPI
 <img width="1280" alt="003-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d5262193-2ab2-432b-b1e8-13da2ffe1fa9">
 
-2 (2006-2008) - 2-LINE ↕️***65px*** 150% DPI
+***2*** (2006-2008) - 2-LINE ↕️65px 150% DPI
 <img width="1280" alt="002 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/6e1afe69-67f8-49e6-8c9a-d6f733395606">
 
-2 (2006-2008) - DEFAULT ↕️***103px*** 100% DPI
+***2*** (2006-2008) - DEFAULT ↕️103px 100% DPI
 <img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
 
 Customization (userChrome.css)
