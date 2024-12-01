@@ -171,6 +171,12 @@ Works in FF 109/119 */
 ***2*** (2006-2008) - DEFAULT ↕️103px 100% DPI
 <img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
 
+***89*** - Gen0 (2021-12) 150% DPI
+<img width="1280" alt="0" src="https://github.com/user-attachments/assets/dfce3ad3-8359-45c9-9b32-66687f75309d">
+
+***99*** - Gen0+ (2023-01) 150% DPI
+<img width="1280" alt="0+" src="https://github.com/user-attachments/assets/77ef5ce3-cfa2-4566-9602-c645eccb4cc5">
+
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 <br/>
@@ -236,11 +242,15 @@ Customization (userChrome.css)
 <br/>
 ***https://www.deviceinfo.me/***
 <br/>
-***https://www.w3schools.com/css/default.asp***
-<br/>
 ***https://explore.whatismybrowser.com/useragents/explore/software_name/firefox/***
 <br/>
 ***https://html5test.com/***
+<br/>
+***https://georgebastock.github.io/CSS-Animation-Test/***
+<br/>
+***https://www.w3schools.com/css/css3_transitions.asp***
+<br/>
+***https://www.w3schools.com/css/css3_shadows.asp***
 <br/>
 <br/>
 <br/>
@@ -434,9 +444,11 @@ network.http.connection-timeout
 <br/>
 dom.ipc.processPriorityManager.enabled;false
 
-***limiting the number of firefox.exe processes (the advantage is less CPU+RAM requirements and the disadvantage is worse security)***
+***limiting the number of firefox.exe processes***
 <br/>
-fission.autostart;false
+fission
+<br/>
+dom.ipc.processCount
 
 ***FPS limiter***
 <br/>
@@ -501,6 +513,10 @@ permissions.default.image;2
 ***may fix broken youtube***
 <br/>
 network.http.http3.enable;false
+
+***may fix non-functional addons***
+<br/>
+extensions.manifestV3.enabled;	false
 <br/>
 <br/>
 <br/>
@@ -527,5 +543,9 @@ network.http.http3.enable;false
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
 -javaScript CPU/GPU resource limiter (rotating ad can use the entire CPU core regardless of its frequency)
+<br/>
+-remove items from the address bar
+<br/>
+-in places.xhtml show paths to items
 <br/>
 -separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
