@@ -9,23 +9,23 @@ F2 - Find Previous (searchbar)
 F3 - Find Next (searchbar) - works without script
 Home - New Tab
 END - Close Tab
-PgUp - Go one Tab to the Right
-PgDn - Go one Tab to the Left
+PgUp - Go one Tab to Right
+PgDn - Go one Tab to Left
 INS - Focus Address bar
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 ```
 
-▶️***To enable the modified interface, you need the "chrome" folder and the "user.js" file*** (be careful with this file - it makes a "permanent" change to the program settings = to undo the changes, it is not enough to delete it, but you have to manually edit the preferences in "about:config". The way to avoid this manual modification is to backup the file ```prefs.js```) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132+ / ESR+)
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132+ / ESR+)
 
 Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***firefox.exe -p***
 <br/>
 or automatically created (if it doesn't already exist) and run via (example) ***firefox.exe -profile "a:\000"***
 
-Most of the colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting the files there is no trace of them in the profile or Firefox itself
+Most of colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting files there is no trace of them in profile or Firefox itself
 
 🚫disabling notifications and downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
 <br/>
-🚫disabling compatibility check of the profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. The profile may or may not be damaged, but its use will no longer be decided by someone else
+🚫disabling compatibility check of profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. Profile may or may not be damaged, but its use will no longer be decided by someone else
 <br/>
 <br/>
 <br/>
@@ -56,20 +56,20 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 ***119*** (2023) - DEFAULT - ↕️231px - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over the address bar. In this case, the entire interface fits into the default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays the address bar, pressing ALT+D (default hotkey for focusing address bar) overlays the find in page bar. The height of the find in page bar should not exceed the height of the bar it overlays, otherwise the page will jump a few pixels when opened. And the overlay only works for the first bar from the bottom - trying to overlay the bar above will just crop the bottom part of the UI and make the page jump again. Example in the image is the only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
+***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over address bar. In this case, the entire interface fits into default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays address bar, pressing ALT+D (default hotkey for focusing address bar) overlays find in page bar. Height of find in page bar should not exceed height of bar it overlays, otherwise page will jump a few pixels when opened. And overlay only works for first bar from bottom - trying to overlay bar above will just crop bottom part of UI and make page jump again. Example in image is only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE)
 <img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
 .findbar-find-previous {padding-left: 213px!important;}
 Works in FF 109/119 */
 .browserContainer > findbar {-moz-box-ordinal-group: 0!important;order: -1 !important;}
-.browserContainer > findbar {max-width: 700px!important;margin-top: -25px!important;} /* if the web content jumps when pressing CTRL+F, the number needs to be adjusted */
+.browserContainer > findbar {max-width: 700px!important;margin-top: -25px!important;} /* if web content jumps when pressing CTRL+F, the number needs to be adjusted */
 .findbar-highlight, .findbar-case-sensitive, .findbar-match-diacritics, .findbar-entire-word {max-width: 10%!important;font-size: 10px !important;margin: 0px!important;margin-top: -2px!important;}
 .findbar-find-status {max-width: 2000px!important;}
 .findbar-label.findbar-find-status {margin-left: -100px!important;max-width: 20%!important;font-size: 10px !important;}
 .findbar-find-status[status="notfound"] {margin-left: 0px!important;font-size: 13px !important;}
 .findbar-container {scrollbar-width: none!important;}
-.findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of the textbox */
+.findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of textbox */
 ```
 
 ***119*** (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
@@ -159,7 +159,7 @@ Works in FF 109/119 */
 ***9*** (2011) - DEFAULT ↕️64px 100% DPI
 <img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
 
-***3.5*** (2009-2011) - 2-LINE ↕️67px - "find in page" bar over the address bar - 150% DPI
+***3.5*** (2009-2011) - 2-LINE ↕️67px - "find in page" bar overlays address bar - 150% DPI
 <img width="1280" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e">
 
 ***3.5*** (2009-2011) - DEFAULT ↕️169px 150% DPI
@@ -212,6 +212,10 @@ Customization (userChrome.css)
 <br/>
 <br/>
 <br/>
+***https://github.com/topics/firefox?l=css&o=desc&s=stars***
+<br/>
+***https://github.com/search?q=firefox+language%3ACSS&type=repositories&l=CSS&s=stars&o=desc***
+<br/>
 ***https://www.reddit.com/r/FirefoxCSS/***
 <br/>
 ***https://firefoxcss-store.github.io/***
@@ -244,6 +248,8 @@ Customization (userChrome.css)
 <br/>
 ***https://explore.whatismybrowser.com/useragents/explore/software_name/firefox/***
 <br/>
+***https://www.reddit.com/r/firefox/comments/p38p6t/guide_how_to_always_use_desktop_view_in_firefox/***
+<br/>
 ***https://html5test.com/***
 <br/>
 ***https://georgebastock.github.io/CSS-Animation-Test/***
@@ -260,7 +266,7 @@ about:config
 <br/>
 layout.css.devPixelsPerPx
 
-***turning off the full screen warning***
+***turning off full screen warning***
 <br/>
 full-screen-api.warning.timeout;0
 
@@ -298,7 +304,7 @@ widget.windows.overlay-scrollbars.enabled
 <br/>
 browser.chrome.toolbar_tips
 
-***disable animations (interface of the program and the website itself) - probably no need to be afraid of blindly toggling the "animat" and "transition" preferences***
+***disable animations (interface of program and website itself) - probably no need to be afraid of blindly toggling "animat" and "transition" preferences***
 <br/>
 browser.fullscreen.animate;false
 <br/>
@@ -314,7 +320,7 @@ full-screen-api.transition-duration.leave
 <br/>
 full-screen-api.transition-duration.enter
 
-***a compact density option will be added to the "customize toolbar" menu***
+***a compact density option will be added to "customize toolbar" menu***
 <br/>
 browser.compactmode.show
 
@@ -322,7 +328,7 @@ browser.compactmode.show
 <br/>
 browser.uidensity
 
-***disable the graphical user interface "Proton"***
+***disable graphical user interface "Proton"***
 <br/>
 browser.proton.enabled
 
@@ -362,7 +368,7 @@ browser.tabs.tabMinWidth
 <br/>
 browser.sessionstore.restore_pinned_tabs_on_demand
 
-***disable the request to delete settings when the browser is not started for a long time***
+***disable request to delete settings when browser is not started for a long time***
 <br/>
 browser.disableResetPrompt;true
 
@@ -374,7 +380,7 @@ browser.eme.ui.enabled;false
 <br/>
 browser.slowStartup.notificationDisabled
 
-***do not turn off firefox when closing the last tab***
+***do not turn off firefox when closing last tab***
 <br/>
 browser.tabs.closeWindowWithLastTab;false
 
@@ -412,7 +418,7 @@ extensions.blocklist.enabled;false
 <br/>
 extensions.legacy.enabled;true
 
-***do not save the list of currently opened tabs to disk = reduce writing to SSD***
+***do not save list of currently opened tabs to disk = reduce writing to SSD***
 <br/>
 browser.sessionstore.resume_from_crash;false
 
@@ -428,7 +434,7 @@ accessibility.blockautorefresh;true
 <br/>
 browser.cache.disk.capacity
 
-***maximum size of the cached file on the SSD***
+***maximum size of cached file on SSD***
 <br/>
 browser.cache.disk.max_entry_size
 
@@ -444,7 +450,7 @@ network.http.connection-timeout
 <br/>
 dom.ipc.processPriorityManager.enabled;false
 
-***limiting the number of firefox.exe processes***
+***limiting number of firefox.exe processes***
 <br/>
 fission
 <br/>
@@ -454,7 +460,7 @@ dom.ipc.processCount
 <br/>
 layout.frame_rate
 
-***reduce "Page Referrer" (from which webpage the link was opened)***
+***reduce "Page Referrer" (from which webpage link was opened)***
 <br/>
 network.http.referer.disallowCrossSiteRelaxingDefault, true
 
@@ -522,30 +528,61 @@ extensions.manifestV3.enabled;	false
 <br/>
 ***suggestions for improvements***
 <br/>
--remove the titles/checkboxes in the "find in page" bar and replace them with buttons/icons
+-remove titles/checkboxes in "find in page" bar and replace them with buttons/icons
 <br/>
--show all downloads in the pop-up window (with scrollbar) and get rid of the "show all downloads" window
+-show all downloads in pop-up window (with scrollbar) and get rid of "show all downloads" window
 <br/>
 -renaming bookmarks directly (long/short right mouse click)
 <br/>
--tabs with play/pause button and hotkey (remove useless volume button)
+-tabs with play/pause button and hotkey (replace useless volume button)
 <br/>
--combine "Edit Folder/Bookmark" in the context menu into a single entry at one specific position (properties in FF79-)
+-combine "Edit Folder/Bookmark" in context menu into a single entry at one specific position (properties in FF79-)
 <br/>
 -popup status bar around mouse cursor
 <br/>
--remove 3 dots in bookmarks names (if are too long)
+-add-ons in "Customize Toolbar" menu
 <br/>
--add-ons in the "Customize Toolbar" menu
-<br/>
--decrease mouse vert sensitivity when the cursor approaches the left/right sides of bookmarks (folders)
+-decrease mouse vert sensitivity when cursor approaches left/right sides of bookmarks (folders)
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
--javaScript CPU/GPU resource limiter (rotating ad can use the entire CPU core regardless of its frequency)
+-javaScript CPU/GPU resource limiter (rotating ad can use entire CPU core regardless of its frequency)
 <br/>
--remove items from the address bar
+-remove items from address bar (long/short right mouse click)
 <br/>
--in places.xhtml show paths to items
+-in places.xhtml show paths to items (searching)
 <br/>
--separate audio/video cache from normal cache. What's the point of the current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
+-custom tabs color (by domain)
+<br/>
+-hide ```https://www.``` in address bar
+<br/>
+-separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
+
+-remove 3 dots+empty right space in bookmarks names (if are too long) + width limit - FF109+ (userChrome.css)
+```
+#PlacesToolbarItems > toolbarbutton > menupopup {max-width: 85%!important;}
+toolbarbutton.bookmark-item > menupopup > menu > menupopup {max-width: 85%!important;}
+:is(label, description)[value][crop]::before {text-overflow: unset!important;}
+menuitem.bookmark-item > label {margin-right: -10%!important;}
+.sidebar-placesTree {margin-right: -20px!important;}
+toolbarbutton menupopup[placespopup] > :is(menu, menuitem) :is(.menu-text) {margin-top: 0 !important;margin-left: 0 !important;margin-bottom: 0 !important;}
+```
+
+-places.xhtml - horizontal bottom part - FF109+ (userContent.css)
+```
+/* places.xhtml */
+#editBMPanel_namePicker {width: 40%!important;}
+#editBMPanel_locationField {width: 60%!important;}
+#detailsPane {margin-bottom: -162px!important;padding: 0px!important;background-color: #FB7914!important}
+#editBookmarkPanelContent {display: flex!important;}
+#placesToolbar {padding-top: 0px!important;padding-bottom: 0px!important;}
+menupopup > menuitem,menupopup > menu {padding-block: unset!important;}
+hbox.editBMPanel_tagsRow {display: none!important;}
+label.editBMPanel_tagsRow {display: none!important;}
+#tags-field-info {display: none!important;}
+label.editBMPanel_keywordRow {display: none!important;}
+#editBMPanel_keywordField {display: none!important;}
+#keyword-field-info {display: none!important;}
+label.editBMPanel_nameRow {display: none!important;}
+label.editBMPanel_locationRow {display: none!important;}
+```
