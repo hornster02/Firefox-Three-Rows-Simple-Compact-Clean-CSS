@@ -2,7 +2,9 @@ Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://gith
 <br/>
 CSS Calendar - ***140*** Win11 (Jul 15, 2025)
 <br/>
-***[📥 CSS (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 CSS (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
+***[📥 CSS (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 CSS (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)
+<br/>
+android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 ```
 F1 - Library window (History) CTRL+SHIFT+H
 F2 - Find Previous (searchbar)
@@ -216,9 +218,9 @@ Customization (userChrome.css)
 <br/>
 ***https://github.com/search?q=firefox+language%3ACSS&type=repositories&l=CSS&s=stars&o=desc***
 <br/>
-***https://www.reddit.com/r/FirefoxCSS/***
-<br/>
 ***https://firefoxcss-store.github.io/***
+<br/>
+***https://www.reddit.com/r/FirefoxCSS/***
 <br/>
 ***https://www.userchrome.org/***
 <br/>
@@ -247,8 +249,6 @@ Customization (userChrome.css)
 ***https://www.deviceinfo.me/***
 <br/>
 ***https://explore.whatismybrowser.com/useragents/explore/software_name/firefox/***
-<br/>
-***https://www.reddit.com/r/firefox/comments/p38p6t/guide_how_to_always_use_desktop_view_in_firefox/***
 <br/>
 ***https://html5test.com/***
 <br/>
