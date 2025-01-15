@@ -1,10 +1,12 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
-CSS Calendar - ***140*** Win11 (Jul 15, 2025)
+CSS FF Calendar - ***140*** Win11 (Jul 15, 2025)
 <br/>
 ***[📥 CSS (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 CSS (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)
 <br/>
 android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
+<br/>
+***Thunderbird - [📥 115 Win7](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)***
 ```
 F1 - Library window (History) CTRL+SHIFT+H
 F2 - Find Previous (searchbar)
@@ -19,9 +21,7 @@ Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bo
 
 ▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132+ / ESR+)
 
-Firefox installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***firefox.exe -p***
-<br/>
-or automatically created (if it doesn't already exist) and run via (example) ***firefox.exe -profile "a:\000"***
+Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
 Most of colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting files there is no trace of them in profile or Firefox itself
 
@@ -243,6 +243,12 @@ Customization (userChrome.css)
 ***https://ftp.mozilla.org/pub/devedition/releases/***
 <br/>
 ***https://ftp.mozilla.org/pub/fenix/releases/***
+<br/>
+***https://www.thunderbird.net/en-US/thunderbird/releases/***
+<br/>
+***https://ftp.mozilla.org/pub/thunderbird/releases/***
+<br/>
+***https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird***
 <br/>
 ***https://caniuse.com/***
 <br/>
@@ -586,3 +592,39 @@ label.editBMPanel_keywordRow {display: none!important;}
 label.editBMPanel_nameRow {display: none!important;}
 label.editBMPanel_locationRow {display: none!important;}
 ```
+
+android - holding (some UI) automatically performs assigned action (close tab, open bookmarks, open link in new tab and switch to it, ...), disable double tap to select text, buttons on one side for one hand (landscape mode), remove notification when opening/closing tab + other minor UI adjustments - e.g.
+<br/>
+🤦android (5.5" 960x480, fullscreen) vs CSS - really only a 2,7 tabs can fit on the screen?🤦
+<br/>
+<img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
+<img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+***Thunderbird***
+
+```
+F2 - Find Previous (searchbar) + Rename (hold)
+F3 - Find Next (searchbar) - works without script
+END - Close Tab
+PgUp - Go one Tab to Right
+PgDn - Go one Tab to Left
+RCtrl - Paste message to archive (press+hold)
+```
+
+<br/>
+
+***115*** (2023-2024) - DEFAULT - 150% DPI + "mail.uidensity", 0
+<img width="960" alt="thun5" src="https://github.com/user-attachments/assets/5c3f1175-dd53-4553-b5b5-928a168c673b" />
+
+***115*** (2023-2024) - CSS - 150% DPI + "mail.uidensity", 0
+<img width="960" alt="thun6" src="https://github.com/user-attachments/assets/4e1d1acc-31fd-4aea-9a65-b2d3bc0c06fd" />
