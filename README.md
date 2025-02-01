@@ -1,12 +1,15 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
-CSS FF Calendar - ***140*** Win11 (Jul 15, 2025)
+CSS Calendar - ***FF 140*** (Jul 15, 2025) ***TB 140*** (Aug 15, 2025)
 <br/>
-***[📥 CSS (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 CSS (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 CSS (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 CSS (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)
+***Firefox CSS - [📥 (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)
 <br/>
 android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 <br/>
-***Thunderbird - [📥 115 Win7](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)***
+***Thunderbird CSS - [📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️ ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
+
+***Firefox***
+
 ```
 F1 - Library window (History) CTRL+SHIFT+H
 F2 - Find Previous (searchbar)
@@ -19,7 +22,18 @@ INS - Focus Address bar
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 ```
 
-▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132+ / ESR+)
+***Thunderbird***
+
+```
+F2 - Find Previous (searchbar) + Rename (hold)
+F3 - Find Next (searchbar) - works without script
+END - Close Tab
+PgUp - Go one Tab to Right
+PgDn - Go one Tab to Left
+RCtrl - Paste message to archive (press+hold) - context menu
+```
+
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
 
 Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
@@ -33,7 +47,7 @@ Most of colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - t
 <br/>
 To view images in full size (2560x1080) you can save page as ***Web page, complete*** (7MB)
 <br/>
-<img width="720" alt="nahled9" src="https://github.com/user-attachments/assets/6dfc225d-e678-487c-8a0c-f63334db1528">
+<img width="720" alt="nahled10" src="https://github.com/user-attachments/assets/370f2b52-a2f9-4f10-954d-1a90bc35adf0" />
 <br/>
 <br/>
 <br/>
@@ -43,11 +57,11 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 ***115-esr*** (2023-2025) - 1-LINE - ↕️33px (56px taskbar, Win7) 150% system DPI. 1920x1080
 ![115-esr-1-line](https://github.com/user-attachments/assets/2a41bc59-5913-4142-a8f9-9e756370138f)
 
-***132*** (2024) - 2-LINE - ↕️64px 150% DPI
-![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 (16:9) ↕️521px
+<img width="960" alt="thunderbird521-6" src="https://github.com/user-attachments/assets/86f4ca9a-51c2-4cd9-b160-ae86fb0a468f" />
 
-***132*** (2024) - DEFAULT - ↕️85px 100% DPI
-<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 (16:9) ↕️289px
+<img width="960" alt="thunderbird289-6" src="https://github.com/user-attachments/assets/a761e348-1e7e-4d99-8fb1-34ecc26d3fdc" />
 
 ***119*** (2023) - 3-LINE - 1080p ↕️132px - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
@@ -74,14 +88,11 @@ Works in FF 109/119 */
 .findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of textbox */
 ```
 
-***119*** (2023) - Pink - opened tabs, orange - bookmarks, without color - history. "width" (userChrome.css *06) and "browser.urlbar.maxRichResults" (about:config or user.js) - 150% DPI
-![119 - CSS-address bar - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/27805b1a-0108-4b70-aebb-e88742d2e6bf)
+***132*** (2024) - 2-LINE - ↕️64px 150% DPI
+![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
 
-***119*** (2023) - DEFAULT - opened tabs+bookmarks+history - 150% DPI
-![119 - CSS-address bar3 - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/15ea7ef9-0cce-44d2-89aa-0a5072ea7e67)
-
-***109*** (2023) - 3-LINE - 150% system DPI
-![Firefox (150% DPI) - compact default](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/487f32f5-49f4-4df1-ba1a-04ffe14d3f23)
+***132*** (2024) - DEFAULT - ↕️85px 100% DPI
+<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
 
 ***109*** (2023) - 2-LINE - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
@@ -200,9 +211,9 @@ Customization (userChrome.css)
 <br/>
 ***Image Video Block*** https://addons.mozilla.org/en-US/firefox/addon/image-video-block/
 <br/>
-***Large Image Blocker*** https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/
+***Large Image Blocker - [can save up to 100+MB per Steam page by blocking GIF videos and other unoptimized images](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/)***
 <br/>
-***Load Background Tabs Lazily*** https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/
+***Load Background Tabs Lazily - [resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/)***
 <br/>
 ***Print Edit WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/
 <br/>
@@ -217,6 +228,10 @@ Customization (userChrome.css)
 ***https://github.com/topics/firefox?l=css&o=desc&s=stars***
 <br/>
 ***https://github.com/search?q=firefox+language%3ACSS&type=repositories&l=CSS&s=stars&o=desc***
+<br/>
+***https://github.com/topics/thunderbird?l=css&o=desc&s=stars***
+<br/>
+***https://github.com/search?q=thunderbird+language%3ACSS&type=repositories&l=CSS&s=stars&o=desc***
 <br/>
 ***https://firefoxcss-store.github.io/***
 <br/>
@@ -529,6 +544,12 @@ network.http.http3.enable;false
 ***may fix non-functional addons***
 <br/>
 extensions.manifestV3.enabled;	false
+
+--------------------------------------------------------------------------------------***Thunderbird***
+<br/>
+***disable blocked image notification***
+<br/>
+mailnews.message_display.disable_remote_image
 <br/>
 <br/>
 <br/>
@@ -563,6 +584,20 @@ extensions.manifestV3.enabled;	false
 -hide ```https://www.``` in address bar
 <br/>
 -separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
+<br/>
+-smooth scrolling (pixel steps) of the page after pressing e.g. CTRL+left click
+<br/>
+***Thunderbird***
+<br/>
+-long click functions - e.g. for saving attachment(s)
+<br/>
+-hide some attachment sizes (b/kb)
+<br/>
+-keep user's icon color when selected - #folderTree:focus-within li.selected > .container > .icon {--icon-color: currentColor !important;} - works if this style is unchecked
+<br/>
+-better use of the "Message Header Pane" space - partially solved ("from"). [This addon does it quite well](https://addons.thunderbird.net/en-us/thunderbird/addon/compact-headers/)
+<br/>
+-disable+hide some days in calendar
 
 -remove 3 dots+empty right space in bookmarks names (if are too long) + width limit - FF109+ (userChrome.css)
 ```
@@ -599,32 +634,3 @@ android - holding (some UI) automatically performs assigned action (close tab, o
 <br/>
 <img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
 <img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-***Thunderbird***
-
-```
-F2 - Find Previous (searchbar) + Rename (hold)
-F3 - Find Next (searchbar) - works without script
-END - Close Tab
-PgUp - Go one Tab to Right
-PgDn - Go one Tab to Left
-RCtrl - Paste message to archive (press+hold)
-```
-
-<br/>
-
-***115*** (2023-2024) - DEFAULT - 150% DPI + "mail.uidensity", 0
-<img width="960" alt="thun5" src="https://github.com/user-attachments/assets/5c3f1175-dd53-4553-b5b5-928a168c673b" />
-
-***115*** (2023-2024) - CSS - 150% DPI + "mail.uidensity", 0
-<img width="960" alt="thun6" src="https://github.com/user-attachments/assets/4e1d1acc-31fd-4aea-9a65-b2d3bc0c06fd" />
