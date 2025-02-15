@@ -1,14 +1,11 @@
 Firefox 117+ is working again in Win7 https://github.com/i486/VxKex https://github.com/vxiiduu/VxKex
 <br/>
 CSS Calendar - ***FF 140*** (Jul 15, 2025) ***TB 140*** (Aug 15, 2025)
-<br/>
-***Firefox CSS - [📥 (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 Themes](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)
-<br/>
-android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
-<br/>
-***Thunderbird CSS - [📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️ ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
 
-***Firefox***
+***android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
+<br/>
+
+***Firefox CSS - [📥 (115 Win7)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr.rar)⠀[📥 (132 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/132.rar)⠀[📥 (119 Win11)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/119.rar)⠀[📥 (109)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/109.rar)⠀[📥 themes (light)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
 
 ```
 F1 - Library window (History) CTRL+SHIFT+H
@@ -22,7 +19,7 @@ INS - Focus Address bar
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 ```
 
-***Thunderbird***
+***Thunderbird CSS - [📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀⠀[📥 theme (light+dark)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
 
 ```
 F2 - Find Previous (searchbar) + Rename (hold)
@@ -42,6 +39,8 @@ Most of colors I've changed are pink (FF00A3 and E20074) and orange (FB7914) - t
 🚫disabling notifications and downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
 <br/>
 🚫disabling compatibility check of profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. Profile may or may not be damaged, but its use will no longer be decided by someone else
+
+⚠️ Thunderbird has a limited length of splitter (for window resizing) to avoid interfering with some icons
 <br/>
 <br/>
 <br/>
@@ -57,11 +56,17 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 ***115-esr*** (2023-2025) - 1-LINE - ↕️33px (56px taskbar, Win7) 150% system DPI. 1920x1080
 ![115-esr-1-line](https://github.com/user-attachments/assets/2a41bc59-5913-4142-a8f9-9e756370138f)
 
-***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 (16:9) ↕️521px
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 ↕️521px
 <img width="960" alt="thunderbird521-6" src="https://github.com/user-attachments/assets/86f4ca9a-51c2-4cd9-b160-ae86fb0a468f" />
 
-***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 (16:9) ↕️289px
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 ↕️289px
 <img width="960" alt="thunderbird289-6" src="https://github.com/user-attachments/assets/a761e348-1e7e-4d99-8fb1-34ecc26d3fdc" />
+
+***115-esr*** (2023-2024) - 41444-25 - theme. 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 (16:9) ↕️754px
+![115-754](https://github.com/user-attachments/assets/ebd35afb-c3b3-4db5-b46a-526364fd9b2e)
+
+***115-esr*** (2023-2024) - 41444-25 - theme. 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 (16:9) ↕️498px
+![115-498](https://github.com/user-attachments/assets/a6c98f66-3714-4c15-b248-7870b80c61d4)
 
 ***119*** (2023) - 3-LINE - 1080p ↕️132px - 18,5 + 5 tabs - 150% DPI
 ![119 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/48f40788-2c44-45ad-b7dd-c2d97007de59)
@@ -88,17 +93,17 @@ Works in FF 109/119 */
 .findbar-textbox {position: fixed!important;margin-top: -4px!important;} /* position of textbox */
 ```
 
-***132*** (2024) - 2-LINE - ↕️64px 150% DPI
-![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
-
-***132*** (2024) - DEFAULT - ↕️85px 100% DPI
-<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
-
 ***109*** (2023) - 2-LINE - folder+context menu - 150% DPI
 ![Firefox (150% DPI) - folder+context menu](https://user-images.githubusercontent.com/127822397/232291657-785f1fa4-68d8-4d4f-b0e1-8acc19624c7a.png)
 
 ***109*** (2023) - 2-LINE - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
+
+***132*** (2024) - 2-LINE - ↕️64px 150% DPI
+![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
+
+***132*** (2024) - DEFAULT - ↕️85px 100% DPI
+<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
 
 ***119*** (2023) - 2-LINE - ↕️64px 150% DPI
 ![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
@@ -211,17 +216,15 @@ Customization (userChrome.css)
 <br/>
 ***Image Video Block*** https://addons.mozilla.org/en-US/firefox/addon/image-video-block/
 <br/>
-***Large Image Blocker - [can save up to 100+MB per Steam page by blocking GIF videos and other unoptimized images](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/)***
-<br/>
-***Load Background Tabs Lazily - [resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/)***
-<br/>
 ***Print Edit WE*** https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/
 <br/>
 ***Save Page WE*** https://addons.mozilla.org/en-US/firefox/addon/save-page-we/
 <br/>
-***Firefox Color*** https://addons.mozilla.org/en-US/firefox/addon/firefox-color/
-<br/>
 ***User-Agent Switcher*** https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/
+<br/>
+***Large Image Blocker - [can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/)***
+<br/>
+***Load Background Tabs Lazily - [resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/)***
 <br/>
 <br/>
 <br/>
@@ -249,21 +252,19 @@ Customization (userChrome.css)
 <br/>
 ***https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly***
 <br/>
+***https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird***
+<br/>
 ***https://www.mozilla.org/en-US/firefox/releases/***
+<br/>
+***https://www.thunderbird.net/en-US/thunderbird/releases/***
 <br/>
 ***https://whattrainisitnow.com/calendar/***
 <br/>
 ***https://ftp.mozilla.org/pub/firefox/releases/***
 <br/>
-***https://ftp.mozilla.org/pub/devedition/releases/***
-<br/>
 ***https://ftp.mozilla.org/pub/fenix/releases/***
 <br/>
-***https://www.thunderbird.net/en-US/thunderbird/releases/***
-<br/>
 ***https://ftp.mozilla.org/pub/thunderbird/releases/***
-<br/>
-***https://support.mozilla.org/en-US/kb/keyboard-shortcuts-thunderbird***
 <br/>
 ***https://caniuse.com/***
 <br/>
@@ -281,7 +282,7 @@ Customization (userChrome.css)
 <br/>
 <br/>
 <br/>
-about:config
+--------------------------------------------------------------------------------------about:config
 
 ***dpi***
 <br/>
@@ -545,6 +546,10 @@ network.http.http3.enable;false
 <br/>
 extensions.manifestV3.enabled;	false
 
+***tooltip delay***
+<br/>
+ui.tooltipDelay, 50
+
 --------------------------------------------------------------------------------------***Thunderbird***
 <br/>
 ***disable blocked image notification***
@@ -553,7 +558,7 @@ mailnews.message_display.disable_remote_image
 <br/>
 <br/>
 <br/>
-***suggestions for improvements***
+--------------------------------------------------------------------------------------***suggestions for improvements***
 <br/>
 -remove titles/checkboxes in "find in page" bar and replace them with buttons/icons
 <br/>
@@ -598,6 +603,8 @@ mailnews.message_display.disable_remote_image
 -better use of the "Message Header Pane" space - partially solved ("from"). [This addon does it quite well](https://addons.thunderbird.net/en-us/thunderbird/addon/compact-headers/)
 <br/>
 -disable+hide some days in calendar
+<br/>
+-remove "tree view" (done), colored first character instead (in the future?) + global option of collapsing/expanding threads + remove arrows
 
 -remove 3 dots+empty right space in bookmarks names (if are too long) + width limit - FF109+ (userChrome.css)
 ```
