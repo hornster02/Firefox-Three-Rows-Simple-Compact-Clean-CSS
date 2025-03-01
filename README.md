@@ -30,7 +30,7 @@ PgDn - Go one Tab to Left
 RCtrl - Paste message to archive (press+hold) - context menu
 ```
 
-▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your Firefox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
 
 Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
@@ -62,10 +62,10 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 ***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 ↕️289px
 <img width="960" alt="thunderbird289-6" src="https://github.com/user-attachments/assets/a761e348-1e7e-4d99-8fb1-34ecc26d3fdc" />
 
-***115-esr*** (2023-2024) - 41444-25 - theme. 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 (16:9) ↕️754px
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 ↕️754px
 ![115-754](https://github.com/user-attachments/assets/ebd35afb-c3b3-4db5-b46a-526364fd9b2e)
 
-***115-esr*** (2023-2024) - 41444-25 - theme. 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 (16:9) ↕️498px
+***115-esr*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 ↕️498px
 ![115-498](https://github.com/user-attachments/assets/a6c98f66-3714-4c15-b248-7870b80c61d4)
 
 ***119*** (2023) - 3-LINE - 1080p ↕️132px - 18,5 + 5 tabs - 150% DPI
@@ -99,10 +99,10 @@ Works in FF 109/119 */
 ***109*** (2023) - 2-LINE - places.xhtml. Dark space - The best dynamic theme - 150% DPI
 ![Firefox (150% DPI) - places xhtml](https://user-images.githubusercontent.com/127822397/232334393-15d759a9-e31b-4a30-8d59-f74ec96b0427.png)
 
-***132*** (2024) - 2-LINE - ↕️64px 150% DPI
+***132*** (2024) - 2-LINE - ↕️64px 150% DPI. 1920x1080
 ![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
 
-***132*** (2024) - DEFAULT - ↕️85px 100% DPI
+***132*** (2024) - DEFAULT - ↕️85px 100% DPI. 1920x1080
 <img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
 
 ***119*** (2023) - 2-LINE - ↕️64px 150% DPI
@@ -117,7 +117,7 @@ Works in FF 109/119 */
 ***109*** (2023) - DEFAULT - ↕️85px 100% DPI
 ![109 - DEF - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7)
 
-***99*** (2022) - 2-LINE ↕️64px - 33,5 opened tabs - smallest tab width (about:config "browser.tabs.tabMinWidth") - 150% DPI
+***99*** (2022) - 2-LINE ↕️64px - 33,5 opened tabs - smallest tab width (browser.tabs.tabMinWidth) - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 
 ***99*** (2022) - DEFAULT ↕️85px 30 opened tabs - 100% DPI
@@ -200,7 +200,7 @@ Customization (userChrome.css)
 <br/>
 <br/>
 <br/>
-***Useful addons***
+--------------------------------------------------------------------------------------Useful addons
 <br/>
 ***Enhancer for YouTube*** https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/
 <br/>
@@ -222,7 +222,7 @@ Customization (userChrome.css)
 <br/>
 ***User-Agent Switcher*** https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/
 <br/>
-***Large Image Blocker - [can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/)***
+***Large Image Blocker [can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/)***
 <br/>
 ***Load Background Tabs Lazily - [resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/)***
 <br/>
@@ -592,6 +592,8 @@ mailnews.message_display.disable_remote_image
 <br/>
 -smooth scrolling (pixel steps) of the page after pressing e.g. CTRL+left click
 <br/>
+-sorting in about:config
+<br/>
 ***Thunderbird***
 <br/>
 -long click functions - e.g. for saving attachment(s)
@@ -604,7 +606,7 @@ mailnews.message_display.disable_remote_image
 <br/>
 -disable+hide some days in calendar
 <br/>
--remove "tree view" (done), colored first character instead (in the future?) + global option of collapsing/expanding threads + remove arrows
+-remove "tree view" (done), colored first character instead + global option of collapsing/expanding threads + remove arrows
 
 -remove 3 dots+empty right space in bookmarks names (if are too long) + width limit - FF109+ (userChrome.css)
 ```
@@ -641,3 +643,9 @@ android - holding (some UI) automatically performs assigned action (close tab, o
 <br/>
 <img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
 <img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
+
+***FF*** 1-64 / 43 / 52 / 64 / 68 / 73 / 78 / 84 / 89 / 99 / 115 (Win 2006+)
+<br/>
+***TB*** 38 / 45-68 / 78 / 91 / 99 / 109 / 115 (Win 2015+)
+<br/>
+chrome 71, FF 132 (android 2021+)
