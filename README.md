@@ -544,7 +544,7 @@ user_pref("devtools.debugger.prompt-connection", false);
 <br/>
 browser.tabs.groups.enabled
 
-------------------------------------------------------------------------------------------------------------------------------------***Thunderbird***
+----------------------------------------------------------------------------------------------***Thunderbird***
 <br/>
 ***disable blocked image notification***
 <br/>
@@ -622,7 +622,7 @@ Language packs (addons) are in ```xpi``` folder
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
------------------------------------------------------------------------------------------------------------***suggestions for improvements***
+----------------------------------------------------------------------------------------------***suggestions for improvements***
 <br/>
 -remove titles/checkboxes in "find in page" bar and replace them with buttons/icons (for addressbar+findbar overlay)
 <br/>
