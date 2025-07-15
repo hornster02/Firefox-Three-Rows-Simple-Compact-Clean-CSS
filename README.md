@@ -28,7 +28,7 @@ F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, foc
 address bar+download button+side bar alternative] + Enter for opening in new tab (press/hold), CZ/EN FF
 ```
 
-***Thunderbird CSS - [📥 -](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr-thunderbird.rar)⠀[📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 theme](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
+***Thunderbird CSS - [📥 140](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr-thunderbird.rar)⠀[📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 theme](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
 
 ```
 F2 - Find Previous (searchbar, press) + Rename (hold)
