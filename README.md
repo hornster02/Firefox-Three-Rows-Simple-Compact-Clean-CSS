@@ -62,6 +62,8 @@ To view images in full size (2560x1080) you can save page as ***Web page, comple
 <br/>
 ***140*** (2025-2026) - sidebar+context menu, 30+2 opened tabs (Compact 👍) - 150% DPI
 <img width="1920" height="1080" alt="140-side+context-30" src="https://github.com/user-attachments/assets/40b2ecdd-a3e6-41a8-88e9-16adb8b69cf4" />
+<br/>
+Hide orange scrollbar+splitter (tabs) ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED, #1C1B22)!important;max-width: 0px!important;min-width: 0px!important;}```
 
 ***140*** (2025-2026) - sidebar+context menu, 15+2 opened tabs (compact 🤔) - 150% DPI
 <img width="1920" height="1080" alt="140-side+context-def-15" src="https://github.com/user-attachments/assets/b3d1a71e-b2dd-4a52-9c10-74d9ff42bbd2" />
