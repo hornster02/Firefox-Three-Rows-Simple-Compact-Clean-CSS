@@ -1,12 +1,8 @@
+Mar 14, 2023 - Aug 1, 2025
+
 ⬇️ [Historical comparison](#historical-comparison) / [Useful addons + about:config](#useful-addons-about-config) / [Other](#other) ⬇️
 
-Mar 14, 2023 - Jun 15, 2025
-
-Firefox 117+ is working again in Win7 ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)***
-<br/>
--without ```user_pref("media.rdd-wav.enabled", false);``` (prefs.js) FF140 may not run in Win7
-
-CSS Calendar - ***FF - next ESR release + 1 month*** (2026), ***TB - skip 1 ESR release + 1 month*** (2027)
+***CSS Calendar*** - FF - next ESR release + 1 month (2026), TB - skip 1 ESR release + 1 month (2027)
 
 ***android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 <br/>
@@ -17,15 +13,19 @@ CSS Calendar - ***FF - next ESR release + 1 month*** (2026), ***TB - skip 1 ESR 
 ESC (hold) - Page with/out style switch (buggy - it needs to be rewritten)
 Tab (hold) - switching between last 2 tabs
 F2 - Find Previous (searchbar)
-F3 - Find Next (searchbar) - works without script
 INS - Focus Address bar (press) / Address bar history (hold)
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
 Home - New Tab (press) / Address bar bookmarks (hold)
 END - Close Tab
 PgUp - Go one Tab to Right (press) / Address bar tabs (hold)
 PgDn - Go one Tab to Left
-F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, focus on search, open in tab 1 =
-address bar+download button+side bar alternative] + Enter for opening in new tab (press/hold), CZ/EN FF
+F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, open in tab 1, focus on search =
+address bar+download button+side bar alternative] + Enter for opening in new tab (press/hold), CZ/EN FF, Tab / Shift+Tab
+
+Default hotkeys
+F3 - Find Next (searchbar)
+MButton - close tab / open bookmark(s)
+Alt+F4 - close FF /// Win+arrows - minimize/maximize/restore window
 ```
 
 ***Thunderbird CSS - [📥 140](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr-thunderbird.rar)⠀[📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 theme](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
@@ -40,30 +40,34 @@ PgDn - Go one Tab to Left
 RCtrl - Paste message to archive (press+hold) - context menu
 ```
 
-▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content, just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content (first global row may cause problems on some websites), just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
 
 Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
-Most of colors I've changed are pink (FF00A3, E20074), orange (FB7914) and in url (fdd7aa, springgreen) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting files there is no trace of them in profile or Firefox itself
+most of colors I've changed are pink (FF00A3, E20074), orange (FB7914) and in url (fdd7aa, springgreen) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting files there is no trace of them in profile or Firefox itself
 
-🚫disabling notifications and downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
-<br/>
+To view images in full size (50+, 1920x1080, earlier 2560x1080) you can save page as ***Web page, complete*** (7MB)
+
+🚫disabling downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
+
 🚫disabling compatibility check of profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. Profile may or may not be damaged, but its use will no longer be decided by someone else
 
-⚠️ Thunderbird has a limited length of splitter (for window resizing) to avoid interfering with some icons
+FF removed (via CSS) - "..." in bookmarks names / video fullscreen warnings / update prompts after starting FF
+
+FF59- opening menu bar through ALT+arrows (2-LINE)
+
+FF117+ is working again in Win7 ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)*** [without ```user_pref("media.rdd-wav.enabled", false);``` (prefs.js) FF140 may not run in Win7]
+
+FF140+ (sidebar) semi/hide/remove orange scrollbars+splitter ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
+
+TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
 <br/>
 <br/>
 <br/>
-To view images in full size (2560x1080) you can save page as ***Web page, complete*** (7MB)
-<br/>
-<img width="720" alt="nahled10" src="https://github.com/user-attachments/assets/370f2b52-a2f9-4f10-954d-1a90bc35adf0" />
-<br/>
-<br/>
-<br/>
+<img width="720" height="278" alt="nahled11" src="https://github.com/user-attachments/assets/880af04d-b05d-4d1b-9ad4-7fe32d6fd314" />
+
 ***140*** (2025-2026) - sidebar+context menu, 30+2 opened tabs (Compact 👍) - 150% DPI
 <img width="1920" height="1080" alt="140-side+context-30" src="https://github.com/user-attachments/assets/40b2ecdd-a3e6-41a8-88e9-16adb8b69cf4" />
-<br/>
-Semi/hide/remove orange scrollbars+splitter (tabs) ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
 
 ***140*** (2025-2026) - sidebar+context menu, 15+2 opened tabs (compact 🤔) - 150% DPI
 <img width="1920" height="1080" alt="140-side+context-def-15" src="https://github.com/user-attachments/assets/b3d1a71e-b2dd-4a52-9c10-74d9ff42bbd2" />
@@ -95,7 +99,7 @@ Semi/hide/remove orange scrollbars+splitter (tabs) ```#sidebar-launcher-splitter
 ***119*** (2023) - DEFAULT - ↕️231px - 15,5 + 5 tabs - 150% DPI
 ![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
 
-***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over address bar. In this case, the entire interface fits into default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays address bar, pressing ALT+D (default hotkey for focusing address bar) overlays find in page bar. Height of find in page bar should not exceed height of bar it overlays, otherwise page will jump a few pixels when opened. And overlay only works for first bar from bottom - trying to overlay bar above will just crop bottom part of UI and make page jump again. Example in image is only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE - latest check FF140)
+***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over address bar. In this case, the entire interface fits into default "find in page" bar ⬆️😁. Pressing CTRL+F (default hotkey for searching) overlays address bar, pressing ALT+D (default hotkey for focusing address bar) overlays find in page bar. Height of find in page bar should not exceed height of bar it overlays, otherwise page will jump a few pixels when opened. And overlay only works for first bar from bottom - trying to overlay bar above will just crop bottom part of UI and make page jump again. Example in image is only possible way to use it seamlessly (overlaying bookmarks or opened tabs doesn't make sense to me = unfortunately does not work in 2-LINE - last check FF140)
 <img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
 ```
 /* IMPORTANT - find ".findbar-find-previous" (userChrome.css) and change "padding-left" number - example
@@ -149,7 +153,7 @@ Works in FF 109/119 */
 ***109*** (2023) - DEFAULT - ↕️85px 100% DPI
 ![109 - DEF - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7)
 
-***99*** Gen1 (2023-03) - 2-LINE ↕️64px - 33,5 opened tabs - smallest tab width (browser.tabs.tabMinWidth) - 150% DPI
+***99*** Gen1 (2023-03) - 2-LINE ↕️64px - 33,5 opened tabs - 150% DPI
 <img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
 
 ***99*** (2022) - DEFAULT ↕️85px 30 opened tabs - 100% DPI
@@ -173,7 +177,7 @@ Works in FF 109/119 */
 ***69*** (2019) - DEFAULT ↕️74px 100% DPI
 <img width="1280" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b">
 
-***59*** (2018) - 2-LINE ↕️65px - opening menu bar in FF59- through ALT+arrows - 150% DPI
+***59*** (2018) - 2-LINE ↕️65px - 150% DPI
 <img width="1280" alt="059 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f691cfca-ae43-434e-ba8e-dbeea2447117">
 
 ***59*** (2018) - DEFAULT ↕️73px 100% DPI
@@ -546,7 +550,11 @@ user_pref("devtools.debugger.prompt-connection", false);
 <br/>
 browser.tabs.groups.enabled
 
-----------------------------------------------------------------------------------------------***Thunderbird***
+***disable picture in picture***
+<br/>
+picture-in-picture
+
+--------------------------------------------------------------------------------------------***Thunderbird***
 <br/>
 ***disable blocked image notification***
 <br/>
@@ -624,7 +632,7 @@ Language packs (addons) are in ```xpi``` folder
 Customization (userChrome.css)
 <img width="1280" alt="Customization" src="https://user-images.githubusercontent.com/127822397/235342097-4f9103a9-7211-4d33-b17b-600c438eee2f.png">
 
-----------------------------------------------------------------------------------------------***suggestions for improvements***
+--------------------------------------------------------------------------------------------***suggestions for improvements***
 <br/>
 -remove titles/checkboxes in "find in page" bar and replace them with buttons/icons (for addressbar+findbar overlay)
 <br/>
@@ -632,7 +640,7 @@ Customization (userChrome.css)
 <br/>
 -tabs with play/pause button and hotkey (replace useless volume button)
 <br/>
--combine "Edit Folder/Bookmark" in context menu into a single entry at one specific position (properties in FF79-)
+-combine "Edit Folder/Bookmark" in context menu into a single entry at one specific position (properties in ~FF79-)
 <br/>
 -popup status bar around mouse cursor
 <br/>
@@ -642,7 +650,7 @@ Customization (userChrome.css)
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
--javaScript CPU/GPU resource limiter (rotating ad can use entire CPU core regardless of its frequency)
+-javaScript CPU/GPU resource limiter (rotating ad can use entire CPU core regardless of its frequency), disable "transform" effects without breaking websites
 <br/>
 -remove items from address bar (long/short right mouse click)
 <br/>
@@ -652,7 +660,7 @@ Customization (userChrome.css)
 <br/>
 -show download % + time in places.xhtml tab name
 <br/>
--option switch tabs with hotkeys in places.xhtml (like FF89-)
+-option switch tabs with hotkeys from places.xhtml (like ~FF89-)
 <br/>
 -custom tabs color (by domain), automatic grouping
 <br/>
@@ -670,9 +678,13 @@ Customization (userChrome.css)
 <br/>
 -sorting in about:config
 <br/>
+-drag tabs without animation (~FF9- style)
+<br/>
 -it is not possible to redirect "safebrowsing" folder from the ramdisk to SSD (NTFS links), which leads to constant downloading of the same data every time the profile is deleted and copied again (ramdisk)
 <br/>
 -if file "c:\Users\XXX\AppData\Local\Mozilla" exists, it is not possible to start FF (~v19+)
+<br/>
+-if file "datareporting" exists (in profile), FF freezes on start (~v119-132)
 <br/>
 ***Thunderbird***
 <br/>
@@ -697,8 +709,8 @@ android - holding (some UI) automatically performs assigned action (close tab, o
 <img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
 <img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
 
-***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ```89``` ```99``` ```115``` (internet explorer offline 2004-2006)
+***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ```89``` ```99``` ```115``` ```140``` (internet explorer offline 2004-2006)
 <br/>
-***TB*** Win 2016+ ```38``` ```45-68``` ```78``` ```91``` ```99``` ```109``` ```115```
+***TB*** Win 2016+ ```38``` ```45-68``` ```78``` ```91``` ```99``` ```109``` ```115``` ```140```
 <br/>
 ***FF*** android 2024+ ```132``` (chrome ```71``` 2021-2024)
