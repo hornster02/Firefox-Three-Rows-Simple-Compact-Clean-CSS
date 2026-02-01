@@ -1,8 +1,10 @@
-Mar 14, 2023 - Aug 1, 2025
+
+
+Mar 14, 2023 - Feb 1, 2026
 
 ⬇️ [Historical comparison](#historical-comparison) / [Useful addons + about:config](#useful-addons-about-config) / [Other](#other) ⬇️
 
-***CSS Calendar*** - FF - next ESR release + 1 month (2026), TB - skip 1 ESR release + 1 month (2027)
+***CSS Calendar*** - FF153 (beta - 1.Aug.2026 /// final - 15.Aug.2026), TB - skip 1 ESR release + 1 month (2027)
 
 ***android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 <br/>
@@ -10,8 +12,9 @@ Mar 14, 2023 - Aug 1, 2025
 ***Firefox CSS - [📥 140](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr(9-140+)_gen2.rar)⠀[📥 themes (light)](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script.rar)***
 
 ```
-ESC (hold) - Page with/out style switch (buggy - it needs to be rewritten)
-Tab (hold) - switching between last 2 tabs
+ESC (hold/double) - Page with/out style
+Tab (hold, double) - switching between last 3 tabs
+~ (hold/double) - Show/hide vertical "List All Tabs" "folder" (button must not be removed)
 F2 - Find Previous (searchbar)
 INS - Focus Address bar (press) / Address bar history (hold)
 Del (hold) - copy URL. Activate bottom Notepad++, keywait CTRL+V and activate bottom Firefox is disabled
@@ -19,13 +22,20 @@ Home - New Tab (press) / Address bar bookmarks (hold)
 END - Close Tab
 PgUp - Go one Tab to Right (press) / Address bar tabs (hold)
 PgDn - Go one Tab to Left
+
 F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, open in tab 1, focus on search =
-address bar+download button+side bar alternative] + Enter for opening in new tab (press/hold), CZ/EN FF, Tab / Shift+Tab
+address bar+download button+side bar alternative] + "Enter" for opening in new tab (press/hold), CZ/EN FF
+
+YoutubeFullscreenDumbAddonSkipper (numenter - Mute+show player ui /// numdot - unMute+skip ad /// 2560/1920x1080)
 
 Default hotkeys
 F3 - Find Next (searchbar)
-MButton - close tab / open bookmark(s)
-Alt+F4 - close FF /// Win+arrows - minimize/maximize/restore window
+MButton (close tab / open bookmark(s))
+Alt+F4 (close FF)
+Win+arrows (minimize/maximize/restore window)
+CTRL+TAB (ALT+TAB for FF)
+CTRL+UP/DOWN (page up/down)
+Tab, Shift+Tab (UI switch)
 ```
 
 ***Thunderbird CSS - [📥 140](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr-thunderbird.rar)⠀[📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 theme](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
@@ -40,7 +50,7 @@ PgDn - Go one Tab to Left
 RCtrl - Paste message to archive (press+hold) - context menu
 ```
 
-▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". The way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content (first global row may cause problems on some websites), just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". Way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content (first global row may cause issues on some websites - Google login doesn't work without playing animation on first attempt - F5, Steam images do not repeat endlessly when hovering over them with mouse, ...), just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
 
 Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
@@ -58,7 +68,7 @@ FF59- opening menu bar through ALT+arrows (2-LINE)
 
 FF117+ is working again in Win7 ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)*** [without ```user_pref("media.rdd-wav.enabled", false);``` (prefs.js) FF140 may not run in Win7]
 
-FF140+ (sidebar) semi/hide/remove orange scrollbars+splitter ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
+FF140+ (sidebar tabs) semi/hide/remove orange scrollbars+splitter ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
 
 TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
 <br/>
@@ -75,7 +85,7 @@ TB115+ has a limited length of splitter (for window resizing) to avoid interferi
 ***132*** (2024) - 1-LINE - ↕️31px (72px taskbar, Win11) 150% system DPI. 1920x1080
 ![132-31px](https://github.com/user-attachments/assets/d1aabf83-6d4d-4a07-94c0-2ae0ec3eda4b)
 
-***115*** (2023-2025) - 1-LINE - ↕️33px (56px taskbar, Win7) 150% system DPI. 1920x1080
+***115*** (2023-2026) - 1-LINE - ↕️33px (56px taskbar, Win7) 150% system DPI. 1920x1080
 ![115-esr-1-line](https://github.com/user-attachments/assets/2a41bc59-5913-4142-a8f9-9e756370138f)
 
 ***140*** (2025-2026) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 ↕️339px
@@ -233,31 +243,39 @@ Works in FF 109/119 */
 
 ## useful-addons-about-config
 
-[***Enhancer for YouTube***](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/)
+[***Enhancer for YouTube***](https://www.mrfdev.com/enhancer-for-youtube)
 <br/>
-[***YouTube Ad Auto-skipper***](https://addons.mozilla.org/en-US/firefox/addon/youtube-ad-auto-skipper/)
+[***YouTube Ad Auto-skipper***](https://github.com/squgeim/yt-ad-autoskipper)
 <br/>
-[***Hide YouTube Fullscreen Controls***](https://addons.mozilla.org/en-US/firefox/addon/hide-youtube-controls/)
+[***Hide YouTube Fullscreen Controls***](https://github.com/nralbrecht/youtube-hide-controls)
 <br/>
-[***SaveFrom.net helper***](https://addons.mozilla.org/en-US/firefox/addon/savefromnet-helper/)
+[***YouTube Scrollable Fullscreen***](https://addons.mozilla.org/en-GB/firefox/addon/youtube-scrollable-fullscreen/)
 <br/>
-[***I don't care about cookies***](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
+[***YourCodecs***](https://github.com/undecV/YourCodecs) - blocking AVC can fix broken youtube (An error occurred. Please try again LATER) - Windows without audio/video codecs
 <br/>
-[***Image Video Block***](https://addons.mozilla.org/en-US/firefox/addon/image-video-block/)
+[***SaveFrom.net helper***](https://savefrom.net)
+<br/>
+[***Image Video Block***](https://github.com/tiborbarsi/image-video-block-browser-addon)
+<br/>
+[***Disable HTML5 Autoplay***](https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/) - issues with cloudflare (seznam.cz+cncenter.cz+pcgw)
+<br/>
+[***Large Image Blocker***](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/) - can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images
+<br/>
+[***I still don't care about cookies***](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)
 <br/>
 [***Print Edit WE***](https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/)
 <br/>
 [***Save Page WE***](https://addons.mozilla.org/en-US/firefox/addon/save-page-we/)
 <br/>
-[***User-Agent Switcher***](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/)
+[***User-Agent Switcher***](https://gitlab.com/ntninja/user-agent-switcher)
 <br/>
-[***Hide My IP Free***](https://addons.mozilla.org/en-US/firefox/addon/hide-my-ip-free/)
+[***Hide My IP Free***](https://www.hidemyip.com/)
 <br/>
-[***Disable HTML5 Autoplay***](https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/) - issues with cloudflare, seznam.cz+cncenter.cz (profiles)
-<br/>
-[***Large Image Blocker***](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/) - can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images
+[***QRCode Scanner***](https://github.com/laobubu/QRScaner)
 <br/>
 [***Load Background Tabs Lazily***](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/) - resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)
+<br/>
+[***android new tabs in foreground***](https://addons.mozilla.org/en-US/firefox/addon/android_new_tabs_in_foreground/)
 
 ***dpi***
 <br/>
@@ -429,9 +447,11 @@ browser.bookmarks.max_backups;0
 <br/>
 accessibility.blockautorefresh;true
 
-***maximum cache size on SSD***
+***maximum cache size on SSD (increase 1GB limit)***
 <br/>
 browser.cache.disk.capacity
+<br/>
+browser.cache.disk.smart_size.enabled;false
 
 ***maximum size of cached file on SSD***
 <br/>
@@ -455,9 +475,19 @@ fission
 <br/>
 dom.ipc.processCount
 
+***suspend+throttling (background) tabs (+download function)***
+<br/>
+thrott
+<br/>
+suspend
+<br/>
+connections
+
 ***FPS limiter***
 <br/>
 layout.frame_rate
+<br/>
+gfx.display.max-frame-rate
 
 ***reduce "Page Referrer" (from which webpage link was opened)***
 <br/>
@@ -483,6 +513,20 @@ pdfjs.disabled
 <br/>
 layers.acceleration
 <br/>
+media.hardware-video-decoding.enabled
+<br/>
+media.hardware-video-decoding.force-enabled
+<br/>
+media*enable
+<br/>
+media*disable
+<br/>
+audio*enable
+<br/>
+264
+<br/>
+gmp
+<br/>
 dxva
 <br/>
 media.hardware-video
@@ -501,9 +545,7 @@ wav
 <br/>
 wmf
 <br/>
-mp4
-<br/>
-264
+mp4 - can fix broken youtube (An error occurred. Please try again LATER), Windows without audio/video codecs, without mp4 support can be increased bitrate
 <br/>
 webm
 <br/>
@@ -513,15 +555,25 @@ av1
 <br/>
 canvas
 
+***disable endless downloading of "tmpaddon*" (~14MB per session) to TEMP folder***
+<br/>
+media.gmp-provider.enabled
+<br/>
+media.gmp-widedevine.enabled
+<br/>
+media.gmp-widevinecdm.enabled
+<br/>
+media.gmp.decoder.enabled
+
 ***image blocker***
 <br/>
 permissions.default.image;2
 
-***may fix broken youtube***
+***can fix broken youtube***
 <br/>
 network.http.http3.enable;false
 
-***may fix non-functional addons***
+***can fix non-functional addons***
 <br/>
 extensions.manifestV3.enabled;	false
 
@@ -553,6 +605,42 @@ browser.tabs.groups.enabled
 ***disable picture in picture***
 <br/>
 picture-in-picture
+
+***disable translation query***
+<br/>
+browser.translations.enable
+
+***disable about:config warning***
+<br/>
+user_pref("browser.aboutConfig.showWarning", false);
+<br/>
+user_pref("general.warnOnAboutConfig", false);
+
+***enable specific theme***
+<br/>
+user_pref("extensions.activeThemeID", "firefox-compact-light@mozilla.org");
+<br/>
+user_pref("devtools.theme", "light");
+
+***disable def browser check***
+<br/>
+user_pref("browser.shell.checkDefaultBrowser", false);
+
+***disable close tabs warning***
+<br/>
+user_pref("browser.tabs.warnOnClose", false);
+
+***enable sidebar***
+<br/>
+sidebar.revamp
+
+***switch to opened tab***
+<br/>
+browser.tabs.loadInBackground
+
+***zoom 30-%***
+<br/>
+zoom.minPercent
 
 --------------------------------------------------------------------------------------------***Thunderbird***
 <br/>
@@ -617,11 +705,19 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ***https://html5test.com/***
 <br/>
+***https://test-ipv6.com***
+<br/>
+***https://www.google.com/intl/en/ipv6/statistics.html***
+<br/>
+***https://browserleaks.com/***
+<br/>
 ***https://georgebastock.github.io/CSS-Animation-Test/***
 <br/>
 ***https://www.w3schools.com/css/css3_transitions.asp***
 <br/>
 ***https://www.w3schools.com/css/css3_shadows.asp***
+<br/>
+***https://gsap.com/js/speed.html***
 
 ***89*** - Gen0 (2021-12) 150% DPI
 <img width="1280" alt="0" src="https://github.com/user-attachments/assets/dfce3ad3-8359-45c9-9b32-66687f75309d">
@@ -650,7 +746,7 @@ Customization (userChrome.css)
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
--javaScript CPU/GPU resource limiter (rotating ad can use entire CPU core regardless of its frequency), disable "transform" effects without breaking websites
+-javaScript CPU/GPU resource limiter (rotating ad use entire CPU core regardless of its frequency), disable "transform" effects without breaking websites
 <br/>
 -remove items from address bar (long/short right mouse click)
 <br/>
@@ -668,23 +764,35 @@ Customization (userChrome.css)
 <br/>
 -tab switching by domain (custom hotkeys)
 <br/>
--option to open a new panel in a new exclusive EXE process (this will prevent possible freezing/crashing of tabs in a shared process)
+-option to open a new panel in a new exclusive EXE process (prevent possible freezing/crashing of tabs in a shared process)
+<br/>
+-if all tabs in background are suspended, then have option to manually select tabs that will never be suspended
 <br/>
 -hide ```https://www.``` in address bar
 <br/>
--separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder is not very comfortable...
+-separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder (or using second FF profile with media support enabled) is not very comfortable...
 <br/>
--smooth scrolling (pixel steps) of the page after pressing e.g. CTRL+left click
-<br/>
--sorting in about:config
+-sorting in about:config, hide changed prefs
 <br/>
 -drag tabs without animation (~FF9- style)
+<br/>
+-UI overlay fullscreen (autohide, video+pdf+...)
 <br/>
 -it is not possible to redirect "safebrowsing" folder from the ramdisk to SSD (NTFS links), which leads to constant downloading of the same data every time the profile is deleted and copied again (ramdisk)
 <br/>
 -if file "c:\Users\XXX\AppData\Local\Mozilla" exists, it is not possible to start FF (~v19+)
 <br/>
 -if file "datareporting" exists (in profile), FF freezes on start (~v119-132)
+<br/>
+-hide "new tab" labels (empty space is more visible)
+<br/>
+-bandwith limiter (browsing,download,upload)
+<br/>
+-reset addon settings
+<br/>
+-stream (download) audio only option, auto stop streaming video if FF/tab is in background (keep audio)
+<br/>
+-addressbar - "-" character as search exclude (like Google search and others)
 <br/>
 ***Thunderbird***
 <br/>
@@ -708,6 +816,42 @@ android - holding (some UI) automatically performs assigned action (close tab, o
 <br/>
 <img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
 <img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
+
+***Chyby webu*** -
+<br/>
+-mbank.cz - CTRL+C/V je zakázáno (pro umělé navýšení chybovosti+prodloužení procesu je nutné ručně přepisovat částky a pro potvrzení platby i náhodné texty) - přepnout stránku na "bez stylu" a zkopírovat text a ten vložit AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+
+-komunitni-preklady.org/ostatni-cestiny - stránka nejde uložit, vykresluje se pouze viditelná část - přepnout stránku na "bez stylu" /// nebo snížit DPI hluboko pod 1 + 1% velikost stránky + přepnout rozlišení obrazovky na výšku /// nebo použít Save Page WE a nastavit automatické zmenšení stránky před uložením
+
+-web.archive.org - stránka nejde zachytit (PCGW,sbazar) - na konec url přidat ```?noredirect=1``` (po pár hodinách po zachycení ale stejně může dojít ke smazání záznamu)
+
+-fanatical.com - nejde (klikat) vložit zboží do košíku a procházet historii objednávek atd. = nastavit PS5 User-Agent (addon "User-Agent Switcher"). (S největší pravděpodobností může být problém v nějaké změněné předvolbě v about:config)
+
+-myabandonware.com - nejde klikat na odkazy = přidat vyjímku "I still don't care about cookies"
+
+-mapy.com - problémy s nevykreslováním - šedé obdélníky = zkontrolovat oprávnění cache složky
+
+-datoid.cz - blokace některých stránek u operátora O2 se dá obejít zvýšením "Zapnout DNS over HTTPS pomocí:"
+
+-nekonečný download plnou rychlostí - zřejmě pokud jsou v FF zakázány audio/video kodeky (nebo pokud chybí ty výchozí ve Win?), tak na některých serverech (kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4) může dojít k brutálnímu bugu, kdy místo přehrávání videoreklamy se budou donekonečna (pokud uživatel nedostane ban na přehrávání reklam) stahovat/zahazovat MP4 části souboru. Za 1 den je možné propálit stovky GB (1200GB SIM karta za 3000,- může být teoreticky jednou reklamou do 2 dnů vyčerpána). Jediné mě známé řešení je použít addon typu "Image Video Block"/"Disable HTML5 Autoplay" který jakékoli stahování utne
+
+***Website issues*** -
+<br/>
+-mbank.cz - CTRL+C/V is disabled (to artificially increase error rate and prolong process, it is necessary to manually rewrite amounts and random texts to confirm payment) - switch page to "no style" and copy text and paste it with AHK script (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+
+-komunitni-preklady.org/ostatni-cestiny - page cannot be saved, only visible part is rendered - switch page to "no style" /// or reduce DPI below 1 + 1% of page size + switch screen resolution to portrait /// or use Save Page WE and set automatic page reduction before saving
+
+-web.archive.org - page cannot be captured (PCGW,sbazar) - add ```?noredirect=1``` to end of URL (however, record may still be deleted a few hours after capture)
+
+-fanatical.com - unable to add items to cart, view order history, etc. = set PS5 User-Agent (addon "User-Agent Switcher"). (Most likely, issue may be related to a modified preference in about:config)
+
+-myabandonware.com - links cannot be clicked = add exception "I still don't care about cookies"
+
+-mapy.com - problems with rendering - gray rectangles = check cache folder permission
+
+-datoid.cz - blocking of certain websites by operator O2 can be circumvented by increasing "Enable DNS over HTTPS using:"
+
+-endless download at full speed - apparently, if audio/video codecs are disabled in FF (or if default ones in Win are missing?), then on some servers (kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4) there may be a brutal bug where instead of playing video ads, MP4 parts of file will be downloaded/discarded endlessly (unless user is banned from playing ads). Hundreds of GB can be used up in a single day (a 1200GB SIM card costing 120 EUR can theoretically be used up by a single ad within two days). Only solution I know of is to use an add-on such as "Image Video Block"/"Disable HTML5 Autoplay" which will stop any downloading
 
 ***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ```89``` ```99``` ```115``` ```140``` (internet explorer offline 2004-2006)
 <br/>
