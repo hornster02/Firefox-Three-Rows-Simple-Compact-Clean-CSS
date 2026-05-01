@@ -1,6 +1,5 @@
 
-
-Mar 14, 2023 - Feb 1, 2026
+2023-2026
 
 ⬇️ [Historical comparison](#historical-comparison) / [Useful addons + about:config](#useful-addons-about-config) / [Other](#other) ⬇️
 
@@ -26,7 +25,7 @@ PgDn - Go one Tab to Left
 F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, open in tab 1, focus on search =
 address bar+download button+side bar alternative] + "Enter" for opening in new tab (press/hold), CZ/EN FF
 
-YoutubeFullscreenDumbAddonSkipper (numenter - Mute+show player ui /// numdot - unMute+skip ad /// 2560/1920x1080)
+YoutubeFullscreenDumbAdSkipper (numenter - Mute+show player ui /// numdot - unMute+skip ad /// 2560/1920x1080)
 
 Default hotkeys
 F3 - Find Next (searchbar)
@@ -35,7 +34,7 @@ Alt+F4 (close FF)
 Win+arrows (minimize/maximize/restore window)
 CTRL+TAB (ALT+TAB for FF)
 CTRL+UP/DOWN (page up/down)
-Tab, Shift+Tab (UI switch)
+Tab, Shift+Tab (UI elements switch)
 ```
 
 ***Thunderbird CSS - [📥 140](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/140-esr-thunderbird.rar)⠀[📥 115](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/115-esr-thunderbird.rar)⠀[📥 theme](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/theme-thunderbird.rar)⠀[📥 Autohotkey v1.1 ⬇️](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/raw/main/script-thunderbird.rar)***
@@ -56,23 +55,41 @@ Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used wi
 
 most of colors I've changed are pink (FF00A3, E20074), orange (FB7914) and in url (fdd7aa, springgreen) - they can be easily found/replaced. CSS files can be edited and tested even by your pet = data loaded from it are only temporary in RAM memory and after deleting files there is no trace of them in profile or Firefox itself
 
-To view images in full size (50+, 1920x1080, earlier 2560x1080) you can save page as ***Web page, complete*** (7MB)
+🚫disabling downloading updates - ```updates``` in ```C:\ProgramData\Mozilla``` or ```C:\Users\XXX\AppData\Local\Mozilla``` (restrict access). However, these method can cause a bug in Thunderbird (inability to open settings and browse emails)
 
-🚫disabling downloading updates - create ```updates``` file in ```C:\ProgramData\Mozilla``` or ```C:\ProgramData\MozillaXXX```. Or deny access (NTFS Permissions Tools). However, these methods may cause a bug in Thunderbird (inability to open settings and browse emails)
+🚫disabling compatibility check of profile - ```compatibility.ini``` (restrict access). Profile may or may not be damaged, but its use will no longer be decided by someone else
 
-🚫disabling compatibility check of profile - delete ```compatibility.ini``` file and create ```compatibility.ini``` folder. Profile may or may not be damaged, but its use will no longer be decided by someone else
-
-FF removed (via CSS) - "..." in bookmarks names / video fullscreen warnings / update prompts after starting FF
-
-FF59- opening menu bar through ALT+arrows (2-LINE)
+CSS FF59- opening menu bar through ALT+arrows (2-LINE)
 
 FF117+ is working again in Win7 ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)*** [without ```user_pref("media.rdd-wav.enabled", false);``` (prefs.js) FF140 may not run in Win7]
 
-FF140+ (sidebar tabs) semi/hide/remove orange scrollbars+splitter ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
+CSS FF140 (sidebar tabs) semi/hide/remove orange scrollbars+splitter ```#sidebar-launcher-splitter {background-color: light-dark(#EAEAED94, #1C1B2275)!important;max-width: 0px!important;min-width: 0px!important;}```
 
-TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
+CSS TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
+
+userContent.css - static web for testing (can cause issues/break = some webpages can't even display text without animations) ```* {animation-duration: unset !important; animation: unset !important; transform: unset !important; rotate: unset !important;}```
+
+Feel free to report CSS issues (from 115+) either as an "Issue" or via email = it seems that number of features/GUI elements in FF/TB is growing, and it’s possible that I’m not even aware of some of them + I’m using old Win7 2009. If some GUIs haven’t been edited by me for compactness, it means they’re unimportant to me, and I might also create bugs by doing so. FFCSS Gen1 (2-132) is very buggy
+<br/>
+CSS created in Win11 2021 (virtual machine) - FF119, FF132
+<br/>
+Versions I used -
+<br/>
+***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ***89 CSS*** ```99``` ```115``` ```140``` (internet explorer offline 2004-2006)
+<br/>
+***TB*** Win 2016+ ```38``` ```45-68``` ```78``` ```91``` ```99``` ```109``` ***115 CSS*** ```140```
+<br/>
+***FF*** android 2024+ ```132``` (chrome ```71``` 2021-2024)
+
+***FF49 (2016)*** ```general.useragent.override``` -
+<br/>
+youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)```
+<br/>
+facebook (2026) ```Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15```
 <br/>
 <br/>
+<br/>
+To view images in full size (50+, 1920x1080, earlier 2560x1080) you can save page as ***Web page, complete*** (7MB)
 <br/>
 <img width="720" height="278" alt="nahled11" src="https://github.com/user-attachments/assets/880af04d-b05d-4d1b-9ad4-7fe32d6fd314" />
 
@@ -439,6 +456,10 @@ extensions.legacy.enabled;true
 <br/>
 browser.sessionstore.resume_from_crash;false
 
+***save interval = reduce writing to SSD***
+<br/>
+browser.sessionstore.interval
+
 ***do not create bookmarks backups***
 <br/>
 browser.bookmarks.max_backups;0
@@ -517,11 +538,11 @@ media.hardware-video-decoding.enabled
 <br/>
 media.hardware-video-decoding.force-enabled
 <br/>
-media*enable
+```media*enable```
 <br/>
-media*disable
+```media*disable```
 <br/>
-audio*enable
+```audio*enable```
 <br/>
 264
 <br/>
@@ -686,6 +707,8 @@ mailnews.message_display.disable_remote_image
 ***https://www.thunderbird.net/en-US/thunderbird/releases/***
 <br/>
 ***https://whattrainisitnow.com/calendar/***
+<br/>
+***https://connect.mozilla.org/t5/ideas/idb-p/ideas/tab/most-kudoed***
 
 Language packs (addons) are in ```xpi``` folder
 <br/>
@@ -746,7 +769,7 @@ Customization (userChrome.css)
 <br/>
 -custom colours of folders for quick orientation (bookmarks)
 <br/>
--javaScript CPU/GPU resource limiter (rotating ad use entire CPU core regardless of its frequency), disable "transform" effects without breaking websites
+-javaScript CPU/GPU resource limiter (rotating ad can use entire CPU core regardless of its frequency), pause javaScript/animation ~5s after page is loaded (without reloading)
 <br/>
 -remove items from address bar (long/short right mouse click)
 <br/>
@@ -772,9 +795,11 @@ Customization (userChrome.css)
 <br/>
 -separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder (or using second FF profile with media support enabled) is not very comfortable...
 <br/>
--sorting in about:config, hide changed prefs
+-sorting/selecting in about:config, hide changed prefs
 <br/>
 -drag tabs without animation (~FF9- style)
+<br/>
+-hor tab bar scrolling with animation (~FF99- style, "ui.prefersReducedMotion"), custom roll steps, custom animation speed
 <br/>
 -UI overlay fullscreen (autohide, video+pdf+...)
 <br/>
@@ -794,6 +819,24 @@ Customization (userChrome.css)
 <br/>
 -addressbar - "-" character as search exclude (like Google search and others)
 <br/>
+-custom cache write delays (reduce writes to SSD)
+<br/>
+-browser toolbox - reset changes button, pin styles button
+<br/>
+-"Copy URL" in context menus (bookmarks + tabs)
+<br/>
+-latest closed tabs list (long click to "List All Tabs" button)
+<br/>
+-drag&drop between multiple FF?
+<br/>
+-auto accept all Untrusted Certificates?
+<br/>
+-regular expressions (searching)
+<br/>
+-open vertical list of tabs by RButton+Wheel (release buttons = open selected tab) = like Notepad++
+<br/>
+-backup restore profile (android)
+<br/>
 ***Thunderbird***
 <br/>
 -long click functions - e.g. for saving attachment(s)
@@ -806,11 +849,11 @@ Customization (userChrome.css)
 <br/>
 -disable+hide some days in calendar
 <br/>
--remove "tree view" (done), colored first character instead + global option of collapsing/expanding threads + remove arrows
+-remove "tree view" (done, CSS), colored first character instead? + global option of collapsing/expanding threads + remove arrows?
 <br/>
 -scrollable top bar (like tabs), use empty side/status bar space
 
-android - holding (some UI) automatically performs assigned action (close tab, open bookmarks, open link in new tab and switch to it, ...), disable double tap to select text, buttons on one side for one hand (landscape mode), remove notification when opening/closing tab + other minor UI adjustments - e.g.
+android - holding (some UI) automatically performs assigned action (close tab, open bookmarks, open link in new tab and switch to it, ...), disable double tap to select text, buttons on one side for one (left) hand (landscape mode), remove notification when opening/closing tab + other minor UI adjustments - e.g.
 <br/>
 🤦android (5.5" 960x480, fullscreen) vs CSS - really only a 2,7 tabs can fit on the screen?🤦
 <br/>
@@ -819,42 +862,56 @@ android - holding (some UI) automatically performs assigned action (close tab, o
 
 ***Chyby webu*** -
 <br/>
--mbank.cz - CTRL+C/V je zakázáno (pro umělé navýšení chybovosti+prodloužení procesu je nutné ručně přepisovat částky a pro potvrzení platby i náhodné texty) - přepnout stránku na "bez stylu" a zkopírovat text a ten vložit AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+mbank.cz - CTRL+C/V je zakázáno (pro umělé navýšení chybovosti+prodloužení procesu je nutné ručně přepisovat částky a pro potvrzení platby i náhodné texty) - přepnout stránku na "bez stylu" a zkopírovat text a ten vložit AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
 
--komunitni-preklady.org/ostatni-cestiny - stránka nejde uložit, vykresluje se pouze viditelná část - přepnout stránku na "bez stylu" /// nebo snížit DPI hluboko pod 1 + 1% velikost stránky + přepnout rozlišení obrazovky na výšku /// nebo použít Save Page WE a nastavit automatické zmenšení stránky před uložením
+komunitni-preklady.org/ostatni-cestiny - stránka nejde uložit, vykresluje se pouze viditelná část - přepnout stránku na "bez stylu" /// nebo snížit DPI hluboko pod 1 + 1% velikost stránky + přepnout rozlišení obrazovky na výšku /// nebo použít Save Page WE a nastavit automatické zmenšení stránky před uložením
 
--web.archive.org - stránka nejde zachytit (PCGW,sbazar) - na konec url přidat ```?noredirect=1``` (po pár hodinách po zachycení ale stejně může dojít ke smazání záznamu)
+web.archive.org - stránka nejde zachytit (PCGW,sbazar) - na konec url přidat ```?noredirect=1``` (po pár hodinách po zachycení ale stejně může dojít ke smazání záznamu)
 
--fanatical.com - nejde (klikat) vložit zboží do košíku a procházet historii objednávek atd. = nastavit PS5 User-Agent (addon "User-Agent Switcher"). (S největší pravděpodobností může být problém v nějaké změněné předvolbě v about:config)
+fanatical.com - nejde (klikat) vložit zboží do košíku a procházet historii objednávek atd. = nastavit PS5 User-Agent (addon "User-Agent Switcher"). (S největší pravděpodobností může být problém v nějaké změněné předvolbě v about:config)
 
--myabandonware.com - nejde klikat na odkazy = přidat vyjímku "I still don't care about cookies"
+myabandonware.com - nejde klikat na odkazy = přidat vyjímku "I still don't care about cookies"
 
--mapy.com - problémy s nevykreslováním - šedé obdélníky = zkontrolovat oprávnění cache složky
+mapy.com - problémy s nevykreslováním - šedé obdélníky = zkontrolovat oprávnění cache složky
 
--datoid.cz - blokace některých stránek u operátora O2 se dá obejít zvýšením "Zapnout DNS over HTTPS pomocí:"
+datoid.cz - blokace některých stránek u operátora O2 se dá obejít zvýšením "Zapnout DNS over HTTPS pomocí:"
 
--nekonečný download plnou rychlostí - zřejmě pokud jsou v FF zakázány audio/video kodeky (nebo pokud chybí ty výchozí ve Win?), tak na některých serverech (kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4) může dojít k brutálnímu bugu, kdy místo přehrávání videoreklamy se budou donekonečna (pokud uživatel nedostane ban na přehrávání reklam) stahovat/zahazovat MP4 části souboru. Za 1 den je možné propálit stovky GB (1200GB SIM karta za 3000,- může být teoreticky jednou reklamou do 2 dnů vyčerpána). Jediné mě známé řešení je použít addon typu "Image Video Block"/"Disable HTML5 Autoplay" který jakékoli stahování utne
+war-forum.net (hlavní stránka) - nekonečné stahování XML souboru (chat)
+
+nekonečný download plnou rychlostí - zřejmě pokud jsou v FF zakázány audio/video kodeky (nebo pokud chybí ty výchozí ve Win?), tak na některých serverech
+<br/>
+kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4
+<br/>
+w3schools.com - cdn.viously.com/video/3TXPgqkObK6/1-w240.webp
+<br/>
+může dojít k brutálnímu bugu, kdy se místo přehrávání videoreklamy budou donekonečna (pokud uživatel nedostane ban na přehrávání reklam) stahovat/zahazovat části video souboru. Za 1 den je možné propálit stovky GB (1200GB SIM karta za 3000,- může být teoreticky jednou reklamou do 2 dnů vyčerpána). Jediné mě známé řešení je použít addon typu "Image Video Block" + "Disable HTML5 Autoplay" kteří jakékoli stahování utnou
+
+aukro.cz (opotřebení SSD) - může docházet k podivným zápisům do "storage\default\https+++aukro.cz\cache\morgue\" = 1 otočení kolečkem myši + pauza + opakovat = ~110MB zápis + ~110MB zápis + ...
 
 ***Website issues*** -
 <br/>
--mbank.cz - CTRL+C/V is disabled (to artificially increase error rate and prolong process, it is necessary to manually rewrite amounts and random texts to confirm payment) - switch page to "no style" and copy text and paste it with AHK script (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+mbank.cz - CTRL+C/V is disabled (to artificially increase error rate and prolong process, it is necessary to manually rewrite amounts and random texts to confirm payment) - switch page to "no style" and copy text and paste it with AHK script (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
 
--komunitni-preklady.org/ostatni-cestiny - page cannot be saved, only visible part is rendered - switch page to "no style" /// or reduce DPI below 1 + 1% of page size + switch screen resolution to portrait /// or use Save Page WE and set automatic page reduction before saving
+komunitni-preklady.org/ostatni-cestiny - page cannot be saved, only visible part is rendered - switch page to "no style" /// or reduce DPI below 1 + 1% of page size + switch screen resolution to portrait /// or use Save Page WE and set automatic page reduction before saving
 
--web.archive.org - page cannot be captured (PCGW,sbazar) - add ```?noredirect=1``` to end of URL (however, record may still be deleted a few hours after capture)
+web.archive.org - page cannot be captured (PCGW,sbazar) - add ```?noredirect=1``` to end of URL (however, record may still be deleted a few hours after capture)
 
--fanatical.com - unable to add items to cart, view order history, etc. = set PS5 User-Agent (addon "User-Agent Switcher"). (Most likely, issue may be related to a modified preference in about:config)
+fanatical.com - unable to add items to cart, view order history, etc. = set PS5 User-Agent (addon "User-Agent Switcher"). (Most likely, issue may be related to a modified preference in about:config)
 
--myabandonware.com - links cannot be clicked = add exception "I still don't care about cookies"
+myabandonware.com - links cannot be clicked = add exception "I still don't care about cookies"
 
--mapy.com - problems with rendering - gray rectangles = check cache folder permission
+mapy.com - problems with rendering - gray rectangles = check cache folder permission
 
--datoid.cz - blocking of certain websites by operator O2 can be circumvented by increasing "Enable DNS over HTTPS using:"
+datoid.cz - blocking of certain websites by operator O2 can be circumvented by increasing "Enable DNS over HTTPS using:"
 
--endless download at full speed - apparently, if audio/video codecs are disabled in FF (or if default ones in Win are missing?), then on some servers (kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4) there may be a brutal bug where instead of playing video ads, MP4 parts of file will be downloaded/discarded endlessly (unless user is banned from playing ads). Hundreds of GB can be used up in a single day (a 1200GB SIM card costing 120 EUR can theoretically be used up by a single ad within two days). Only solution I know of is to use an add-on such as "Image Video Block"/"Disable HTML5 Autoplay" which will stop any downloading
+war-forum.net (homepage) - endless downloading of XML file (chat)
 
-***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ```89``` ```99``` ```115``` ```140``` (internet explorer offline 2004-2006)
+endless download at full speed - apparently, if audio/video codecs are disabled in FF (or if default ones in Win are missing?), then on some servers
 <br/>
-***TB*** Win 2016+ ```38``` ```45-68``` ```78``` ```91``` ```99``` ```109``` ```115``` ```140```
+kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4
 <br/>
-***FF*** android 2024+ ```132``` (chrome ```71``` 2021-2024)
+w3schools.com - cdn.viously.com/video/3TXPgqkObK6/1-w240.webp
+<br/>
+may be a brutal bug where instead of playing video ads, video parts of file will be downloaded/discarded endlessly (unless user is banned from playing ads). Hundreds of GB can be used up in a single day (a 1200GB SIM card costing 120 EUR can theoretically be used up by a single ad within two days). Only solution I know of is to use an add-on such as "Image Video Block" + "Disable HTML5 Autoplay" which will stop any downloading
+
+aukro.cz (SSD wear) - strange writes to "storage\default\https+++aukro.cz\cache\morgue\" may occur = 1 mouse wheel + pause + repeat = ~110MB write + ~110MB write + ...
