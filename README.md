@@ -1,9 +1,11 @@
 
+
+
 2023-2026
 
 ⬇️ [Historical comparison](#historical-comparison) 🔸 [Useful addons + about:config](#useful-addons-about-config) 🔸 [Other](#other) ⬇️
 
-***CSS Calendar*** - FF153 (beta - 1.Aug.2026 /// final??? - 15.Aug.2026) 🔸 TB - skip 1 ESR release + 1 month (2027)
+***CSS Calendar*** - FF - next ESR release + 1 month (2027) 🔸 TB - skip 1 ESR release + 1 month (2027)
 
 ***android - [📥 desktop mode as default + fullscreen](https://github.com/hornster02/hornster02/raw/main/android.rar)***
 <br/>
@@ -24,7 +26,7 @@ F1 - Bookmarks (press) / History (hold) / Downloaded (double) [places.xhtml, ope
 
 YoutubeFullscreenDumbAdSkipper (numenter - Mute+show player ui /// numdot - unMute+skip ad /// 2560/1920x1080)
 
-Default hotkeys
+Default hotkeys -
 F3 - Find Next (searchbar)
 MButton (close tab / open bookmark(s))
 Alt+F4 (close FF)
@@ -46,7 +48,7 @@ PgDn - Go one Tab to Left
 RCtrl - Paste message to archive (press+hold) - context menu
 ```
 
-▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". Way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content (especially first global row may cause issues on some websites - Google login doesn't work without playing animation on first attempt - F5, Steam images do not repeat endlessly when hovering over them with mouse, ...), just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
+▶️***To enable modified interface, you need "chrome" folder and "user.js" file*** (be careful with this file - it makes a "permanent" change to program settings = to undo changes, it is not enough to delete it, but you have to manually edit preferences in "about:config". Way to avoid this manual modification is to backup ```prefs.js``` file) ***copy into your ThunderFox profile (about:profiles)***. If you don't want to modify web content (especially first global row may cause issues on some websites - Google login doesn't work without playing animation on first attempt - F5, Steam images do not repeat endlessly when hovering over them with mouse, aukro.cz, ...), just delete ```userContent.css``` file. If you want to return removed buttons/icons and some other small things, just delete upper "Delete me" part in ```userChrome.css``` file and all except first 5 lines in ```user.js``` file (CSS 132 / ESR+)
 
 ■ Firefox/Thunderbird installers can be extracted by WinRar/7-Zip and then used without installation. Profiles can be manually created and run via ***thunderfox.exe -p*** or automatically created (if it doesn't already exist. Auto may not work in very old FF) and run via (example) ***thunderfox.exe -profile "a:\000"***. Offline mode ***thunderfox.exe -offline***
 
@@ -58,16 +60,20 @@ RCtrl - Paste message to archive (press+hold) - context menu
 <br/>
 🚫disabling compatibility check of profile - ```compatibility.ini``` (restrict access). Profile may or may not be damaged, but its use will no longer be decided by someone else
 
-■ CSS FF59- opening menu bar through ALT+arrows (2-LINE)
-
-■ FF117+ is working again in Win7 (in my case without audio/video = system without codecs = unlike older FF, those for Win10+ are probably dependent on system, or kernel issue) ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)*** [without ```user_pref("media.rdd-wav.enabled", false);``` (user.js) FF140/153 may not run in Win7]
-
-■ CSS TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
+■ FF117+ is working again in Win7 (in my case without audio/video = system without codecs = unlike older FF, those for Win10+ are probably dependent on system) ***[kernel1](https://github.com/YuZhouRen86/VxKex-NEXT) [2](https://github.com/i486/VxKex) [3](https://github.com/vxiiduu/VxKex) or [FF](https://github.com/e3kskoy7wqk/Firefox-for-windows-7)*** [without ```user_pref("media.rdd-wav.enabled", false);``` (user.js) FF140/153 may not run in Win7]
 
 ■ userContent.css (for testing) - better font + static web ```* {font-family: sans-serif !important; animation-duration: none !important; animation: none !important; transform: none !important; rotate: none !important;}```
 
-■ CSS created in Win11 2021 (virtual machine) - FF119/132
+■ ***FF49 (2016)*** ```general.useragent.override``` -
+<br/>
+youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)```
 
+■ CSS TB115+ has a limited length of splitter (for window resizing) to avoid interfering with some icons
+
+■ CSS FF59- opening menu bar through ALT+arrows (2-LINE)
+
+■ CSS created in Win11 2021 (virtual machine) - FF119/132
+<br/>
 ■ Versions I used -
 <br/>
 ***FF*** Win 2006+ ```1-64``` ```43``` ```52``` ```64``` ```68``` ```73``` ```78``` ```84``` ***89 CSS*** ```99``` ```115``` ```140``` ```153``` (internet explorer offline 2004-2006)
@@ -75,50 +81,48 @@ RCtrl - Paste message to archive (press+hold) - context menu
 ***TB*** Win 2016+ ```38``` ```45-68``` ```78``` ```91``` ```99``` ```109``` ***115 CSS*** ```140```
 <br/>
 ***FF*** android 2024+ ```132``` (chrome ```71``` 2021-2024)
-
-■ ***FF49 (2016)*** ```general.useragent.override``` -
-<br/>
-youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWebKit/605.1.15 (KHTML, like Gecko)```
 <br/>
 <br/>
 <br/>
-■ To view images in full size (42, 1920x1080, earlier 2560x1080) you can save page as ***Web page, complete*** (7MB)
+■ Address Bar (2 colored lines for bookmarks/opened tabs + pink text highlight). To view images in full size (45 = 1920x1080, earlier 2560x1080 = 2MB) you can save page as ***Web page, complete***, or switch page to "No Style"+fullscreen
+<br/>
+<img width="720" alt="nahled11" src="https://github.com/user-attachments/assets/880af04d-b05d-4d1b-9ad4-7fe32d6fd314" />
 
 ***153*** (2026-2027) - 2-LINE - ↕️68px, "browser.uidensity", 1 (Nova Letterbox Compact 👍) - 150% DPI
 <br/>
-<img width="960" height="540" alt="153-68" src="https://github.com/user-attachments/assets/95acadc4-f375-41cf-8f53-7d592f65ba99" />
+<img width="1280" alt="153-68" src="https://github.com/user-attachments/assets/95acadc4-f375-41cf-8f53-7d592f65ba99" />
 
 ***153*** (2026-2027) - DEFAULT - ↕️141px, "browser.uidensity", 1 (Nova Letterbox compact 🤔) - 150% DPI
 <br/>
-<img width="960" height="540" alt="153-141" src="https://github.com/user-attachments/assets/62a903f0-8f55-4293-86a2-b604549b2af4" />
+<img width="1280" alt="153-141" src="https://github.com/user-attachments/assets/62a903f0-8f55-4293-86a2-b604549b2af4" />
 
 ***140*** (2025-2026) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). ↕️339px
 <br/>
-<img width="1920" height="1080" alt="tb140-339" src="https://github.com/user-attachments/assets/30d4fea9-d0b6-4343-966d-4e4abfc04cda" />
+<img width="1280" alt="tb140-339" src="https://github.com/user-attachments/assets/30d4fea9-d0b6-4343-966d-4e4abfc04cda" />
 
 ***140*** (2025-2026) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). ↕️616px
 <br/>
-<img width="1920" height="1080" alt="tb140-616" src="https://github.com/user-attachments/assets/02e58374-310b-4ec5-b53e-96f659351044" />
+<img width="1280" alt="tb140-616" src="https://github.com/user-attachments/assets/02e58374-310b-4ec5-b53e-96f659351044" />
 
 ***140*** (2025-2026) - 3-LINE - ↕️175px - places.xhtml - 150% DPI
 <br/>
-<img width="1920" height="1080" alt="140-places-175" src="https://github.com/user-attachments/assets/c3ceab3c-3b09-4494-ad2c-73dbfafec94b" />
+<img width="1280" alt="140-places-175" src="https://github.com/user-attachments/assets/c3ceab3c-3b09-4494-ad2c-73dbfafec94b" />
 
 ***140*** (2025-2026) - DEFAULT - ↕️559px - places.xhtml - 150% DPI
 <br/>
-<img width="1920" height="1080" alt="140-places-559" src="https://github.com/user-attachments/assets/48e48faa-cab4-4433-ac64-18601d50e9c9" />
+<img width="1280" alt="140-places-559" src="https://github.com/user-attachments/assets/48e48faa-cab4-4433-ac64-18601d50e9c9" />
 
 ***140*** (2025-2026) - context menu+folder+download - 150% DPI
 <br/>
-<img width="1920" height="1080" alt="140-side+context-30" src="https://github.com/user-attachments/assets/40b2ecdd-a3e6-41a8-88e9-16adb8b69cf4" />
+<img width="1280" alt="140-side+context-30" src="https://github.com/user-attachments/assets/40b2ecdd-a3e6-41a8-88e9-16adb8b69cf4" />
 
-***119*** (2023) - DEFAULT - ↕️231px - 15,5 + 5 tabs - 150% DPI
+***119*** (2023) - DEFAULT - ↕️231px - 150% DPI
 <br/>
-![119 - DEF - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52)
+<img width="1706" alt="119 - DEF - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5b63679b-2546-4c5a-880d-5931260b8a52" />
 
-***119*** (2023) - 3-LINE - ↕️65px - 19 + 3 tabs - 150% system DPI - "find in page" bar over address bar. In this case, the entire interface fits into default "find in page" bar ⬆️. Pressing CTRL+F (default hotkey for searching) overlays address bar, pressing ALT+D (default hotkey for focusing address bar) overlays find in page bar. Does not work in 2-LINE (except FF3.5)
+***119*** (2023) - 3-LINE - ↕️65px - 150% system DPI - "find in page" bar overlays address bar. In this case, entire interface fits into default "find in page" bar ⬆️. Pressing CTRL+F (default hotkey for searching) overlays address bar, pressing ALT+D (default hotkey for focusing address bar) overlays find in page bar. Does not work in 2-LINE (except FF3.5)
 <br/>
-<img width="1280" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08">
+<img width="1706" alt="119 - CSS - 150% DPI4" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/7c0cbe8e-4580-491a-aa76-f9f255b9fe08" />
 
 <br/>
 <br/>
@@ -130,139 +134,139 @@ youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWe
 
 ***140*** - Gen2 (2025-07) - 2-LINE - ↕️67px 150% DPI
 <br/>
-<img width="960" height="540" alt="140-1" src="https://github.com/user-attachments/assets/f3233fe1-0831-4806-a5fb-ab681365aa4d" />
+<img width="1280" alt="140-1" src="https://github.com/user-attachments/assets/f3233fe1-0831-4806-a5fb-ab681365aa4d" />
 
 ***140*** (2025-2026) - DEFAULT - ↕️129px 150% DPI
 <br/>
-<img width="960" height="540" alt="140-0" src="https://github.com/user-attachments/assets/0d92c930-21b6-46c9-bc7e-2a94bf24d478" />
+<img width="1280" alt="140-0" src="https://github.com/user-attachments/assets/0d92c930-21b6-46c9-bc7e-2a94bf24d478" />
 
-***132*** (2024) - 2-LINE - ↕️64px 150% DPI. 1920x1080
+***132*** (2024) - 2-LINE - ↕️64px 150% DPI
 <br/>
-![132-64px](https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c)
+<img width="1280" alt="132-64px" src="https://github.com/user-attachments/assets/e101f381-14b8-4d72-9df5-3046e2f1453c" />
 
-***132*** (2024) - DEFAULT - ↕️85px 100% DPI. 1920x1080
+***132*** (2024) - DEFAULT - ↕️85px 100% DPI
 <br/>
-<img width="960" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442">
+<img width="1280" alt="132-def-85px" src="https://github.com/user-attachments/assets/d08713d4-d854-4a2b-9d7d-f6c603dd5442" />
 
 ***119*** (2023) - 2-LINE - ↕️64px 150% DPI
 <br/>
-![119 - CSS-2-LINE - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d)
+<img width="1706" alt="119 - CSS-2-LINE - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/5a963df3-8c71-4c8a-97f1-ac99f74e270d" />
 
 ***119*** (2023) - DEFAULT - ↕️85px 100% DPI
 <br/>
-![119 - DEF-2-LINE - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/288daae3-ed5c-4165-9dc5-2ce9849f3723)
+<img width="1706" alt="119 - DEF-2-LINE - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/288daae3-ed5c-4165-9dc5-2ce9849f3723" />
 
 ***109*** - (2023) - 2-LINE - ↕️67px 150% DPI
 <br/>
-![109 - CSS - 150% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8)
+<img width="1706" alt="109 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/151487eb-1c16-48c6-bd1d-ef37ec4f42d8" />
 
 ***109*** (2023) - DEFAULT - ↕️85px 100% DPI
 <br/>
-![109 - DEF - 100% DPI](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7)
+<img width="1706" alt="109 - DEF - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/56afb603-3962-4152-9518-7a9ac65129d7" />
 
-***99*** Gen1 (2023-03) - 2-LINE ↕️64px - 33,5 opened tabs - 150% DPI
+***99*** Gen1 (2023-03) - 2-LINE ↕️64px - 150% DPI
 <br/>
-<img width="1280" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png">
+<img width="1706" alt="Firefox (150% DPI) - compact" src="https://user-images.githubusercontent.com/127822397/234294708-65de1f44-8723-42ad-8c16-1d44ac7aefa8.png" />
 
-***99*** (2022) - DEFAULT ↕️85px 30 opened tabs - 100% DPI
+***99*** (2022) - DEFAULT ↕️85px - 100% DPI
 <br/>
-<img width="1280" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b">
+<img width="1706" alt="099 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/564f68bc-3263-41be-8790-6a68b1f2398b" />
 
 ***89*** (2021) - 2-LINE ↕️61px 150% DPI
 <br/>
-<img width="1280" alt="089 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e33a1bb-14d9-4d55-aba4-83536c444eca">
+<img width="1706" alt="089 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e33a1bb-14d9-4d55-aba4-83536c444eca" />
 
 ***89*** (2021) - DEFAULT ↕️85px 100% DPI
 <br/>
-<img width="1280" alt="089 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a55bcd9d-6a3f-4940-bd3d-381f5e7c0d27">
+<img width="1706" alt="089 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a55bcd9d-6a3f-4940-bd3d-381f5e7c0d27" />
 
 ***79*** (2020) - 2-LINE ↕️61px 150% DPI
 <br/>
-<img width="1280" alt="079 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/18e53d69-2ec5-43f1-9ec3-650ee8d0b01c">
+<img width="1706" alt="079 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/18e53d69-2ec5-43f1-9ec3-650ee8d0b01c" />
 
 ***79*** (2020) - DEFAULT ↕️74px 100% DPI
 <br/>
-<img width="1280" alt="079 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/edab11b7-0771-49cf-92db-eecc0369c01a">
+<img width="1706" alt="079 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/edab11b7-0771-49cf-92db-eecc0369c01a" />
 
 ***69*** (2019) - 2-LINE ↕️64px 150% DPI
 <br/>
-<img width="1280" alt="069 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/8ba89a97-ad17-43c7-9fc6-b8772cb6e2c0">
+<img width="1706" alt="069 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/8ba89a97-ad17-43c7-9fc6-b8772cb6e2c0" />
 
 ***69*** (2019) - DEFAULT ↕️74px 100% DPI
 <br/>
-<img width="1280" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b">
+<img width="1706" alt="069 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b1ef0974-47aa-4883-88c5-18b98854cd2b" />
 
 ***59*** (2018) - 2-LINE ↕️65px - 150% DPI
 <br/>
-<img width="1280" alt="059 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f691cfca-ae43-434e-ba8e-dbeea2447117">
+<img width="1706" alt="059 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f691cfca-ae43-434e-ba8e-dbeea2447117" />
 
 ***59*** (2018) - DEFAULT ↕️73px 100% DPI
 <br/>
-<img width="1280" alt="059 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/00bbb9f8-9533-406f-986e-ed7e6da151c8">
+<img width="1706" alt="059 - DEFAULT - 100% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/00bbb9f8-9533-406f-986e-ed7e6da151c8" />
 
 ***49*** (2016) - 2-LINE ↕️68px 150% DPI
 <br/>
-<img width="1280" alt="049 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/3c58188f-8e72-4d69-b3f9-1f24a858410f">
+<img width="1706" alt="049 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/3c58188f-8e72-4d69-b3f9-1f24a858410f" />
 
 ***49*** (2016) - DEFAULT ↕️71px 100% DPI
 <br/>
-<img width="1280" alt="Firefox 49 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ce717463-65f1-47c3-9206-4a3b3ffa74ab">
+<img width="1706" alt="Firefox 49 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/ce717463-65f1-47c3-9206-4a3b3ffa74ab" />
 
 ***39*** (2015) - 2-LINE ↕️65px 150% DPI
 <br/>
-<img width="1280" alt="039 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4bc30f4b-7d86-43eb-9665-ddfa4c49661c">
+<img width="1706" alt="039 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4bc30f4b-7d86-43eb-9665-ddfa4c49661c" />
 
 ***39*** (2015) - DEFAULT ↕️71px 100% DPI
 <br/>
-<img width="1280" alt="039 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f3ebdc14-293b-4ed0-a8a9-1b0889a1e23c">
+<img width="1706" alt="039 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/f3ebdc14-293b-4ed0-a8a9-1b0889a1e23c" />
 
 ***29*** (2014) - 2-LINE ↕️64px 150% DPI
 <br/>
-<img width="1280" alt="029 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b6a20a17-2c82-46d6-8737-49300428d959">
+<img width="1706" alt="029 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/b6a20a17-2c82-46d6-8737-49300428d959" />
 
 ***29*** (2014) - DEFAULT ↕️71px 100% DPI
 <br/>
-![029 (100% DPI)-DEFAULT](https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/21d733dd-1928-4092-8792-2681db9466b0)
+<img width="1706" alt="029 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/21d733dd-1928-4092-8792-2681db9466b0" />
 
 ***19*** (2013) - 2-LINE ↕️66px 150% DPI
 <br/>
-<img width="1280" alt="019 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d83e706a-a183-4f1f-8317-a978143ef671">
+<img width="1706" alt="019 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d83e706a-a183-4f1f-8317-a978143ef671" />
 
 ***19*** (2013) - DEFAULT ↕️63px 100% DPI
 <br/>
-<img width="1280" alt="019 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/05739ab3-8fc7-4d90-a50d-e3c37c3e9434">
+<img width="1706" alt="019 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/05739ab3-8fc7-4d90-a50d-e3c37c3e9434" />
 
 ***9*** (2011) - 2-LINE ↕️64px 150% DPI
 <br/>
-<img width="1280" alt="009 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/829675ee-b28d-412c-92d2-44be9ee7fb53">
+<img width="1706" alt="009 - CSS3 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/829675ee-b28d-412c-92d2-44be9ee7fb53" />
 
 ***9*** (2011) - DEFAULT ↕️64px 100% DPI
 <br/>
-<img width="1280" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc">
+<img width="1706" alt="009 (100% DPI)-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/a3751eef-a46a-4119-9277-a80e9fb056dc" />
 
 ***3.5*** (2009-2011) - 2-LINE ↕️67px - "find in page" bar overlays address bar - 150% DPI
 <br/>
-<img width="1280" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e">
+<img width="1706" alt="003 - CSS - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/4ac78e83-496f-4199-a94d-00775d24ac9e" />
 
 ***3.5*** (2009-2011) - DEFAULT ↕️169px 150% DPI
 <br/>
-<img width="1280" alt="003-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d5262193-2ab2-432b-b1e8-13da2ffe1fa9">
+<img width="1706" alt="003-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/d5262193-2ab2-432b-b1e8-13da2ffe1fa9" />
 
 ***2*** (2006-2008) - 2-LINE ↕️65px 150% DPI
 <br/>
-<img width="1280" alt="002 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/6e1afe69-67f8-49e6-8c9a-d6f733395606">
+<img width="1706" alt="002 - CSS2 - 150% DPI" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/6e1afe69-67f8-49e6-8c9a-d6f733395606" />
 
 ***2*** (2006-2008) - DEFAULT ↕️103px 100% DPI
 <br/>
-<img width="1280" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de">
+<img width="1706" alt="Firefox 002-DEFAULT" src="https://github.com/hornster02/Firefox-Three-Rows-Simple-Compact-Clean-CSS/assets/127822397/0e703934-25f9-4689-8d99-a59bffefc6de" />
 
-***115*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). 1920x1080 ↕️289px
+***115*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (Compact 👍). ↕️289px
 <br/>
-<img width="960" alt="thunderbird289-6" src="https://github.com/user-attachments/assets/a761e348-1e7e-4d99-8fb1-34ecc26d3fdc" />
+<img width="1280" alt="thunderbird289-6" src="https://github.com/user-attachments/assets/a761e348-1e7e-4d99-8fb1-34ecc26d3fdc" />
 
-***115*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). 1920x1080 ↕️521px
+***115*** (2023-2024) - 150% DPI + narrow scrollbar + "mail.uidensity", 0 (compact 🤔). ↕️521px
 <br/>
-<img width="960" alt="thunderbird521-6" src="https://github.com/user-attachments/assets/86f4ca9a-51c2-4cd9-b160-ae86fb0a468f" />
+<img width="1280" alt="thunderbird521-6" src="https://github.com/user-attachments/assets/86f4ca9a-51c2-4cd9-b160-ae86fb0a468f" />
 
 ## useful-addons-about-config
 
@@ -276,19 +280,15 @@ youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWe
 <br/>
 [***YourCodecs***](https://github.com/undecV/YourCodecs) - blocking AVC can fix broken youtube (An error occurred. Please try again LATER) - Windows without audio/video codecs
 <br/>
-[***SaveFrom.net helper***](https://savefrom.net)
-<br/>
-[***Image Video Block***](https://github.com/tiborbarsi/image-video-block-browser-addon)
-<br/>
-[***Disable HTML5 Autoplay***](https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/) - issues with cloudflare (seznam.cz+cncenter.cz+pcgw) = maybe not (2026-07)
+[***SaveFrom.net helper***](https://savefrom.net) - download audio/video from youtube separately...
 <br/>
 [***Large Image Blocker***](https://addons.mozilla.org/en-US/firefox/addon/large-image-blocker/) - can save up to 100+MB per Steam page by blocking GIF videos+other unoptimized images
 <br/>
 [***I still don't care about cookies***](https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies)
 <br/>
-[***Print Edit WE***](https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/)
+[***Print Edit WE***](https://addons.mozilla.org/en-US/firefox/addon/print-edit-we/) - save page to 1 file (html,pdf,...) + edit
 <br/>
-[***Save Page WE***](https://addons.mozilla.org/en-US/firefox/addon/save-page-we/)
+[***Save Page WE***](https://addons.mozilla.org/en-US/firefox/addon/save-page-we/) - save page to 1 file
 <br/>
 [***User-Agent Switcher***](https://gitlab.com/ntninja/user-agent-switcher)
 <br/>
@@ -299,13 +299,89 @@ youtube, google drive (2026) ```Mozilla/5.0 (PlayStation 5 3.03/SmartTV) AppleWe
 [***Load Background Tabs Lazily***](https://addons.mozilla.org/en-US/firefox/addon/load-background-tabs-lazily/) - resource limiter (without it, some pages may require a refresh if they don't load within time limit) + ban limiter (DDoS attack)
 <br/>
 [***android new tabs in foreground***](https://addons.mozilla.org/en-US/firefox/addon/android_new_tabs_in_foreground/)
-
-[***uBlock Origin***](https://github.com/gorhill/uBlock) - ("My Filters")
 <br/>
-■ disable canvas (animation,...) = ```##canvas```
+[***uBlock Origin***](https://github.com/gorhill/uBlock) - cookie/... blocker (data/performance/time saver)
 <br/>
-■ how disable multimedia (streaming=downloading)?
+■ some kind of animation (canvas blocks more than that - maps/...) + multimedia blocker ("My Filters") -
+<br/>
+```
+*|$canvas,important
+##canvas
+||*^$media
+##audio
+##video
+##media
+*|$audio,important
+*|$video,important
+*|$media,important
+||*.mp4$important
+||*.webm$important
+||*.m4a$important
+||*.flv$important
+||*.mkv$important
+||*.avi$important
+||*.mpg$important
+||*.mpeg$important
+||*.wmv$important
+||*.mp3$important
+||*.flac$important
+||*.ogg$important
+||*.wma$important
+||*.opus$important
+||*.aac$important
+||*video.min.js*
+||*video.js*
+||*video.es.js*
+||*video.cjs.js*
+||*video.core.js*
+||*video.core.min.js*
+||*video.core.novtt.js*
+||*video.core.novtt.min.js*
+||*video.debug.js*
+||*video.novtt.js*
+||*video.novtt.min.js*
+||*prodcdn.playstream.media/hls.min.js*
+||*jwplayer.js*
+||*jwplayer.core.js*
+||*sznplayer*.js*
+||*videoplayer.js*
+```
+<br/>
+youtube
+<br/>
 
+```
+||*web-animations-next-lite.min.js*
+||*miniplayer.js*
+||*youtube*/s/player*base.js
+```
+
+[***DownThemAll!***](https://www.downthemall.org)
+<br/>
+■ bulk download selected files with paths (from ISO/...) from archive.org = Mask ```*subdirs*/*name*.*ext*```
+<br/>
+```How to achieve?``` -
+<br/>
+■ sort by filesize before download (in Select your Downloads)
+<br/>
+■ copy links (in Select your Downloads)
+<br/>
+■ delete/hide links (in Select your Downloads)
+<br/>
+■ sort by filesize before download (in DownThemAll! Tab)
+<br/>
+■ don't delete files that failed to download - try continuing download instead?
+
+***Legacy*** -
+<br/>
+[***Image Video Block***](https://github.com/tiborbarsi/image-video-block-browser-addon)
+<br/>
+[***Disable HTML5 Autoplay***](https://addons.mozilla.org/en-US/firefox/addon/disable-autoplay/) - issues with cloudflare (seznam.cz+cncenter.cz+pcgw) = maybe not (2026-07)
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ***dpi***
 <br/>
 layout.css.devPixelsPerPx
@@ -701,7 +777,7 @@ zoom.minPercent
 <br/>
 toolkit.zoomManager.zoomValues
 
-***ai*** (blocked)
+***ai (blocked)***
 <br/>
 browser.ai
 
@@ -770,9 +846,9 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ***https://test-ipv6.com***
 <br/>
-***https://www.cloudflare.com/ssl/encrypted-sni***
-<br/>
 ***https://www.google.com/intl/en/ipv6/statistics.html***
+<br/>
+***https://www.cloudflare.com/ssl/encrypted-sni***
 <br/>
 ***https://browserleaks.com/***
 <br/>
@@ -792,11 +868,11 @@ Language packs (addons) are in ```xpi``` folder
 
 ***89*** - Gen0 (2021-12) 150% DPI
 <br/>
-<img width="1280" alt="0" src="https://github.com/user-attachments/assets/dfce3ad3-8359-45c9-9b32-66687f75309d">
+<img width="1706" alt="0" src="https://github.com/user-attachments/assets/dfce3ad3-8359-45c9-9b32-66687f75309d" />
 
 ***99*** - Gen0+ (2023-01) 150% DPI
 <br/>
-<img width="1280" alt="0+" src="https://github.com/user-attachments/assets/77ef5ce3-cfa2-4566-9602-c645eccb4cc5">
+<img width="1706" alt="0+" src="https://github.com/user-attachments/assets/77ef5ce3-cfa2-4566-9602-c645eccb4cc5" />
 
 --------------------------------------------------------------------------------------------***suggestions for improvements***
 <br/>
@@ -826,7 +902,7 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ■ show download % + time in places.xhtml tab name
 <br/>
-⭐153 - option switch tabs with hotkeys from places.xhtml (like ~FF89-)
+■ option switch tabs with hotkeys from places.xhtml (like ~FF89-)
 <br/>
 ■ custom tabs color (by domain), automatic grouping
 <br/>
@@ -840,7 +916,7 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ■ hide ```https://www.``` in address bar
 <br/>
-■ separate audio/video cache from normal cache. What's the point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder (or using second FF profile with media support enabled) is not very comfortable...
+■ separate audio/video cache from normal cache. What's point of current setup where important cache data is overwritten by useless video that also reduces SSD lifetime? Constantly modifying NTFS permissions for cache folder (or using second FF profile with media support enabled) is not very comfortable...
 <br/>
 ■ sorting/selecting/removing in about:config, hide changed prefs
 <br/>
@@ -850,7 +926,7 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ■ UI autohide (as Win taskbar)
 <br/>
-■ it is not possible to redirect "safebrowsing" folder from the ramdisk to SSD (NTFS links), which leads to constant downloading of the same data every time the profile is deleted and copied again (ramdisk)
+■ it is not possible to redirect "safebrowsing" folder from ramdisk to SSD (NTFS links), which leads to constant downloading of same data every time profile is deleted and copied again (ramdisk)
 <br/>
 ■ if file "c:\Users\XXX\AppData\Local\Mozilla" exists, it is not possible to start FF (~v19+)
 <br/>
@@ -884,6 +960,8 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ■ global selection of audio/video codecs and resolutions based on user's priorities/order (= not based on priorities/order of services themselves)
 <br/>
+■ true/genuine/ultimate disabling of multimedia files (playback + streaming=downloading + JS) + disable canvas = without addons. Removing "gkcodecs.dll"+"mozavcodec.dll" doesn't work
+<br/>
 ■ ability to move tabsbar with mouse wheel while a panel is holded (Lbutton+Wheel)
 <br/>
 ■ ability to copy text of tabs with a single click when using “Forward” “Back” buttons
@@ -900,7 +978,7 @@ Language packs (addons) are in ```xpi``` folder
 <br/>
 ■ keep user's icon color when selected
 <br/>
-■ better use of the "Message Header Pane" space - partially solved ("from"). [This addon does it quite well](https://addons.thunderbird.net/en-us/thunderbird/addon/compact-headers/)
+■ better use of "Message Header Pane" space - partially solved ("from"). [This addon does it quite well](https://addons.thunderbird.net/en-us/thunderbird/addon/compact-headers/)
 <br/>
 ■ disable+hide some days in calendar
 <br/>
@@ -910,70 +988,64 @@ Language packs (addons) are in ```xpi``` folder
 
 android - backup restore profile. holding (some UI) automatically performs assigned action (close tab, open bookmarks, open link in new tab and switch to it, ...), disable double tap to select text, buttons on one side for one (left) hand (landscape mode), remove notification when opening/closing tab + other minor UI adjustments - e.g.
 <br/>
-🤦android (5.5" 960x480, fullscreen) vs CSS - really only a 2,7 tabs can fit on the screen?🤦
+🤦android (5.5" 960x480, fullscreen) vs CSS - really only a 2,7 tabs can fit on screen?🤦
 <br/>
-<img width="480" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" />
-<br/>
-<img width="480" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
+<img width="410" alt="android" src="https://github.com/user-attachments/assets/f301be89-32f6-4977-890f-4b925d19e29e" /> <img width="410" alt="androidnext" src="https://github.com/user-attachments/assets/3ed67b54-5d2d-4f99-b788-69a988d41704" />
 
 ***Chyby webu*** -
 <br/>
-mbank.cz - CTRL+C/V je zakázáno (pro umělé navýšení chybovosti+prodloužení procesu je nutné ručně přepisovat částky a pro potvrzení platby i náhodné texty) - přepnout stránku na "bez stylu" a zkopírovat text a ten vložit AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+■ mbank.cz - CTRL+C/V je zakázáno (pro umělé navýšení chybovosti+prodloužení procesu je nutné ručně přepisovat částky a pro potvrzení platby i náhodné texty) - přepnout stránku na "bez stylu" a zkopírovat text a ten vložit AHK skriptem (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
 
-komunitni-preklady.org/ostatni-cestiny - stránka nejde uložit, vykresluje se pouze viditelná část - přepnout stránku na "bez stylu" /// nebo snížit DPI hluboko pod 1 + 1% velikost stránky + přepnout rozlišení obrazovky na výšku /// nebo použít Save Page WE a nastavit automatické zmenšení stránky před uložením
+■ komunitni-preklady.org/ostatni-cestiny - stránka nejde uložit, vykresluje se pouze viditelná část - přepnout stránku na "bez stylu" /// nebo snížit DPI hluboko pod 1 + 1% velikost stránky + přepnout rozlišení obrazovky na výšku /// nebo použít Save Page WE a nastavit automatické zmenšení stránky před uložením
 
-web.archive.org - stránka nejde zachytit (PCGW,sbazar) - na konec url přidat ```?noredirect=1``` (po pár hodinách po zachycení ale stejně může dojít ke smazání záznamu)
+■ web.archive.org - stránka nejde zachytit (PCGW,sbazar) - na konec url přidat ```?noredirect=1``` (po pár hodinách po zachycení ale stejně může dojít ke smazání záznamu)
 
-fanatical.com - nejde (klikat) vložit zboží do košíku a procházet historii objednávek atd. = nastavit PS5 User-Agent (addon "User-Agent Switcher"). (S největší pravděpodobností může být problém v nějaké změněné předvolbě v about:config)
+■ fanatical.com - nejde (klikat) vložit zboží do košíku a procházet historii objednávek atd. = nastavit PS5 User-Agent (addon "User-Agent Switcher"). (S největší pravděpodobností může být problém v nějaké změněné předvolbě v about:config)
 
-myabandonware.com - nejde klikat na odkazy = přidat vyjímku "I still don't care about cookies"
+■ myabandonware.com - nejde klikat na odkazy = přidat vyjímku "I still don't care about cookies"
 
-mapy.com - problémy s nevykreslováním - šedé obdélníky = zkontrolovat oprávnění cache složky
+■ mapy.com - problémy s nevykreslováním - šedé obdélníky = zkontrolovat oprávnění cache složky. Omezeně fungující stránka (povolit Canvas, WebGL)
 
-datoid.cz - blokace (cenzura) některých stránek u operátora O2 se dá obejít zvýšením "Zapnout DNS over HTTPS pomocí:"
+■ datoid.cz - cenzura některých stránek u operátora O2 se dá obejít zvýšením "Zapnout DNS over HTTPS pomocí:"
 
-war-forum.net (hlavní stránka) - nekonečné stahování XML souboru (chat)
+■ war-forum.net (hlavní stránka) - nekonečné stahování XML souboru (chat)
 
-nekonečný download plnou rychlostí - zřejmě pokud jsou v FF zakázány audio/video kodeky (nebo pokud chybí ty výchozí ve Win?), tak na některých serverech
-<br/>
-kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4
-<br/>
-w3schools.com - cdn.viously.com/video/3TXPgqkObK6/1-w240.webp
-<br/>
-může dojít k brutálnímu bugu, kdy se místo přehrávání videoreklamy budou donekonečna (pokud uživatel nedostane ban na přehrávání reklam) stahovat/zahazovat části video souboru. Za 1 den je možné propálit stovky GB (1200GB SIM karta za 3000,- může být teoreticky jednou reklamou do 2 dnů vyčerpána). Jediné mě známé řešení je použít addon typu "Image Video Block" + "Disable HTML5 Autoplay" kteří jakékoli stahování utnou
+■ aukro.cz (opotřebení SSD) - může docházet k podivným zápisům do "storage\default\https+++aukro.cz\cache\morgue\" = 1 otočení kolečkem myši + pauza + opakovat = ~110MB zápis + ~110MB zápis + ... = omezit přístup
 
-aukro.cz (opotřebení SSD) - může docházet k podivným zápisům do "storage\default\https+++aukro.cz\cache\morgue\" = 1 otočení kolečkem myši + pauza + opakovat = ~110MB zápis + ~110MB zápis + ...
+■ Cloudflare auto browser check (bez obrázků) - stránky chráněné tímto systémem může být nemožné otevřít ve 2G sítích (~0,02-0,15 Mbit/s, nejen streamování 144p youtube videí není problém, ale na zkontrolování prohlížeče to prostě nestačí)
 
-Cloudflare auto browser check (bez obrázků) - stránky chráněné tímto systémem může být nemožné otevřít ve 2G sítích (~0,02-0,15 Mbit/s, nejen streamování 144p youtube videí není problém, ale na zkontrolování prohlížeče to prostě nestačí)
+■ nekonečný download plnou rychlostí - zřejmě pokud jsou v FF zakázány audio/video kodeky (nebo pokud chybí ty výchozí ve Win?), tak na některých serverech (kurzy.cz, w3schools.com, csfd.cz) může dojít k brutálnímu bugu, kdy se místo přehrávání videoreklamy budou donekonečna (pokud uživatel nedostane ban na přehrávání reklam) stahovat/zahazovat části video souboru. Za 1 den je možné propálit stovky GB (1200GB SIM karta za 3000,- může být teoreticky jednou reklamou do 2 dnů vyčerpána). Jediné mě známé řešení je použít addon typu "uBlock Origin" / "Image Video Block" / "Disable HTML5 Autoplay" kteří jakékoli stahování utnou
+
+■ nekonečné (Javascript) pokusy o přehrávání (zablokovaných) médií (csfd.cz) = nekonečný memory leak (crash) + 100% využití 1CPU = zablokovat ```||*prodcdn.playstream.media/hls.min.js*```
+
+■ nekonečné (Javascript) obnovování/přesměrovávání/posunování stránky (10-ti vteřinový limit na čtení textů na csfd.cz) = zablokovat ```||*video.min.js*```
 
 ***Website issues*** -
 <br/>
-mbank.cz - CTRL+C/V is disabled (to artificially increase error rate and prolong process, it is necessary to manually rewrite amounts and random texts to confirm payment) - switch page to "no style" and copy text and paste it with AHK script (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
+■ mbank.cz - CTRL+C/V is disabled (to artificially increase error rate and prolong process, it is necessary to manually rewrite amounts and random texts to confirm payment) - switch page to "no style" and copy text and paste it with AHK script (CTRL+SHIFT+V) ```^+v::SendRaw %clipboard%```
 
-komunitni-preklady.org/ostatni-cestiny - page cannot be saved, only visible part is rendered - switch page to "no style" /// or reduce DPI below 1 + 1% of page size + switch screen resolution to portrait /// or use Save Page WE and set automatic page reduction before saving
+■ komunitni-preklady.org/ostatni-cestiny - page cannot be saved, only visible part is rendered - switch page to "no style" /// or reduce DPI below 1 + 1% of page size + switch screen resolution to portrait /// or use Save Page WE and set automatic page reduction before saving
 
-web.archive.org - page cannot be captured (PCGW,sbazar) - add ```?noredirect=1``` to end of URL (however, record may still be deleted a few hours after capture)
+■ web.archive.org - page cannot be captured (PCGW,sbazar) - add ```?noredirect=1``` to end of URL (however, record may still be deleted a few hours after capture)
 
-fanatical.com - unable to add items to cart, view order history, etc. = set PS5 User-Agent (addon "User-Agent Switcher"). (Most likely, issue may be related to a modified preference in about:config)
+■ fanatical.com - unable to add items to cart, view order history, etc. = set PS5 User-Agent (addon "User-Agent Switcher"). (Most likely, issue may be related to a modified preference in about:config)
 
-myabandonware.com - links cannot be clicked = add exception "I still don't care about cookies"
+■ myabandonware.com - links cannot be clicked = add exception "I still don't care about cookies"
 
-mapy.com - problems with rendering - gray rectangles = check cache folder permission
+■ mapy.com - problems with rendering - gray rectangles = check cache folder permission. Limited-functionality website (allow Canvas, WebGL)
 
-datoid.cz - blocking (censorship) of certain websites by operator O2 can be circumvented by increasing "Enable DNS over HTTPS using:"
+■ datoid.cz - censorship of certain websites by operator O2 can be circumvented by increasing "Enable DNS over HTTPS using:"
 
-war-forum.net (homepage) - endless downloading of XML file (chat)
+■ war-forum.net (homepage) - endless downloading of XML file (chat)
 
-endless download at full speed - apparently, if audio/video codecs are disabled in FF (or if default ones in Win are missing?), then on some servers
-<br/>
-kurzy.cz - pscontent.playstream.media/manualUpload/f557xr5ocim66afifc/flickstree_video.mp4
-<br/>
-w3schools.com - cdn.viously.com/video/3TXPgqkObK6/1-w240.webp
-<br/>
-may be a brutal bug where instead of playing video ads, video parts of file will be downloaded/discarded endlessly (unless user is banned from playing ads). Hundreds of GB can be used up in a single day (a 1200GB SIM card costing 120 EUR can theoretically be used up by a single ad within two days). Only solution I know of is to use an add-on such as "Image Video Block" + "Disable HTML5 Autoplay" which will stop any downloading
+■ aukro.cz (SSD wear) - strange writes to "storage\default\https+++aukro.cz\cache\morgue\" may occur = 1 mouse wheel + pause + repeat = ~110MB write + ~110MB write + ... = restrict access
 
-aukro.cz (SSD wear) - strange writes to "storage\default\https+++aukro.cz\cache\morgue\" may occur = 1 mouse wheel + pause + repeat = ~110MB write + ~110MB write + ...
+■ Cloudflare auto browser check (without images) - it may be impossible to open pages protected by this system on 2G networks (~0,02–0,15 Mbit/s, streaming 144p youtube videos isn't a problem, but this speed simply isn't enough to perform a browser check)
 
-Cloudflare auto browser check (without images) - it may be impossible to open pages protected by this system on 2G networks (~0,02–0,15 Mbit/s, streaming 144p youtube videos isn't a problem, but this speed simply isn't enough to perform a browser check)
+■ endless download at full speed - apparently, if audio/video codecs are disabled in FF (or if default ones in Win are missing?), then on some servers (kurzy.cz, w3schools.com, csfd.cz) may be a brutal bug where instead of playing video ads, video parts of file will be downloaded/discarded endlessly (unless user is banned from playing ads). Hundreds of GB can be used up in a single day (a 1200GB SIM card costing 120 EUR can theoretically be used up by a single ad within two days). Only solution I know of is to use an add-on such as "uBlock Origin" / "Image Video Block" / "Disable HTML5 Autoplay" which will stop any downloading
+
+■ endless (Javascript) attempts to play (blocked) media (csfd.cz) = endless memory leak (crash) + 100% 1CPU usage = block ```||*prodcdn.playstream.media/hls.min.js*```
+
+■ endless (JavaScript) page refreshes/redirects/scrolling (10-second limit on reading texts on csfd.cz) = block ```||*video.min.js*```
 
 
